@@ -12,7 +12,7 @@
  *   { "hammare": false }                 -> inget foto, behåll SVG-illustrationen
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
@@ -130,13 +130,29 @@ async function sokAlla() {
 
 /* -------------------------------------------------------------- nedladdning */
 
+/* Träffordningen från Commons sätter inte alltid den tydligaste bilden först.
+   Poängsätt filnamnet mot sökorden och låt de första sökorden väga tyngst –
+   de är huvudordet ("excavator"), medan de sista är kontext ("construction"). */
+function poang(titel, id) {
+  const ord = sokord[id].toLowerCase().split(/\s+/).filter((o) => o.length > 2);
+  const t = titel.toLowerCase();
+  return ord.reduce((sum, o, i) => sum + (t.includes(o) ? ord.length - i : 0), 0);
+}
+
 function valjKandidat(id, lista) {
   const v = val[id];
   if (v === false) return null;              // behåll den ritade illustrationen
   if (!lista || !lista.length) return null;
   if (typeof v === 'number') return lista[v - 1] || lista[0];
   if (typeof v === 'string') return lista.find((k) => k.titel === v) || lista[0];
-  return lista[0];
+
+  let bast = lista[0];
+  let bastPoang = poang(lista[0].titel, id);
+  lista.forEach(function (k) {
+    const p = poang(k.titel, id);
+    if (p > bastPoang) { bast = k; bastPoang = p; }
+  });
+  return bast;
 }
 
 async function hamtaFil(url, mal, forsok = 12) {
@@ -154,37 +170,60 @@ async function laddaNer() {
   const raw = join(rot, 'tools', 'raw');
   if (!existsSync(raw)) mkdirSync(raw, { recursive: true });
 
+  const valdaFil = join(raw, 'valda.json');
+  const valda = existsSync(valdaFil) ? JSON.parse(readFileSync(valdaFil, 'utf8')) : {};
+
   const bilder = {};
   let hamtade = 0;
   let saknas = [];
 
-  for (const id of ids) {
-    const k = valjKandidat(id, kandidater[id]);
-    if (!k) { saknas.push(id); continue; }
+  // Commons svarar 429 i korta fönster. Några parallella hämtningar med
+  // omförsök ger klart bättre genomströmning än en i taget.
+  const PARALLELLT = 3;
+  const kö = ids.slice();
 
-    const ext = k.mime === 'image/png' ? 'png' : 'jpg';
-    const kalla = join(raw, `${id}.${ext}`);
+  async function arbetare() {
+    while (kö.length) {
+      const id = kö.shift();
+      const k = valjKandidat(id, kandidater[id]);
+      if (!k) { saknas.push(id); continue; }
 
-    if (!existsSync(kalla) || process.env.TVINGA) {
-      try {
-        await hamtaFil(k.fil, kalla);
-      } catch (e) {
-        console.error(`  ! ${id}: ${e.message}`);
-        saknas.push(id);
-        continue;
+      const ext = k.mime === 'image/png' ? 'png' : 'jpg';
+      const kalla = join(raw, `${id}.${ext}`);
+      const inaktuell = valda[id] !== k.titel;   // annat val än förra körningen
+
+      if (!existsSync(kalla) || inaktuell || process.env.TVINGA) {
+        try {
+          await hamtaFil(k.fil, kalla);
+        } catch (e) {
+          console.error(`  ! ${id}: ${e.message}`);
+          saknas.push(id);
+          continue;
+        }
+        // ett tidigare val kan ha haft annat filformat – ta bort resten
+        for (const annan of ['jpg', 'png']) {
+          const gammal = join(raw, `${id}.${annan}`);
+          if (annan !== ext && existsSync(gammal)) unlinkSync(gammal);
+        }
+        hamtade++;
+        if (hamtade % 10 === 0) console.log(`  ${hamtade} hämtade …`);
+        await sov(300);
       }
-      hamtade++;
-      await sov(400);
-    }
+      valda[id] = k.titel;
 
-    bilder[id] = {
-      fil: `img/${id}.jpg`,
-      titel: k.titel.replace(/^File:/, ''),
-      upphov: k.upphov,
-      licens: k.licens,
-      kalla: k.sida
-    };
+      bilder[id] = {
+        fil: `img/${id}.jpg`,
+        titel: k.titel.replace(/^File:/, ''),
+        upphov: k.upphov,
+        licens: k.licens,
+        kalla: k.sida
+      };
+    }
   }
+
+  await Promise.all(Array.from({ length: PARALLELLT }, arbetare));
+
+  writeFileSync(valdaFil, JSON.stringify(valda, null, 1));
 
   // krymp till webbstorlek: tools/raw/*.jpg|png -> img/*.jpg
   spawnSync('python3', [join(rot, 'tools', 'optimera.py')], { stdio: 'inherit' });

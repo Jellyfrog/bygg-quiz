@@ -26,6 +26,8 @@ for namn in sorted(os.listdir(RAW)):
     kalla = os.path.join(RAW, namn)
     if not os.path.isfile(kalla):
         continue
+    if not namn.lower().endswith((".jpg", ".jpeg", ".png")):
+        continue  # t.ex. valda.json
     bild_id = os.path.splitext(namn)[0]
     mal = os.path.join(UT, bild_id + ".jpg")
 

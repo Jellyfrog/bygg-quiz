@@ -74,9 +74,9 @@
   "vindskydd": "housewrap facade",
   "takpapp": "roofing felt bitumen roll",
   "takpannor": "roof tiles clay",
-  "fogskum": "polyurethane foam can",
+  "fogskum": "spray foam insulation can",
   "silikon": "silicone sealant cartridge",
-  "spackel": "wall filler paste",
+  "spackel": "spackling",
   "murbruk": "mortar masonry mixing",
   "makadam": "crushed stone aggregate gravel",
   "drankerror": "perforated drainage pipe",
@@ -121,7 +121,7 @@
   "hisschakt": "elevator shaft construction",
   "dranering": "foundation drainage basement wall",
   "balkong": "concrete balcony building",
-  "formsattning_valv": "formwork props",
+  "formsattning_valv": "Deckenschalung",
   "stomresning": "building frame erection structure",
   "dilatationsfog": "expansion joint building",
   "krypgrund": "crawl space foundation",
@@ -141,6 +141,6 @@
   "fjarrvarmecentral": "district heating substation",
   "golvvarme": "underfloor heating",
   "jordfelsbrytare": "residual current device breaker",
-  "stamledning": "soil stack pipe",
+  "stamledning": "cast iron soil pipe",
   "vattenutkastare": "outdoor tap"
 }

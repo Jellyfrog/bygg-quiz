@@ -10,10 +10,17 @@
   },
   "slagga": {
    "fil": "img/slagga.jpg",
-   "titel": "Worker with sledgehammer on the NYC Subway.jpg",
-   "upphov": "Grendelkhan",
+   "titel": "Various sledge hammers and an axe in hardware store in Germany.jpg",
+   "upphov": "Pittigrilli",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Various_sledge_hammers_and_an_axe_in_hardware_store_in_Germany.jpg"
+  },
+  "skruvmejsel": {
+   "fil": "img/skruvmejsel.jpg",
+   "titel": "2023 Wkrętak z bitami.jpg",
+   "upphov": "Jacek Halicki",
    "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Worker_with_sledgehammer_on_the_NYC_Subway.jpg"
+   "kalla": "https://commons.wikimedia.org/wiki/File:2023_Wkr%C4%99tak_z_bitami.jpg"
   },
   "skruvdragare": {
    "fil": "img/skruvdragare.jpg",
@@ -22,12 +29,418 @@
    "licens": "CC BY-SA 3.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Drill-driver.JPG"
   },
+  "borrhammare": {
+   "fil": "img/borrhammare.jpg",
+   "titel": "Makita HR3210FCT Rotary Hammer (4540819198).jpg",
+   "upphov": "Mark Hunter",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Makita_HR3210FCT_Rotary_Hammer_(4540819198).jpg"
+  },
   "tigersag": {
    "fil": "img/tigersag.jpg",
-   "titel": "Wright Saw 1952 model.jpg",
-   "upphov": "The Interior",
+   "titel": "Reciprocating Saw.JPG",
+   "upphov": "Junglecat",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Reciprocating_Saw.JPG"
+  },
+  "cirkelsag": {
+   "fil": "img/cirkelsag.jpg",
+   "titel": "DeWalt circular saw in use.jpg",
+   "upphov": "simplicity hunter",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:DeWalt_circular_saw_in_use.jpg"
+  },
+  "sticksag": {
+   "fil": "img/sticksag.jpg",
+   "titel": "Jigsaw AccuMaster.jpg",
+   "upphov": "Артём В.",
    "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Wright_Saw_1952_model.jpg"
+   "kalla": "https://commons.wikimedia.org/wiki/File:Jigsaw_AccuMaster.jpg"
+  },
+  "kapsag": {
+   "fil": "img/kapsag.jpg",
+   "titel": "Black & Decker miter saw.jpg",
+   "upphov": "Santeri Viinamäki",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Black_%26_Decker_miter_saw.jpg"
+  },
+  "vinkelslip": {
+   "fil": "img/vinkelslip.jpg",
+   "titel": "Faschina-concrete angle grinder-Betontrennschleifen-13ASD.jpg",
+   "upphov": "Asurnipal",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Faschina-concrete_angle_grinder-Betontrennschleifen-13ASD.jpg"
+  },
+  "vattenpass": {
+   "fil": "img/vattenpass.jpg",
+   "titel": "Cube Spirit Level (6018813911).jpg",
+   "upphov": "Tony Hisgett from Birmingham, UK",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Cube_Spirit_Level_(6018813911).jpg"
+  },
+  "laser": {
+   "fil": "img/laser.jpg",
+   "titel": "Rotationslaser stationär mit Powerpack.jpg",
+   "upphov": "Leo Miregalitheo",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Rotationslaser_station%C3%A4r_mit_Powerpack.jpg"
+  },
+  "tumstock": {
+   "fil": "img/tumstock.jpg",
+   "titel": "INT. REKENLINIAAL (PART. COLL. C.J. ROMEIJN) - Naarden - 20311798 - RCE.jpg",
+   "upphov": "Gerard Dukker",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:INT._REKENLINIAAL_(PART._COLL._C.J._ROMEIJN)_-_Naarden_-_20311798_-_RCE.jpg"
+  },
+  "matband": {
+   "fil": "img/matband.jpg",
+   "titel": "B&Q Tape Measure.jpg",
+   "upphov": "多多123",
+   "licens": "CC BY 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:B%26Q_Tape_Measure.jpg"
+  },
+  "kofot": {
+   "fil": "img/kofot.jpg",
+   "titel": "Crowbar without haft.jpg",
+   "upphov": "Juha Kämäräinen",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Crowbar_without_haft.jpg"
+  },
+  "murslev": {
+   "fil": "img/murslev.jpg",
+   "titel": "Masons trowel.jpg",
+   "upphov": "Mike Lupinacci",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Masons_trowel.jpg"
+  },
+  "spackelspade": {
+   "fil": "img/spackelspade.jpg",
+   "titel": "Putty Knife (8559730739).jpg",
+   "upphov": "HomeSpot HQ",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Putty_Knife_(8559730739).jpg"
+  },
+  "skiftnyckel": {
+   "fil": "img/skiftnyckel.jpg",
+   "titel": "Chrome Vanadium Adjustable Wrench.jpg",
+   "upphov": "User: MrX",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Chrome_Vanadium_Adjustable_Wrench.jpg"
+  },
+  "polygrip": {
+   "fil": "img/polygrip.jpg",
+   "titel": "Various tongue-and-groove pliers in hardware store in Germany.jpg",
+   "upphov": "Pittigrilli",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Various_tongue-and-groove_pliers_in_hardware_store_in_Germany.jpg"
+  },
+  "hylsnyckel": {
+   "fil": "img/hylsnyckel.jpg",
+   "titel": "Socket wrench and sockets.JPG",
+   "upphov": "Kae",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Socket_wrench_and_sockets.JPG"
+  },
+  "kritsnore": {
+   "fil": "img/kritsnore.jpg",
+   "titel": "Chalk line reel (AM 713530-1).jpg",
+   "upphov": "Okänd",
+   "licens": "CC BY 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Chalk_line_reel_(AM_713530-1).jpg"
+  },
+  "fogspruta": {
+   "fil": "img/fogspruta.jpg",
+   "titel": "Caulking.jpg",
+   "upphov": "Achim Hering",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Caulking.jpg"
+  },
+  "mattkniv": {
+   "fil": "img/mattkniv.jpg",
+   "titel": "Generic utility knife with blade extended.JPG",
+   "upphov": "BrokenSphere",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Generic_utility_knife_with_blade_extended.JPG"
+  },
+  "bandmatt_lod": {
+   "fil": "img/bandmatt_lod.jpg",
+   "titel": "Plumb bob with string.jpg",
+   "upphov": "Salil Kumar Mukherjee",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Plumb_bob_with_string.jpg"
+  },
+  "gradskiva": {
+   "fil": "img/gradskiva.jpg",
+   "titel": "T bevel.JPG",
+   "upphov": "Just plain Bill",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:T_bevel.JPG"
+  },
+  "gravmaskin": {
+   "fil": "img/gravmaskin.jpg",
+   "titel": "2023-02-13 - JCB JS220LC hydraulic excavator - 01.jpg",
+   "upphov": "Oto Zapletal",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:2023-02-13_-_JCB_JS220LC_hydraulic_excavator_-_01.jpg"
+  },
+  "minigravare": {
+   "fil": "img/minigravare.jpg",
+   "titel": "Bobcat E50 mini excavator with oversized treads.jpg",
+   "upphov": "Grendelkhan",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Bobcat_E50_mini_excavator_with_oversized_treads.jpg"
+  },
+  "hjullastare": {
+   "fil": "img/hjullastare.jpg",
+   "titel": "CASE 321F Compact Wheel Loader, Windsor, Ontario, 2025-06-23.jpg",
+   "upphov": "Crisco 1492",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:CASE_321F_Compact_Wheel_Loader,_Windsor,_Ontario,_2025-06-23.jpg"
+  },
+  "traktor": {
+   "fil": "img/traktor.jpg",
+   "titel": "Tractor 2.jpg",
+   "upphov": "Achiri Bitamsimli",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Tractor_2.jpg"
+  },
+  "tornkran": {
+   "fil": "img/tornkran.jpg",
+   "titel": "Tower crane rising at hollywoodHUB construction site, Portland, Oregon.jpg",
+   "upphov": "PortlandAppraisalBlog",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Tower_crane_rising_at_hollywoodHUB_construction_site,_Portland,_Oregon.jpg"
+  },
+  "mobilkran": {
+   "fil": "img/mobilkran.jpg",
+   "titel": "A Liebherr LTM 1500-8.1 crane truck in Taiwan 01.jpg",
+   "upphov": "Tbatb",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:A_Liebherr_LTM_1500-8.1_crane_truck_in_Taiwan_01.jpg"
+  },
+  "teleskoplastare": {
+   "fil": "img/teleskoplastare.jpg",
+   "titel": "SkyTrak telehandler, JLG model, Courtesy Scott Carrico.jpg",
+   "upphov": "Scottcarrico",
+   "licens": "CC BY 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:SkyTrak_telehandler,_JLG_model,_Courtesy_Scott_Carrico.jpg"
+  },
+  "dumper": {
+   "fil": "img/dumper.jpg",
+   "titel": "Articulated dump truck, Elibank ^ Traquair Forest - geograph.org.uk - 7457571.jpg",
+   "upphov": "Jim Barton",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Articulated_dump_truck,_Elibank_%5E_Traquair_Forest_-_geograph.org.uk_-_7457571.jpg"
+  },
+  "betongbil": {
+   "fil": "img/betongbil.jpg",
+   "titel": "Clean concrete mixer truck.jpg",
+   "upphov": "woodleywonderworks",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Clean_concrete_mixer_truck.jpg"
+  },
+  "betongpump": {
+   "fil": "img/betongpump.jpg",
+   "titel": "Concrete boom pump truck.jpg",
+   "upphov": "Bernardobenzecry",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_boom_pump_truck.jpg"
+  },
+  "bandschaktare": {
+   "fil": "img/bandschaktare.jpg",
+   "titel": "Caterpillar Crawler, Bulldozer (50920115152).jpg",
+   "upphov": "Martin Pettitt from Bury St Edmunds, UK",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Caterpillar_Crawler,_Bulldozer_(50920115152).jpg"
+  },
+  "vaghyvel": {
+   "fil": "img/vaghyvel.jpg",
+   "titel": "Caterpillar motor grader left AGSEM.jpg",
+   "upphov": "Eric Polk",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Caterpillar_motor_grader_left_AGSEM.jpg"
+  },
+  "skylift": {
+   "fil": "img/skylift.jpg",
+   "titel": "Articulated boom lift (20240319).jpg",
+   "upphov": "Fumikas Sagisavas",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Articulated_boom_lift_(20240319).jpg"
+  },
+  "saxlift": {
+   "fil": "img/saxlift.jpg",
+   "titel": "Scissor Lift Aerial Work Platform.JPG",
+   "upphov": "Royal Window Cleaning",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Scissor_Lift_Aerial_Work_Platform.JPG"
+  },
+  "borrigg": {
+   "fil": "img/borrigg.jpg",
+   "titel": "Drilling rig at a construction site in Tuntorp.jpg",
+   "upphov": "W.carter",
+   "licens": "CC BY 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Drilling_rig_at_a_construction_site_in_Tuntorp.jpg"
+  },
+  "palkran": {
+   "fil": "img/palkran.jpg",
+   "titel": "081111-Pile-driver.jpeg",
+   "upphov": "User:Xofc",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:081111-Pile-driver.jpeg"
+  },
+  "lastbilskran": {
+   "fil": "img/lastbilskran.jpg",
+   "titel": "Star 200 truck with a truck mounted Jelcz DS 0101K crane grab at Wolsztyn goods yard.jpg",
+   "upphov": "Felix O",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Star_200_truck_with_a_truck_mounted_Jelcz_DS_0101K_crane_grab_at_Wolsztyn_goods_yard.jpg"
+  },
+  "bygghiss": {
+   "fil": "img/bygghiss.jpg",
+   "titel": "Orbion business center and Construction Hoists.jpg",
+   "upphov": "Niklitov",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Orbion_business_center_and_Construction_Hoists.jpg"
+  },
+  "containerbil": {
+   "fil": "img/containerbil.jpg",
+   "titel": "Couple-carrying-boxes-into-roll-off-dumpster-rental-gmb.jpg",
+   "upphov": "Wrusadumpsters",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Couple-carrying-boxes-into-roll-off-dumpster-rental-gmb.jpg"
+  },
+  "traskruv": {
+   "fil": "img/traskruv.jpg",
+   "titel": "Black wood screw with flat Phillips head.jpg",
+   "upphov": "Mynameisnatmo",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Black_wood_screw_with_flat_Phillips_head.jpg"
+  },
+  "gipsskruv": {
+   "fil": "img/gipsskruv.jpg",
+   "titel": "Drywall-screws-v1 (1).png",
+   "upphov": "Nathan Eady",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Drywall-screws-v1_(1).png"
+  },
+  "spik": {
+   "fil": "img/spik.jpg",
+   "titel": "Nails Flat Head Steel Industry 4607200 Edited 2020 (49931938461).jpg",
+   "upphov": "Tool Dude8mm",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Nails_Flat_Head_Steel_Industry_4607200_Edited_2020_(49931938461).jpg"
+  },
+  "bricka": {
+   "fil": "img/bricka.jpg",
+   "titel": "Insulating fiberglass washers for M3.jpg",
+   "upphov": "Retired electrician",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Insulating_fiberglass_washers_for_M3.jpg"
+  },
+  "bult": {
+   "fil": "img/bult.jpg",
+   "titel": "DIN 914-like 1-4\"-20 UNC x 9.5mm hex socket screws.jpg",
+   "upphov": "Phiarc",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:DIN_914-like_1-4%22-20_UNC_x_9.5mm_hex_socket_screws.jpg"
+  },
+  "expander": {
+   "fil": "img/expander.jpg",
+   "titel": "Anchor bolt in concrete.jpg",
+   "upphov": "Zeizmic at English Wikipedia",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Anchor_bolt_in_concrete.jpg"
+  },
+  "gipsskiva": {
+   "fil": "img/gipsskiva.jpg",
+   "titel": "Gib board aka plasterboard tapered edges 02.jpg",
+   "upphov": "Panamitsu",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Gib_board_aka_plasterboard_tapered_edges_02.jpg"
+  },
+  "plywood": {
+   "fil": "img/plywood.jpg",
+   "titel": "Plywood.jpg",
+   "upphov": "Rotor DB at English Wikipedia",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Plywood.jpg"
+  },
+  "osb": {
+   "fil": "img/osb.jpg",
+   "titel": "Oriented strand board at Courtabœuf 2011.jpg",
+   "upphov": "Lionel Allorge",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Oriented_strand_board_at_Courtab%C5%93uf_2011.jpg"
+  },
+  "cementsack": {
+   "fil": "img/cementsack.jpg",
+   "titel": "Portland cement CEM I 42,5 R (bag).jpg",
+   "upphov": "Krugerr",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Portland_cement_CEM_I_42,5_R_(bag).jpg"
+  },
+  "armeringsjarn": {
+   "fil": "img/armeringsjarn.jpg",
+   "titel": "A worker ties together reinforcing bar, or rebar, to strengthen concrete floors for a facility that will house 372 students as part of the Herat University Women's Dormitory Project in Herat province 140311-A-DT641-242.jpg",
+   "upphov": "Bill Dowell",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:A_worker_ties_together_reinforcing_bar,_or_rebar,_to_strengthen_concrete_floors_for_a_facility_that_will_house_372_students_as_part_of_the_Herat_University_Women%27s_Dormitory_Project_in_Herat_province_140311-A-DT641-242.jpg"
+  },
+  "armeringsnat": {
+   "fil": "img/armeringsnat.jpg",
+   "titel": "Deck Reinforcement VT (8495188335).jpg",
+   "upphov": "Federal Highway Administration",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Deck_Reinforcement_VT_(8495188335).jpg"
+  },
+  "tegel": {
+   "fil": "img/tegel.jpg",
+   "titel": "Thai brick masonry (Flemish bond).jpg",
+   "upphov": "Ijasmuhammed",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Thai_brick_masonry_(Flemish_bond).jpg"
+  },
+  "lecablock": {
+   "fil": "img/lecablock.jpg",
+   "titel": "Aquadrainpflaster.jpg",
+   "upphov": "Michael Wolf",
+   "licens": "CC BY-SA 2.5",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Aquadrainpflaster.jpg"
+  },
+  "mineralull": {
+   "fil": "img/mineralull.jpg",
+   "titel": "CSIRO ScienceImage 2175 Installing Insulation Batts.jpg",
+   "upphov": "Tracey Nicholls, CSIRO",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_2175_Installing_Insulation_Batts.jpg"
+  },
+  "losull": {
+   "fil": "img/losull.jpg",
+   "titel": "Cellulose insulation.jpg",
+   "upphov": "Own work",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Cellulose_insulation.jpg"
+  },
+  "cellplast": {
+   "fil": "img/cellplast.jpg",
+   "titel": "Sto - Insulation boards 5.jpg",
+   "upphov": "Cjp24",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Sto_-_Insulation_boards_5.jpg"
+  },
+  "xps": {
+   "fil": "img/xps.jpg",
+   "titel": "Styrofoam-grey-board.jpg",
+   "upphov": "Matt Engler",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Styrofoam-grey-board.jpg"
+  },
+  "angsparr": {
+   "fil": "img/angsparr.jpg",
+   "titel": "Dampfbremse mit Klebestreifen Modellaufbau.jpg",
+   "upphov": "HTL-Mödchen23",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Dampfbremse_mit_Klebestreifen_Modellaufbau.jpg"
   },
   "takpapp": {
    "fil": "img/takpapp.jpg",
@@ -36,6 +449,97 @@
    "licens": "CC0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Bituminous_waterproofing_on_flat_roof_2.jpg"
   },
+  "takpannor": {
+   "fil": "img/takpannor.jpg",
+   "titel": "Red clay roof tiles in Saligney (Jura, France) January 2018.jpg",
+   "upphov": "Benoît Prieur",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Red_clay_roof_tiles_in_Saligney_(Jura,_France)_January_2018.jpg"
+  },
+  "silikon": {
+   "fil": "img/silikon.jpg",
+   "titel": "2-part silicone adhesive sealant.jpg",
+   "upphov": "Cjp24",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:2-part_silicone_adhesive_sealant.jpg"
+  },
+  "murbruk": {
+   "fil": "img/murbruk.jpg",
+   "titel": "Mortar mixed inside bucket.jpg",
+   "upphov": "Tomwsulcer",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Mortar_mixed_inside_bucket.jpg"
+  },
+  "makadam": {
+   "fil": "img/makadam.jpg",
+   "titel": "20mm-aggregate.jpg",
+   "upphov": "Billbeee at English Wikipedia",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:20mm-aggregate.jpg"
+  },
+  "drankerror": {
+   "fil": "img/drankerror.jpg",
+   "titel": "Laying land drains in the Aire valley - geograph.org.uk - 1397265.jpg",
+   "upphov": "Stephen Craven",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Laying_land_drains_in_the_Aire_valley_-_geograph.org.uk_-_1397265.jpg"
+  },
+  "spackel": {
+   "fil": "img/spackel.jpg",
+   "titel": "Kitchen renovation spackling to cover holes and tape between sheetrock boards.JPG",
+   "upphov": "Tomwsulcer",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Kitchen_renovation_spackling_to_cover_holes_and_tape_between_sheetrock_boards.JPG"
+  },
+  "kantsten": {
+   "fil": "img/kantsten.jpg",
+   "titel": "Stone road curb - panoramio.jpg",
+   "upphov": "monicker",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Stone_road_curb_-_panoramio.jpg"
+  },
+  "hjalm": {
+   "fil": "img/hjalm.jpg",
+   "titel": "Cologne Germany Safety-helmet-with-headset-01.jpg",
+   "upphov": "CEphoto, Uwe Aranas",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Cologne_Germany_Safety-helmet-with-headset-01.jpg"
+  },
+  "skyddsglasogon": {
+   "fil": "img/skyddsglasogon.jpg",
+   "titel": "Safety glasses Phillips Safety Products Didymium and gold coating.jpg",
+   "upphov": "Карма2",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Safety_glasses_Phillips_Safety_Products_Didymium_and_gold_coating.jpg"
+  },
+  "horselskydd": {
+   "fil": "img/horselskydd.jpg",
+   "titel": "Ear muff white bg.jpg",
+   "upphov": "fir0002 flagstaffotos [at] gmail.com Canon 20D + Canon 70-200mm f/2.8 L",
+   "licens": "GFDL 1.2",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Ear_muff_white_bg.jpg"
+  },
+  "andningsskydd": {
+   "fil": "img/andningsskydd.jpg",
+   "titel": "Half-Mask Respirators, 4.jpg",
+   "upphov": "Kent Madsen",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Half-Mask_Respirators,_4.jpg"
+  },
+  "skyddsskor": {
+   "fil": "img/skyddsskor.jpg",
+   "titel": "DeWalt Newark steel toe work boots.jpg",
+   "upphov": "Best For My Feet",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:DeWalt_Newark_steel_toe_work_boots.jpg"
+  },
+  "fallskyddssele": {
+   "fil": "img/fallskyddssele.jpg",
+   "titel": "Safety Harness.jpg",
+   "upphov": "SafetyEdition",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Safety_Harness.jpg"
+  },
   "varselvast": {
    "fil": "img/varselvast.jpg",
    "titel": "Warnweste gelb.jpg",
@@ -43,12 +547,292 @@
    "licens": "CC BY-SA 2.0 de",
    "kalla": "https://commons.wikimedia.org/wiki/File:Warnweste_gelb.jpg"
   },
+  "knaskydd": {
+   "fil": "img/knaskydd.jpg",
+   "titel": "Mtb knee pads and elbow pads.jpg",
+   "upphov": "Bigstones",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Mtb_knee_pads_and_elbow_pads.jpg"
+  },
+  "brandslackare": {
+   "fil": "img/brandslackare.jpg",
+   "titel": "Fire extinguisher 1 2.jpg",
+   "upphov": "Nizil Shah",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Fire_extinguisher_1_2.jpg"
+  },
+  "stallning": {
+   "fil": "img/stallning.jpg",
+   "titel": "HK 上環 Sheung Wan 差館上街 Upper Station Street 荷李活大樓 Hollywood Building facade 竹棚架 鷹架 bamboo scaffolding decoration August 2017 IX1 01.jpg",
+   "upphov": "SA LAW MAN G",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:HK_%E4%B8%8A%E7%92%B0_Sheung_Wan_%E5%B7%AE%E9%A4%A8%E4%B8%8A%E8%A1%97_Upper_Station_Street_%E8%8D%B7%E6%9D%8E%E6%B4%BB%E5%A4%A7%E6%A8%93_Hollywood_Building_facade_%E7%AB%B9%E6%A3%9A%E6%9E%B6_%E9%B7%B9%E6%9E%B6_bamboo_scaffolding_decoration_August_2017_IX1_01.jpg"
+  },
+  "forbandslada": {
+   "fil": "img/forbandslada.jpg",
+   "titel": "Plastic First-aid box.jpg",
+   "upphov": "Beendy234",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Plastic_First-aid_box.jpg"
+  },
+  "ogondusch": {
+   "fil": "img/ogondusch.jpg",
+   "titel": "HK SYP St Louis School Open Day Sunday Laboratory equipment Emergency Eye Wash Station.JPG",
+   "upphov": "Spickohalls",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:HK_SYP_St_Louis_School_Open_Day_Sunday_Laboratory_equipment_Emergency_Eye_Wash_Station.JPG"
+  },
+  "fallskyddsnat": {
+   "fil": "img/fallskyddsnat.jpg",
+   "titel": "HDPE Construction safety net.jpg",
+   "upphov": "Afzal H Sobhani",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:HDPE_Construction_safety_net.jpg"
+  },
+  "platta_pa_mark": {
+   "fil": "img/platta_pa_mark.jpg",
+   "titel": "Gjutning av grund.jpg",
+   "upphov": "Boatbuilder",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Gjutning_av_grund.jpg"
+  },
+  "hammarband": {
+   "fil": "img/hammarband.jpg",
+   "titel": "14. Assemble Knee Wall and Top Plate, East Wall. (cc9bb007-048a-445d-8c47-3a7c0f546b32).JPG",
+   "upphov": "NPS Photo",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:14._Assemble_Knee_Wall_and_Top_Plate,_East_Wall._(cc9bb007-048a-445d-8c47-3a7c0f546b32).JPG"
+  },
+  "takstol": {
+   "fil": "img/takstol.jpg",
+   "titel": "Timber roof truss, roof construction, town hall Duderstadt 01.jpg",
+   "upphov": "Nemracc",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Timber_roof_truss,_roof_construction,_town_hall_Duderstadt_01.jpg"
+  },
+  "taksparre": {
+   "fil": "img/taksparre.jpg",
+   "titel": "Equipment Operator 3rd Class Bobby Smith prefabricates rafters for the roof of the Richardson Multipurpose Facility (7512568).jpg",
+   "upphov": "U.S. Navy photo by [null Courtesy]",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Equipment_Operator_3rd_Class_Bobby_Smith_prefabricates_rafters_for_the_roof_of_the_Richardson_Multipurpose_Facility_(7512568).jpg"
+  },
+  "nock": {
+   "fil": "img/nock.jpg",
+   "titel": "Detail of old roof ridge tiles - geograph.org.uk - 1013997.jpg",
+   "upphov": "Paul Harvey",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Detail_of_old_roof_ridge_tiles_-_geograph.org.uk_-_1013997.jpg"
+  },
+  "haldack": {
+   "fil": "img/haldack.jpg",
+   "titel": "Hollow core slabs.jpg",
+   "upphov": "Elie Malti",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Hollow_core_slabs.jpg"
+  },
+  "pelare": {
+   "fil": "img/pelare.jpg",
+   "titel": "Concrete columns.jpg",
+   "upphov": "User:Sambach",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_columns.jpg"
+  },
+  "balk": {
+   "fil": "img/balk.jpg",
+   "titel": "Concrete support beams (Unsplash).jpg",
+   "upphov": "Guillaume Bolduc guibolduc",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_support_beams_(Unsplash).jpg"
+  },
+  "fasad_luftspalt": {
+   "fil": "img/fasad_luftspalt.jpg",
+   "titel": "Partially-filled Cavity wall tie shape diagram.png",
+   "upphov": "Sweetean",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Partially-filled_Cavity_wall_tie_shape_diagram.png"
+  },
+  "gjutform": {
+   "fil": "img/gjutform.jpg",
+   "titel": "Plastic concrete formwork for cross wall.jpg",
+   "upphov": "Feihrb",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Plastic_concrete_formwork_for_cross_wall.jpg"
+  },
+  "bjalklag": {
+   "fil": "img/bjalklag.jpg",
+   "titel": "Floor Joist 19-12-06 073.jpg",
+   "upphov": "Chris Light",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Floor_Joist_19-12-06_073.jpg"
+  },
+  "undertak": {
+   "fil": "img/undertak.jpg",
+   "titel": "Running wall molding for a suspended ceiling grid in the back of house area in the LIRR concourse. 04-25-2019 (33830512818).jpg",
+   "upphov": "MTA Capital Construction Mega Projects",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Running_wall_molding_for_a_suspended_ceiling_grid_in_the_back_of_house_area_in_the_LIRR_concourse._04-25-2019_(33830512818).jpg"
+  },
+  "trapphus": {
+   "fil": "img/trapphus.jpg",
+   "titel": "Kiasma 'pasta stairs' under construction, 1997 (14117107019).jpg",
+   "upphov": "Museum of Contemporary Art Kiasma from Finland",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Kiasma_%27pasta_stairs%27_under_construction,_1997_(14117107019).jpg"
+  },
+  "hisschakt": {
+   "fil": "img/hisschakt.jpg",
+   "titel": "Elevator shaft for Kamppi Health and Well-being Centre under construction in July 2024.jpg",
+   "upphov": "JIP",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Elevator_shaft_for_Kamppi_Health_and_Well-being_Centre_under_construction_in_July_2024.jpg"
+  },
+  "balkong": {
+   "fil": "img/balkong.jpg",
+   "titel": "Concrete balcony (54217829740).jpg",
+   "upphov": "Lars Plougmann from United States",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_balcony_(54217829740).jpg"
+  },
+  "formsattning_valv": {
+   "fil": "img/formsattning_valv.jpg",
+   "titel": "DokaXdek Element Deckenschalung (von unten).jpg",
+   "upphov": "Patrick Oberdörfer",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:DokaXdek_Element_Deckenschalung_(von_unten).jpg"
+  },
+  "stomresning": {
+   "fil": "img/stomresning.jpg",
+   "titel": "Erection of steel Frame Building, Yeovil (3) - geograph.org.uk - 1002442.jpg",
+   "upphov": "Nigel Mykura",
+   "licens": "CC BY-SA 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Erection_of_steel_Frame_Building,_Yeovil_(3)_-_geograph.org.uk_-_1002442.jpg"
+  },
+  "krypgrund": {
+   "fil": "img/krypgrund.jpg",
+   "titel": "Crawl spaces 1.jpg",
+   "upphov": "Boatbuilder",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Crawl_spaces_1.jpg"
+  },
+  "avloppsror": {
+   "fil": "img/avloppsror.jpg",
+   "titel": "Fernco PVC Drain Trap J-Bend.jpg",
+   "upphov": "Steven Pavlov",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
+  },
   "golvbrunn": {
    "fil": "img/golvbrunn.jpg",
    "titel": "Toilet drain.jpg",
    "upphov": "Downtowngal",
    "licens": "CC0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Toilet_drain.jpg"
+  },
+  "vattenlas": {
+   "fil": "img/vattenlas.jpg",
+   "titel": "Leaking PVC Pipe Under Sink - P Trap (52842956605).jpg",
+   "upphov": "Tony Webster",
+   "licens": "CC BY 2.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Leaking_PVC_Pipe_Under_Sink_-_P_Trap_(52842956605).jpg"
+  },
+  "radiator": {
+   "fil": "img/radiator.jpg",
+   "titel": "Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 06.jpg",
+   "upphov": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 20:14, 15 January 2022 (UTC)",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_06.jpg"
+  },
+  "ftx": {
+   "fil": "img/ftx.jpg",
+   "titel": "Waermerueckgewinnung KSBA.JPG",
+   "upphov": "Dominique.bugmann",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Waermerueckgewinnung_KSBA.JPG"
+  },
+  "ventilationskanal": {
+   "fil": "img/ventilationskanal.jpg",
+   "titel": "012 Rooftop HVAC systems and roof ventilation ducts in Tokyo, Japan.jpg",
+   "upphov": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:012_Rooftop_HVAC_systems_and_roof_ventilation_ducts_in_Tokyo,_Japan.jpg"
+  },
+  "elcentral": {
+   "fil": "img/elcentral.jpg",
+   "titel": "Fuse box on hager components.JPG",
+   "upphov": "Dmitry G",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Fuse_box_on_hager_components.JPG"
+  },
+  "kabelstege": {
+   "fil": "img/kabelstege.jpg",
+   "titel": "Cable ladder02.jpg",
+   "upphov": "Leotard",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Cable_ladder02.jpg"
+  },
+  "tomror": {
+   "fil": "img/tomror.jpg",
+   "titel": "金属製可とう管.jpg",
+   "upphov": "Uri",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%9E%E8%A3%BD%E5%8F%AF%E3%81%A8%E3%81%86%E7%AE%A1.jpg"
+  },
+  "sprinkler": {
+   "fil": "img/sprinkler.jpg",
+   "titel": "TYCO-Standard-Spray-Sprinkler-head-141-degree-celsius-01.jpg",
+   "upphov": "CEphoto, Uwe Aranas",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:TYCO-Standard-Spray-Sprinkler-head-141-degree-celsius-01.jpg"
+  },
+  "varmvattenberedare": {
+   "fil": "img/varmvattenberedare.jpg",
+   "titel": "Rheem home gas water heater tank - Dial.jpg",
+   "upphov": "Infrogmation of New Orleans",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Rheem_home_gas_water_heater_tank_-_Dial.jpg"
+  },
+  "fjarrvarmecentral": {
+   "fil": "img/fjarrvarmecentral.jpg",
+   "titel": "District heating substation 2.jpg",
+   "upphov": "Tiia Monto",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:District_heating_substation_2.jpg"
+  },
+  "golvvarme": {
+   "fil": "img/golvvarme.jpg",
+   "titel": "Underfloor heating pipes 1.jpg",
+   "upphov": "Viii23dawari",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Underfloor_heating_pipes_1.jpg"
+  },
+  "jordfelsbrytare": {
+   "fil": "img/jordfelsbrytare.jpg",
+   "titel": "Residual current device (RCD).jpg",
+   "upphov": "Diermaier",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Residual_current_device_(RCD).jpg"
+  },
+  "vattenutkastare": {
+   "fil": "img/vattenutkastare.jpg",
+   "titel": "Outdoor water tap.jpg",
+   "upphov": "Santeri Viinamäki",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Outdoor_water_tap.jpg"
+  },
+  "markduk": {
+   "fil": "img/markduk.jpg",
+   "titel": "Geocomposite drain2.jpg",
+   "upphov": "Werner W Müller and Fokke Saathoff",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Geocomposite_drain2.jpg"
+  },
+  "valt": {
+   "fil": "img/valt.jpg",
+   "titel": "Ride-on roller compactor, an equipment for asphalt pavement, Canada.jpg",
+   "upphov": "Marc-Lautenbacher",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Ride-on_roller_compactor,_an_equipment_for_asphalt_pavement,_Canada.jpg"
   }
  }
 }

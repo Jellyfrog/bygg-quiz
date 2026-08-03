@@ -8,9 +8,10 @@ Ren HTML, CSS och JavaScript. Inget backend, inga beroenden i körläget och ing
 externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller vilken
 filserver som helst.
 
-Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/`. Varje
-kort har dessutom en handritad SVG som reserv, så appen fungerar även om ett foto
-saknas eller inte laddas.
+Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 119 av
+143 begrepp. För resten saknar Commons användbara bilder, och där visas i stället
+en handritad SVG. Varje kort har en SVG som reserv, så appen fungerar även om ett
+foto skulle saknas eller inte kunna laddas.
 
 ## Kör
 
@@ -73,7 +74,7 @@ index.html               gränssnitt
 css/style.css            formgivning, ljust och mörkt läge
 js/app.js                logik: pass, kö, självrättning, statistik
 js/icons/*.js            143 SVG-illustrationer, en fil per kategori
-img/*.jpg                nedladdade foton
+img/*.jpg                119 nedladdade foton (max 720 px, ca 8 MB totalt)
 data/*.json              frågorna – redigeras här
 data/bundle.js           genererad kopia av JSON för file://-läge
 data/bilder.js           genererad bildkatalog med upphov och licens
@@ -125,15 +126,22 @@ node tools/hamta-bilder.mjs --sok   # söker fram kandidater (nätverk, tar en s
 node tools/hamta-bilder.mjs         # laddar ner valda bilder och krymper dem
 ```
 
-Blir en bild fel: titta i `tools/kandidater.json` på listan för det id:t och peka
-ut en annan i `tools/val.json`, antingen med nummer eller exakt filnamn.
+Fritextsökning på Commons ger en del skräpträffar – sökningen på "cold chisel"
+hittade rockbandet i stället för huggmejseln. Blir en bild fel: titta i
+`tools/kandidater.json` på listan för det id:t och peka ut en annan i
+`tools/val.json`, antingen med nummer, exakt filnamn eller `false` för att behålla
+SVG-illustrationen.
 
 ```json
 {
   "hammare": 3,
-  "tumstock": "File:Zollstock.jpg"
+  "tumstock": "File:Zollstock.jpg",
+  "huggmejsel": false
 }
 ```
+
+`python3 tools/kontaktkarta.py` bygger en HTML-sida med alla nedladdade foton och
+rätt svar under varje bild – snabbaste sättet att se om någon bild visar fel sak.
 
 Kör sedan `TVINGA=1 node tools/hamta-bilder.mjs` för att hämta om. Vill du hellre
 söka på något annat – ändra sökordet i `tools/sokord.json` och kör om med `--sok`.
