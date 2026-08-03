@@ -508,6 +508,25 @@ h2 { font-size: 1rem; margin: 0; }
   .options { grid-template-columns: 1fr 1fr; }
 }
 
+/* ---------- pekskärm och smala skärmar ---------- */
+@media (pointer: coarse), (max-width: 480px) {
+  .chip { padding: 11px 18px; }
+  .link-btn { padding: 10px 6px; }
+  .icon-btn { width: 44px; height: 44px; }
+  .brand { padding: 8px 4px; }
+  #kbd-hint { display: none; }   /* tangentbordstips är meningslöst på mobil */
+}
+
+/* Mindre bildyta på små skärmar så att fråga och alla fyra alternativ
+   ryms utan att man behöver scrolla för att svara. */
+@media (max-width: 480px) {
+  .plate { height: clamp(140px, 24vh, 220px); margin-bottom: 10px; }
+  .question { font-size: 1.05rem; margin-bottom: 10px; }
+  .options { gap: 6px; }
+  .opt { padding: 11px 11px; }
+  .card { padding: 12px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
 }

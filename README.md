@@ -1,6 +1,6 @@
 # Byggkoll
 
-Studiekort och quiz för byggbranschen. 161 bildkort i sex kategorier – verktyg,
+Studiekort och quiz för byggbranschen. 199 bildkort i sex kategorier – verktyg,
 maskiner, material, skydd, konstruktion och installationer – med fokus på
 husbyggnad, t.ex. uppförande av ett lägenhetshus.
 
@@ -8,12 +8,12 @@ Ren HTML, CSS och JavaScript. Inget backend, inga beroenden i körläget och ing
 externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller vilken
 filserver som helst.
 
-Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 264
-foton på 119 av 143 begrepp. De flesta korten har två eller tre olika bilder och
-appen slumpar fram en vid varje visning, så att du lär dig känna igen begreppet
-och inte en viss bild. För resten saknar Commons användbara bilder, och där visas
-en handritad SVG. Varje kort har en SVG som reserv, så appen fungerar även om ett
-foto skulle saknas eller inte kunna laddas.
+Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 487
+foton på 164 av 180 begrepp. De flesta korten har flera olika bilder och appen
+slumpar fram en vid varje visning, så att du lär dig känna igen begreppet och
+inte en viss bild. För 16 begrepp saknar Commons användbara bilder, och där
+visas en handritad SVG i stället. Alla foton är granskade manuellt – fritextsök
+på Commons ger annars allt från rockband till daguerreotyper.
 
 ## Kör
 
@@ -58,14 +58,14 @@ knappen ↺ uppe till höger.
 
 | Kategori | Kort |
 | --- | --- |
-| Verktyg | 30 |
-| Maskiner | 25 |
-| Material | 39 |
-| Skydd & säkerhet | 19 |
-| Konstruktion | 29 |
-| VVS & el | 19 |
+| Verktyg | 42 |
+| Maskiner | 32 |
+| Material | 46 |
+| Skydd & säkerhet | 22 |
+| Konstruktion | 33 |
+| VVS & el | 24 |
 
-Samtliga 161 kort är bildfrågor. De flesta frågar "Vad heter detta?", resten är
+Samtliga 199 kort är bildfrågor. De flesta frågar "Vad heter detta?", resten är
 tillämpningsfrågor på samma bild ("Varför har skruven trumpetformat huvud?",
 "På vilken sida av isoleringen ska ångspärren sitta?").
 
@@ -76,7 +76,7 @@ index.html               gränssnitt
 css/style.css            formgivning, ljust och mörkt läge
 js/app.js                logik: pass, kö, självrättning, statistik
 js/icons/*.js            143 SVG-illustrationer, en fil per kategori
-img/*.jpg                264 nedladdade foton (max 720 px, ca 18 MB totalt)
+img/*.jpg                487 nedladdade foton (max 720 px, ca 34 MB totalt)
 data/*.json              frågorna – redigeras här
 data/bundle.js           genererad kopia av JSON för file://-läge
 data/bilder.js           genererad bildkatalog med upphov och licens

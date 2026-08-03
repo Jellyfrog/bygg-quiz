@@ -341,6 +341,140 @@ window.BQ_BUNDLE = {
      "Vattenpass"
     ],
     "fakta": "Mäter vinklar i grader. Används för att ta av befintliga vinklar innan gering av lister och taksparrar."
+   },
+   {
+    "id": "vt-fogsvans",
+    "bild": "fogsvans",
+    "ratt": "Fogsvans",
+    "fel": [
+     "Ryggsåg",
+     "Bågfil",
+     "Japansåg"
+    ],
+    "fakta": "Klassisk handsåg för grovkapning av virke. Tänderna är ställda för att såga på frånskjutet."
+   },
+   {
+    "id": "vt-hyvel",
+    "bild": "hyvel",
+    "ratt": "Hyvel",
+    "fel": [
+     "Stämjärn",
+     "Rasp",
+     "Sickel"
+    ],
+    "fakta": "Tar av tunna spån och ger släta, raka ytor. På bygget mest för att passa in dörrar och lister."
+   },
+   {
+    "id": "vt-stamjarn",
+    "bild": "stamjarn",
+    "ratt": "Stämjärn",
+    "fel": [
+     "Huggmejsel",
+     "Skruvmejsel",
+     "Sickel"
+    ],
+    "fakta": "Vasst eggverktyg för trä. Används till urtag för gångjärn, låsbleck och tappförband."
+   },
+   {
+    "id": "vt-multiverktyg",
+    "bild": "multiverktyg",
+    "ratt": "Multiverktyg",
+    "fel": [
+     "Sticksåg",
+     "Vinkelslip",
+     "Excenterslip"
+    ],
+    "fakta": "Oscillerande maskin med utbytbara blad. Oslagbar för instickssågning i lister, karmar och rör som redan sitter på plats."
+   },
+   {
+    "id": "vt-avvagning",
+    "bild": "avvagningsinstrument",
+    "ratt": "Avvägningsinstrument",
+    "fel": [
+     "Teodolit",
+     "Korslaser",
+     "Lod"
+    ],
+    "fakta": "Optiskt instrument på stativ som tillsammans med mätstång ger exakta höjder vid grundläggning och markarbeten."
+   },
+   {
+    "id": "vt-momentnyckel",
+    "bild": "momentnyckel",
+    "ratt": "Momentnyckel",
+    "fel": [
+     "Spärrskaft",
+     "Skiftnyckel",
+     "Blocknyckel"
+    ],
+    "fakta": "Klickar när inställt vridmoment nås. Krävs där förband ska dras med bestämt moment, t.ex. stålförband och ställningskopplingar."
+   },
+   {
+    "id": "vt-momentnyckel-anv",
+    "typ": "anvandning",
+    "bild": "momentnyckel",
+    "fraga": "Varför används verktyget på bilden i stället för ett vanligt spärrskaft?",
+    "ratt": "För att dra förbandet med exakt föreskrivet moment",
+    "fel": [
+     "För att det går snabbare",
+     "För att nå trängre utrymmen",
+     "För att slippa hylsor"
+    ],
+    "fakta": "För hårt dragen bult kan sträckas av, för löst dragen kan skaka loss – båda är hållfasthetsfel."
+   },
+   {
+    "id": "vt-bagfil",
+    "bild": "bagfil",
+    "ratt": "Bågfil",
+    "fel": [
+     "Fogsvans",
+     "Tigersåg",
+     "Sticksåg"
+    ],
+    "fakta": "Metallsåg med utbytbart, spänt blad. Kapar gängstång, rör och profiler där maskin inte behövs."
+   },
+   {
+    "id": "vt-vinkelhake",
+    "bild": "vinkelhake",
+    "ratt": "Vinkelhake",
+    "fel": [
+     "Gradskiva",
+     "Smygvinkel",
+     "Rätskiva"
+    ],
+    "fakta": "Fast 90-gradersvinkel för att märka ut och kontrollera räta kapsnitt och hörn."
+   },
+   {
+    "id": "vt-borr",
+    "bild": "borr",
+    "ratt": "Borr",
+    "fel": [
+     "Bits",
+     "Hylsor",
+     "Försänkare"
+    ],
+    "fakta": "Spiralborr för metall och trä, betongborr har hårdmetallskär. Färgen på spetsen skiljer ofta typerna åt."
+   },
+   {
+    "id": "vt-rortang",
+    "bild": "rortang",
+    "ratt": "Rörtång",
+    "fel": [
+     "Polygrip",
+     "Skiftnyckel",
+     "Avbitare"
+    ],
+    "fakta": "Grov tång med tandade käftar som griper hårdare ju mer man drar. VVS-montörens klassiker för gängade rör."
+   },
+   {
+    "id": "vt-slipmaskin",
+    "bild": "slipmaskin",
+    "ratt": "Excenterslip",
+    "fel": [
+     "Vinkelslip",
+     "Bandslip",
+     "Planslip"
+    ],
+    "fakta": "Rondellen roterar och oscillerar samtidigt, vilket ger ett fint slipresultat utan cirkelspår."
    }
   ]
  },
@@ -630,6 +764,85 @@ window.BQ_BUNDLE = {
      "Kompressor"
     ],
     "fakta": "Grovdammsugare med H- eller M-filter som kopplas direkt på maskinen. Minskar kvartsdamm vid håltagning och slipning."
+   },
+   {
+    "id": "ma-gaffeltruck",
+    "bild": "gaffeltruck",
+    "ratt": "Gaffeltruck",
+    "fel": [
+     "Teleskoplastare",
+     "Hjullastare",
+     "Palltruck"
+    ],
+    "fakta": "Lyfter och flyttar pallgods på hårt underlag. Kräver truckkort och används mest på lager och upplag."
+   },
+   {
+    "id": "ma-betongvibrator",
+    "bild": "betongvibrator",
+    "ratt": "Stavvibrator",
+    "fel": [
+     "Markvibrator",
+     "Glättmaskin",
+     "Betongpump"
+    ],
+    "fakta": "Vibrerande stav som sänks ner i färsk betong så att luftbubblor stiger och betongen fyller ut formen helt."
+   },
+   {
+    "id": "ma-betongvibrator-anv",
+    "typ": "anvandning",
+    "bild": "betongvibrator",
+    "fraga": "Vad händer om maskinen på bilden inte används vid gjutning?",
+    "ratt": "Luftfickor och gjutsår försvagar betongen",
+    "fel": [
+     "Betongen hårdnar för fort",
+     "Armeringen rostar direkt",
+     "Formen lossnar från betongen"
+    ],
+    "fakta": "Dåligt vibrerad betong får blåsor och hålrum – syns som gjutsår när formen rivs och kan kräva dyra lagningar."
+   },
+   {
+    "id": "ma-glattmaskin",
+    "bild": "glattmaskin",
+    "ratt": "Glättmaskin",
+    "fel": [
+     "Vält",
+     "Markvibrator",
+     "Betongslip"
+    ],
+    "fakta": "Roterande blad som glättar ytan på nygjuten betong – kallas ofta helikopter. Ger hårda, plana golv."
+   },
+   {
+    "id": "ma-asfaltlaggare",
+    "bild": "asfaltlaggare",
+    "ratt": "Asfaltläggare",
+    "fel": [
+     "Väghyvel",
+     "Vält",
+     "Bandschaktare"
+    ],
+    "fakta": "Lägger ut asfaltmassan i jämnt lager som sedan packas av vält medan den fortfarande är varm."
+   },
+   {
+    "id": "ma-kompressor",
+    "bild": "kompressor",
+    "ratt": "Kompressor",
+    "fel": [
+     "Elverk",
+     "Byggtork",
+     "Hydraulaggregat"
+    ],
+    "fakta": "Ger tryckluft till spikpistoler, bilningsmaskiner och renblåsning. Ljuddämpade modeller krävs ofta i tätort."
+   },
+   {
+    "id": "ma-elverk",
+    "bild": "elverk",
+    "ratt": "Elverk",
+    "fel": [
+     "Kompressor",
+     "Svets",
+     "Byggfläkt"
+    ],
+    "fakta": "Bensin- eller dieseldrivet aggregat som ger ström innan byggströmmen är framdragen."
    }
   ]
  },
@@ -1075,6 +1288,83 @@ window.BQ_BUNDLE = {
      "Putsnät"
     ],
     "fakta": "Pappers- eller glasfiberremsa som spacklas in i skarven mellan gipsskivor så att den inte spricker."
+   },
+   {
+    "id": "mt-marksten",
+    "bild": "marksten",
+    "ratt": "Marksten",
+    "fel": [
+     "Kantsten",
+     "Gatsten",
+     "Kakel"
+    ],
+    "fakta": "Betongsten som läggs i mönster på packat bärlager och sättsand. Fogas med fogsand som låser stenarna."
+   },
+   {
+    "id": "mt-kakel",
+    "bild": "kakel",
+    "ratt": "Kakel",
+    "fel": [
+     "Klinker",
+     "Marksten",
+     "Mosaik"
+    ],
+    "fakta": "Glaserad keramisk platta för väggar. Tål inte frost och golvbelastning – då används klinker."
+   },
+   {
+    "id": "mt-klinker",
+    "bild": "golvplattor",
+    "ratt": "Klinker",
+    "fel": [
+     "Kakel",
+     "Marksten",
+     "Natursten"
+    ],
+    "fakta": "Tätare bränd keramik än kakel. Används på golv och utomhus eftersom den tål slitage, fukt och frost."
+   },
+   {
+    "id": "mt-fogmassa",
+    "bild": "fogmassa",
+    "ratt": "Fogmassa",
+    "fel": [
+     "Fästmassa",
+     "Silikon",
+     "Flytspackel"
+    ],
+    "fakta": "Fyller fogarna mellan plattorna när fästmassan härdat. I hörn och rörelsefogar används mjukfog i stället."
+   },
+   {
+    "id": "mt-spanskiva",
+    "bild": "spanskiva",
+    "ratt": "Spånskiva",
+    "fel": [
+     "OSB-skiva",
+     "Plywood",
+     "Board"
+    ],
+    "fakta": "Pressade småspån med lim. Golvspånskiva med not och spont är vanligaste undergolvet i bostäder."
+   },
+   {
+    "id": "mt-balksko",
+    "bild": "balksko",
+    "ratt": "Balksko",
+    "fel": [
+     "Vinkelbeslag",
+     "Bjälkankare",
+     "Hålplatta"
+    ],
+    "fakta": "Beslag som bär upp en bjälke mot en annan. Spikas med ankarspik i alla hål – inte bara några."
+   },
+   {
+    "id": "mt-tralim",
+    "bild": "tralim",
+    "ratt": "Trälim",
+    "fel": [
+     "Karmskum",
+     "Montagelim",
+     "Kontaktlim"
+    ],
+    "fakta": "Vitt PVAc-lim för träförband. Limfogen blir starkare än träet – men kräver presstryck medan limmet torkar."
    }
   ]
  },
@@ -1298,6 +1588,39 @@ window.BQ_BUNDLE = {
      "Nödskylt"
     ],
     "fakta": "Gul triangel med svart kant betyder varning. Blå rund skylt är påbud, röd rund är förbud och grön är nöd/utrymning."
+   },
+   {
+    "id": "sk-svetshjalm",
+    "bild": "svetshjalm",
+    "ratt": "Svetshjälm",
+    "fel": [
+     "Ansiktsvisir",
+     "Skyddshjälm",
+     "Andningsskydd"
+    ],
+    "fakta": "Automatiskt nedbländande glas skyddar ögonen mot svetsblänk, som annars ger svetsögon – en mycket smärtsam hornhinneskada."
+   },
+   {
+    "id": "sk-avsparrning",
+    "bild": "avsparrningsband",
+    "ratt": "Avspärrningsband",
+    "fel": [
+     "Varsellina",
+     "Markeringsnät",
+     "Signalflagga"
+    ],
+    "fakta": "Rödvitt band som spärrar av riskområden, t.ex. under kranlyft och vid schaktkanter. Avspärrning ska respekteras – alltid."
+   },
+   {
+    "id": "sk-utrymningsskylt",
+    "bild": "utrymningsskylt",
+    "ratt": "Utrymningsskylt",
+    "fel": [
+     "Varningsskylt",
+     "Påbudsskylt",
+     "Förbudsskylt"
+    ],
+    "fakta": "Grön skylt med springande figur visar utrymningsväg. Ska vara efterlysande eller belyst så den syns vid strömavbrott."
    }
   ]
  },
@@ -1657,6 +1980,51 @@ window.BQ_BUNDLE = {
      "Syll"
     ],
     "fakta": "Sockeln skyddar mot stänk och snö. Fasadmaterial ska alltid börja en bit upp på sockeln, aldrig ner i marken."
+   },
+   {
+    "id": "ko-fonsterkarm",
+    "bild": "fonsterkarm",
+    "fraga": "Vilket arbetsmoment visar bilden?",
+    "ratt": "Fönstermontage",
+    "fel": [
+     "Dörrmontage",
+     "Glasbyte",
+     "Karmjustering av innerdörr"
+    ],
+    "fakta": "Karmen ställs på klossar, skruvas med karmskruv och drevas runt om. Drevet tätar men karmskruven bär."
+   },
+   {
+    "id": "ko-kallarvagg",
+    "bild": "kallarvagg",
+    "ratt": "Källarvägg",
+    "fel": [
+     "Grundmur",
+     "Stödmur",
+     "Sockel"
+    ],
+    "fakta": "Betongvägg mot mark. Utvändigt fuktskydd och dränering är avgörande – invändig tätning löser sällan problemet."
+   },
+   {
+    "id": "ko-skalmur",
+    "bild": "skalmur",
+    "ratt": "Skalmur",
+    "fel": [
+     "Bärande tegelvägg",
+     "Regelvägg",
+     "Prefabvägg"
+    ],
+    "fakta": "Fasadtegel som bara bär sig självt. Muren förankras i stommen med kramlor och står på en egen upplagsvinkel."
+   },
+   {
+    "id": "ko-betongvagg",
+    "bild": "gjuten_betongvagg",
+    "ratt": "Platsgjuten betongvägg",
+    "fel": [
+     "Prefabricerad vägg",
+     "Putsad lättbetongvägg",
+     "Skalmur"
+    ],
+    "fakta": "Gjuts i form på plats. Ytan visar formskarvarna och stagens hål – syns ofta som mönster i synlig betong."
    }
   ]
  },
@@ -1878,6 +2246,61 @@ window.BQ_BUNDLE = {
      "Avstängningsventil"
     ],
     "fakta": "Frostsäker utvändig kran där avstängningen sitter inne i den varma väggen så att röret töms och inte fryser sönder."
+   },
+   {
+    "id": "in-franluftsflakt",
+    "bild": "franluftsflakt",
+    "ratt": "Frånluftsfläkt",
+    "fel": [
+     "Tilluftsaggregat",
+     "Takhuv",
+     "FTX-aggregat"
+    ],
+    "fakta": "Takfläkt som suger ut frånluften ur huset. I äldre flerbostadshus är frånluft utan värmeåtervinning fortfarande vanligast."
+   },
+   {
+    "id": "in-vagguttag",
+    "bild": "vagguttag",
+    "ratt": "Vägguttag",
+    "fel": [
+     "Strömbrytare",
+     "Kopplingsdosa",
+     "Dimmer"
+    ],
+    "fakta": "Jordat uttag är krav i nya installationer. I våtrum gäller kapslingsklass och avstånd till vatten enligt elinstallationsreglerna."
+   },
+   {
+    "id": "in-vattenmatare",
+    "bild": "vattenmatare",
+    "ratt": "Vattenmätare",
+    "fel": [
+     "Energimätare",
+     "Tryckreducerare",
+     "Backventil"
+    ],
+    "fakta": "Mäter husets vattenförbrukning. Sitter på inkommande ledning med avstängningsventiler på båda sidor."
+   },
+   {
+    "id": "in-avstangningsventil",
+    "bild": "avstangningsventil",
+    "ratt": "Avstängningsventil",
+    "fel": [
+     "Backventil",
+     "Blandningsventil",
+     "Säkerhetsventil"
+    ],
+    "fakta": "Kulventil med vred – ett kvarts varv stänger. Alla lägenheter ska ha egna avstängningar för att kunna göra service utan att stänga hela stammen."
+   },
+   {
+    "id": "in-rokdetektor",
+    "bild": "rokdetektor",
+    "ratt": "Rökdetektor",
+    "fel": [
+     "Sprinkler",
+     "Värmedetektor",
+     "Kolmonoxidvarnare"
+    ],
+    "fakta": "Reagerar på rökpartiklar långt före värmen. I flerbostadshus kopplas de ofta till gemensamt brandlarm i trapphusen."
    }
   ]
  }

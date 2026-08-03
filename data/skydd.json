@@ -8,7 +8,11 @@
       "id": "sk-hjalm",
       "bild": "hjalm",
       "ratt": "Skyddshjälm",
-      "fel": ["Skyddsmössa", "Visirhållare", "Hjälm för höghöjdsarbete"],
+      "fel": [
+        "Skyddsmössa",
+        "Visirhållare",
+        "Hjälm för höghöjdsarbete"
+      ],
       "fakta": "Obligatorisk på i stort sett alla byggarbetsplatser. Hakrem krävs vid arbete på hög höjd så att hjälmen sitter kvar vid fall."
     },
     {
@@ -17,49 +21,77 @@
       "bild": "hjalm",
       "fraga": "När ska utrustningen på bilden bytas ut?",
       "ratt": "Efter ett slag mot hjälmen, även om den ser hel ut",
-      "fel": ["Först när skalet spricker", "En gång per år oavsett", "När insatsen blir smutsig"],
+      "fel": [
+        "Först när skalet spricker",
+        "En gång per år oavsett",
+        "När insatsen blir smutsig"
+      ],
       "fakta": "Skalet tar upp energi genom att deformeras. En hjälm som fått ett kraftigt slag ska kasseras."
     },
     {
       "id": "sk-glasogon",
       "bild": "skyddsglasogon",
       "ratt": "Skyddsglasögon",
-      "fel": ["Visir", "Svetsglasögon", "Solglasögon för arbete"],
+      "fel": [
+        "Visir",
+        "Svetsglasögon",
+        "Solglasögon för arbete"
+      ],
       "fakta": "Krävs vid kapning, borrning och slipning. Vid vinkelslip kompletteras de ofta med visir."
     },
     {
       "id": "sk-horselskydd",
       "bild": "horselskydd",
       "ratt": "Hörselskydd",
-      "fel": ["Kommunikationsheadset", "Öronproppar", "Dammask"],
+      "fel": [
+        "Kommunikationsheadset",
+        "Öronproppar",
+        "Dammask"
+      ],
       "fakta": "Kåpor som dämpar buller. Bullerskador är permanenta – hörselskydd krävs normalt över 85 dB(A)."
     },
     {
       "id": "sk-andningsskydd",
       "bild": "andningsskydd",
       "ratt": "Andningsskydd",
-      "fel": ["Skyddsmask mot gas", "Svetshjälm", "Dammfilterhuv"],
+      "fel": [
+        "Skyddsmask mot gas",
+        "Svetshjälm",
+        "Dammfilterhuv"
+      ],
       "fakta": "Halvmask med partikelfilter. Vid betongbilning och gipsslipning bildas kvartsdamm som ger silikos vid långvarig exponering."
     },
     {
       "id": "sk-handskar",
       "bild": "skyddshandskar",
       "ratt": "Skyddshandskar",
-      "fel": ["Svetshandskar", "Kemikalieskyddshandskar", "Värmehandskar"],
+      "fel": [
+        "Svetshandskar",
+        "Kemikalieskyddshandskar",
+        "Värmehandskar"
+      ],
       "fakta": "Skyddar mot skärskador och betong som är starkt alkalisk och fräter på huden."
     },
     {
       "id": "sk-skor",
       "bild": "skyddsskor",
       "ratt": "Skyddsskor",
-      "fel": ["Arbetskängor utan tåhätta", "Gummistövlar", "Halkskyddade skor"],
+      "fel": [
+        "Arbetskängor utan tåhätta",
+        "Gummistövlar",
+        "Halkskyddade skor"
+      ],
       "fakta": "Har tåhätta och spiktrampskydd i sulan. Spik i uppåtvänt formvirke är en av de vanligaste olycksorsakerna."
     },
     {
       "id": "sk-sele",
       "bild": "fallskyddssele",
       "ratt": "Fallskyddssele",
-      "fel": ["Arbetsbälte", "Lyftsele för person", "Räddningssele"],
+      "fel": [
+        "Arbetsbälte",
+        "Lyftsele för person",
+        "Räddningssele"
+      ],
       "fakta": "Används med falldämpande lina och säker förankringspunkt. Krävs vid arbete över 2 m där räcke saknas."
     },
     {
@@ -68,35 +100,55 @@
       "bild": "fallskyddssele",
       "fraga": "Vad är viktigast för att utrustningen på bilden ska fungera?",
       "ratt": "Att förankringspunkten är godkänd och sitter tillräckligt högt",
-      "fel": ["Att linan är så lång som möjligt", "Att selen sitter löst så man kan röra sig", "Att man bär den utanpå varselvästen"],
+      "fel": [
+        "Att linan är så lång som möjligt",
+        "Att selen sitter löst så man kan röra sig",
+        "Att man bär den utanpå varselvästen"
+      ],
       "fakta": "Fallhöjden ska begränsas så att man inte når marken innan falldämparen bromsat – förankring högt ger kort fall."
     },
     {
       "id": "sk-varselvast",
       "bild": "varselvast",
       "ratt": "Varselväst",
-      "fel": ["Regnjacka", "Arbetsjacka", "Skyddsförkläde"],
+      "fel": [
+        "Regnjacka",
+        "Arbetsjacka",
+        "Skyddsförkläde"
+      ],
       "fakta": "Fluorescerande färg syns i dagsljus och reflexer i mörker. Krävs där maskiner rör sig, eftersom förarens sikt bakåt är begränsad."
     },
     {
       "id": "sk-knaskydd",
       "bild": "knaskydd",
       "ratt": "Knäskydd",
-      "fel": ["Armbågsskydd", "Benskydd för röjsåg", "Ortos"],
+      "fel": [
+        "Armbågsskydd",
+        "Benskydd för röjsåg",
+        "Ortos"
+      ],
       "fakta": "Golvläggare, plattsättare och elektriker jobbar mycket på knä. Knäskydd minskar risken för slemsäcksinflammation."
     },
     {
       "id": "sk-brandslackare",
       "bild": "brandslackare",
       "ratt": "Brandsläckare",
-      "fel": ["Brandpost", "Gasflaska", "Skumsläckare för fordon"],
+      "fel": [
+        "Brandpost",
+        "Gasflaska",
+        "Skumsläckare för fordon"
+      ],
       "fakta": "Vid heta arbeten ska minst två sexkilos pulversläckare finnas samt brandvakt som stannar kvar efter arbetet."
     },
     {
       "id": "sk-racke",
       "bild": "skyddsracke",
       "ratt": "Skyddsräcke",
-      "fel": ["Fallskyddsnät", "Avspärrning", "Ledstång"],
+      "fel": [
+        "Fallskyddsnät",
+        "Avspärrning",
+        "Ledstång"
+      ],
       "fakta": "Kollektivt fallskydd med handledare, mellanledare och fotlist. Ska alltid väljas före personlig skyddsutrustning."
     },
     {
@@ -105,43 +157,100 @@
       "bild": "skyddsracke",
       "fraga": "Vad är fotlisten längst ner på skyddet i bilden till för?",
       "ratt": "Hindra att verktyg och material faller ner över kanten",
-      "fel": ["Ge räcket styvhet", "Markera var kanten går", "Fästa fallskyddslinan i"],
+      "fel": [
+        "Ge räcket styvhet",
+        "Markera var kanten går",
+        "Fästa fallskyddslinan i"
+      ],
       "fakta": "Nedfallande föremål är en stor skaderisk under arbete på höjd – fotlisten är en billig men effektiv åtgärd."
     },
     {
       "id": "sk-stallning",
       "bild": "stallning",
       "ratt": "Byggnadsställning",
-      "fel": ["Rullställning", "Bock med plank", "Fasadhiss"],
+      "fel": [
+        "Rullställning",
+        "Bock med plank",
+        "Fasadhiss"
+      ],
       "fakta": "Ska vara komplett med räcken, fotlister och godkända plan. Ställningsbyggnad över 2 m kräver särskild utbildning."
     },
     {
       "id": "sk-forbandslada",
       "bild": "forbandslada",
       "ratt": "Första hjälpen-tavla",
-      "fel": ["Ögondusch", "Verktygslåda", "Brandskåp"],
+      "fel": [
+        "Ögondusch",
+        "Verktygslåda",
+        "Brandskåp"
+      ],
       "fakta": "Ska finnas väl synlig och skyltad. På större arbetsplatser krävs även utsedda personer med första hjälpen-utbildning."
     },
     {
       "id": "sk-ogondusch",
       "bild": "ogondusch",
       "ratt": "Ögondusch",
-      "fel": ["Nödduschen i tvättstugan", "Vattenutkastare", "Brandsläckare med vatten"],
+      "fel": [
+        "Nödduschen i tvättstugan",
+        "Vattenutkastare",
+        "Brandsläckare med vatten"
+      ],
       "fakta": "Måste finnas där man hanterar cement, bruk och kemikalier. Skölj minst 15 minuter och åk sedan till vårdcentral."
     },
     {
       "id": "sk-fallskyddsnat",
       "bild": "fallskyddsnat",
       "ratt": "Skyddsnät",
-      "fel": ["Byggnätsduk", "Ställningsnät mot damm", "Vindskyddsduk"],
+      "fel": [
+        "Byggnätsduk",
+        "Ställningsnät mot damm",
+        "Vindskyddsduk"
+      ],
       "fakta": "Kollektivt fallskydd som fångar upp person eller material. Används där räcke inte går att montera, t.ex. under stomresning."
     },
     {
       "id": "sk-varningsskylt",
       "bild": "varningsskylt",
       "ratt": "Varningsskylt",
-      "fel": ["Förbudsskylt", "Påbudsskylt", "Nödskylt"],
+      "fel": [
+        "Förbudsskylt",
+        "Påbudsskylt",
+        "Nödskylt"
+      ],
       "fakta": "Gul triangel med svart kant betyder varning. Blå rund skylt är påbud, röd rund är förbud och grön är nöd/utrymning."
+    },
+    {
+      "id": "sk-svetshjalm",
+      "bild": "svetshjalm",
+      "ratt": "Svetshjälm",
+      "fel": [
+        "Ansiktsvisir",
+        "Skyddshjälm",
+        "Andningsskydd"
+      ],
+      "fakta": "Automatiskt nedbländande glas skyddar ögonen mot svetsblänk, som annars ger svetsögon – en mycket smärtsam hornhinneskada."
+    },
+    {
+      "id": "sk-avsparrning",
+      "bild": "avsparrningsband",
+      "ratt": "Avspärrningsband",
+      "fel": [
+        "Varsellina",
+        "Markeringsnät",
+        "Signalflagga"
+      ],
+      "fakta": "Rödvitt band som spärrar av riskområden, t.ex. under kranlyft och vid schaktkanter. Avspärrning ska respekteras – alltid."
+    },
+    {
+      "id": "sk-utrymningsskylt",
+      "bild": "utrymningsskylt",
+      "ratt": "Utrymningsskylt",
+      "fel": [
+        "Varningsskylt",
+        "Påbudsskylt",
+        "Förbudsskylt"
+      ],
+      "fakta": "Grön skylt med springande figur visar utrymningsväg. Ska vara efterlysande eller belyst så den syns vid strömavbrott."
     }
   ]
 }

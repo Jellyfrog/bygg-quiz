@@ -9,7 +9,7 @@
  * Varje kort får flera foton (MAX_BILDER) så att appen kan slumpa fram olika
  * bilder på samma begrepp. tools/val.json styr urvalet:
  *   { "hammare": 2 }                     -> kandidat nr 2 först, sedan de bäst rankade
- *   { "hammare": [2, 5, 7] }             -> exakt dessa kandidater, i den ordningen
+ *   { "hammare": [2, "File:X.jpg"] }     -> dessa först, sedan de bäst rankade
  *   { "hammare": "File:Exakt namn.jpg" } -> en specifik fil först
  *   { "hammare": false }                 -> inga foton, behåll SVG-illustrationen
  */
@@ -23,8 +23,8 @@ const rot = join(dirname(fileURLToPath(import.meta.url)), '..');
 const API = 'https://commons.wikimedia.org/w/api.php';
 const UA = 'ByggkollBildhamtare/1.0 (utbildningsmaterial; kontakt via GitHub)';
 const BREDD = 800;
-const KANDIDATER = 8;
-const MAX_BILDER = 3;   // så många foton per kort, appen slumpar mellan dem
+const KANDIDATER = 16;
+const MAX_BILDER = 5;   // så många foton per kort, appen slumpar mellan dem
 
 const sokord = JSON.parse(readFileSync(join(rot, 'tools', 'sokord.json'), 'utf8'));
 const val = existsSync(join(rot, 'tools', 'val.json'))
@@ -148,8 +148,14 @@ function valjKandidater(id, lista) {
   if (v === false) return [];                // behåll den ritade illustrationen
   if (!lista || !lista.length) return [];
 
+  // Listan kan innehålla både kandidatnummer och exakta filnamn. Filnamn är
+  // tåligare: de överlever en ny sökning som ändrar träffordningen. En
+  // explicit lista är ett granskat urval och fylls INTE på med ogranskat.
   if (Array.isArray(v)) {
-    return v.map((n) => lista[n - 1]).filter(Boolean).slice(0, MAX_BILDER);
+    return v
+      .map((x) => (typeof x === 'number' ? lista[x - 1] : lista.find((k) => k.titel === x)))
+      .filter(Boolean)
+      .slice(0, MAX_BILDER);
   }
 
   // Array.sort är stabil, så lika poäng behåller Commons träffordning.

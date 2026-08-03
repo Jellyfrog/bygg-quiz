@@ -8,14 +8,22 @@
       "id": "in-avloppsror",
       "bild": "avloppsror",
       "ratt": "Avloppsrör",
-      "fel": ["Ventilationskanal", "Kabelskyddsrör", "Dräneringsrör"],
+      "fel": [
+        "Ventilationskanal",
+        "Kabelskyddsrör",
+        "Dräneringsrör"
+      ],
       "fakta": "Plaströr som läggs med fall, normalt 1 cm per meter. För litet fall ger stopp, för stort gör att vattnet rinner ifrån fastare avfall."
     },
     {
       "id": "in-golvbrunn",
       "bild": "golvbrunn",
       "ratt": "Golvbrunn",
-      "fel": ["Rensbrunn", "Dagvattenbrunn", "Golvsil"],
+      "fel": [
+        "Rensbrunn",
+        "Dagvattenbrunn",
+        "Golvsil"
+      ],
       "fakta": "Ska sitta i våtrummets lågpunkt och vara fast förankrad i bjälklaget. Tätskiktet klämmes fast i brunnens klämring."
     },
     {
@@ -24,28 +32,44 @@
       "bild": "golvbrunn",
       "fraga": "Varför är anslutningen mellan tätskikt och detaljen på bilden så kritisk?",
       "ratt": "Det är den vanligaste läckagepunkten i ett våtrum",
-      "fel": ["För att brunnen annars luktar", "För att golvvärmen ska fungera", "För att kaklet ska sitta fast"],
+      "fel": [
+        "För att brunnen annars luktar",
+        "För att golvvärmen ska fungera",
+        "För att kaklet ska sitta fast"
+      ],
       "fakta": "Fel klämring eller fel höjd på brunnen är en av de vanligaste orsakerna till underkända våtrum."
     },
     {
       "id": "in-vattenlas",
       "bild": "vattenlas",
       "ratt": "Vattenlås",
-      "fel": ["Backventil", "Avstängningsventil", "Rensplugg"],
+      "fel": [
+        "Backventil",
+        "Avstängningsventil",
+        "Rensplugg"
+      ],
       "fakta": "Vattnet i böjen är en propp som hindrar avloppslukt från att komma ut i rummet. Torkar det ut börjar det lukta."
     },
     {
       "id": "in-radiator",
       "bild": "radiator",
       "ratt": "Radiator",
-      "fel": ["Handdukstork", "Konvektor", "Värmeväxlare"],
+      "fel": [
+        "Handdukstork",
+        "Konvektor",
+        "Värmeväxlare"
+      ],
       "fakta": "Placeras normalt under fönster för att motverka kallras. Termostaten känner av rumstemperaturen och stryper flödet."
     },
     {
       "id": "in-ftx",
       "bild": "ftx",
       "ratt": "FTX-aggregat",
-      "fel": ["Frånluftsfläkt", "Värmepump", "Luftrenare"],
+      "fel": [
+        "Frånluftsfläkt",
+        "Värmepump",
+        "Luftrenare"
+      ],
       "fakta": "Från- och tilluft med värmeåtervinning. Växlaren tar värme ur den utgående luften och värmer den inkommande."
     },
     {
@@ -54,92 +78,199 @@
       "bild": "ftx",
       "fraga": "Vad är den största fördelen med systemet på bilden?",
       "ratt": "Värmen i frånluften återvinns och sänker uppvärmningsbehovet",
-      "fel": ["Det behövs inga kanaler i lägenheten", "Det ersätter radiatorerna helt", "Det kräver ingen filterbyte"],
+      "fel": [
+        "Det behövs inga kanaler i lägenheten",
+        "Det ersätter radiatorerna helt",
+        "Det kräver ingen filterbyte"
+      ],
       "fakta": "Verkningsgraden faller snabbt med igensatta filter – filterbyte är en av de viktigaste driftrutinerna."
     },
     {
       "id": "in-kanal",
       "bild": "ventilationskanal",
       "ratt": "Ventilationskanal",
-      "fel": ["Rökkanal", "Kabelränna", "Sopnedkast"],
+      "fel": [
+        "Rökkanal",
+        "Kabelränna",
+        "Sopnedkast"
+      ],
       "fakta": "Plåtkanaler för till- och frånluft. Ska vara täta och rensbara, och de dras ofta i undertak eller installationsschakt."
     },
     {
       "id": "in-elcentral",
       "bild": "elcentral",
       "ratt": "Elcentral",
-      "fel": ["Mediacentral", "Kopplingsdosa", "Fördelningsskåp för fjärrvärme"],
+      "fel": [
+        "Mediacentral",
+        "Kopplingsdosa",
+        "Fördelningsskåp för fjärrvärme"
+      ],
       "fakta": "Innehåller huvudbrytare, jordfelsbrytare och dvärgbrytare för lägenhetens grupper. Ska vara märkt med gruppförteckning."
     },
     {
       "id": "in-kabelstege",
       "bild": "kabelstege",
       "ratt": "Kabelstege",
-      "fel": ["Kabelränna", "Installationsskena", "Ventilationsupphängning"],
+      "fel": [
+        "Kabelränna",
+        "Installationsskena",
+        "Ventilationsupphängning"
+      ],
       "fakta": "Bär kablar i schakt och garage. Kablarna ska ligga fritt så att de kan kylas och lätt kan kompletteras senare."
     },
     {
       "id": "in-kopplingsdosa",
       "bild": "kopplingsdosa",
       "ratt": "Kopplingsdosa",
-      "fel": ["Apparatdosa", "Jordfelsbrytare", "Uttagsdosa"],
+      "fel": [
+        "Apparatdosa",
+        "Jordfelsbrytare",
+        "Uttagsdosa"
+      ],
       "fakta": "Här skarvas kablar. Dosan måste alltid vara åtkomlig – den får inte byggas in bakom gips eller kaklas över."
     },
     {
       "id": "in-tomror",
       "bild": "tomror",
       "ratt": "Tomrör",
-      "fel": ["Kabelskyddsrör i mark", "Vattenrör i skyddsrör", "Dräneringsslang"],
+      "fel": [
+        "Kabelskyddsrör i mark",
+        "Vattenrör i skyddsrör",
+        "Dräneringsslang"
+      ],
       "fakta": "Böjligt rör som gjuts in eller dras i väggen. Kablar kan dras och bytas i efterhand utan att bila upp konstruktionen."
     },
     {
       "id": "in-sprinkler",
       "bild": "sprinkler",
       "ratt": "Sprinkler",
-      "fel": ["Rökdetektor", "Ventilationsdon", "Nödbelysning"],
+      "fel": [
+        "Rökdetektor",
+        "Ventilationsdon",
+        "Nödbelysning"
+      ],
       "fakta": "Glasampullen brister av värmen och öppnar just det munstycket. Bara sprinklers nära branden löser ut, inte hela systemet."
     },
     {
       "id": "in-beredare",
       "bild": "varmvattenberedare",
       "ratt": "Varmvattenberedare",
-      "fel": ["Expansionskärl", "Ackumulatortank", "Värmepump"],
+      "fel": [
+        "Expansionskärl",
+        "Ackumulatortank",
+        "Värmepump"
+      ],
       "fakta": "Varmvatten ska hålla minst 60 °C i beredaren och minst 50 °C vid tappstället för att hindra legionellatillväxt."
     },
     {
       "id": "in-fjarrvarme",
       "bild": "fjarrvarmecentral",
       "ratt": "Fjärrvärmecentral",
-      "fel": ["Undercentral för kyla", "Elcentral", "Pumpgrupp för golvvärme"],
+      "fel": [
+        "Undercentral för kyla",
+        "Elcentral",
+        "Pumpgrupp för golvvärme"
+      ],
       "fakta": "Växlar över värme från fjärrvärmenätet till husets egna system för radiatorer och varmvatten – vattnet blandas aldrig."
     },
     {
       "id": "in-golvvarme",
       "bild": "golvvarme",
       "ratt": "Golvvärmeslinga",
-      "fel": ["Kylslinga i betong", "Snösmältningsslinga", "Elvärmekabel för tak"],
+      "fel": [
+        "Kylslinga i betong",
+        "Snösmältningsslinga",
+        "Elvärmekabel för tak"
+      ],
       "fakta": "Slingor gjuts in eller läggs i spår. Systemet är trögt men ger jämn värme och används ofta i badrum."
     },
     {
       "id": "in-jordfelsbrytare",
       "bild": "jordfelsbrytare",
       "ratt": "Jordfelsbrytare",
-      "fel": ["Dvärgbrytare", "Huvudbrytare", "Överspänningsskydd"],
+      "fel": [
+        "Dvärgbrytare",
+        "Huvudbrytare",
+        "Överspänningsskydd"
+      ],
       "fakta": "Löser ut vid små läckströmmar, typiskt 30 mA, och skyddar person. Dvärgbrytaren skyddar däremot ledningen mot överlast."
     },
     {
       "id": "in-stamledning",
       "bild": "stamledning",
       "ratt": "Stam",
-      "fel": ["Servisledning", "Grenledning", "Luftningsledning"],
+      "fel": [
+        "Servisledning",
+        "Grenledning",
+        "Luftningsledning"
+      ],
       "fakta": "Den vertikala ledningen genom huset som lägenheternas grenledningar kopplas till. Byte av stammar kallas stambyte."
     },
     {
       "id": "in-vattenutkastare",
       "bild": "vattenutkastare",
       "ratt": "Vattenutkastare",
-      "fel": ["Spolpost", "Brandpost", "Avstängningsventil"],
+      "fel": [
+        "Spolpost",
+        "Brandpost",
+        "Avstängningsventil"
+      ],
       "fakta": "Frostsäker utvändig kran där avstängningen sitter inne i den varma väggen så att röret töms och inte fryser sönder."
+    },
+    {
+      "id": "in-franluftsflakt",
+      "bild": "franluftsflakt",
+      "ratt": "Frånluftsfläkt",
+      "fel": [
+        "Tilluftsaggregat",
+        "Takhuv",
+        "FTX-aggregat"
+      ],
+      "fakta": "Takfläkt som suger ut frånluften ur huset. I äldre flerbostadshus är frånluft utan värmeåtervinning fortfarande vanligast."
+    },
+    {
+      "id": "in-vagguttag",
+      "bild": "vagguttag",
+      "ratt": "Vägguttag",
+      "fel": [
+        "Strömbrytare",
+        "Kopplingsdosa",
+        "Dimmer"
+      ],
+      "fakta": "Jordat uttag är krav i nya installationer. I våtrum gäller kapslingsklass och avstånd till vatten enligt elinstallationsreglerna."
+    },
+    {
+      "id": "in-vattenmatare",
+      "bild": "vattenmatare",
+      "ratt": "Vattenmätare",
+      "fel": [
+        "Energimätare",
+        "Tryckreducerare",
+        "Backventil"
+      ],
+      "fakta": "Mäter husets vattenförbrukning. Sitter på inkommande ledning med avstängningsventiler på båda sidor."
+    },
+    {
+      "id": "in-avstangningsventil",
+      "bild": "avstangningsventil",
+      "ratt": "Avstängningsventil",
+      "fel": [
+        "Backventil",
+        "Blandningsventil",
+        "Säkerhetsventil"
+      ],
+      "fakta": "Kulventil med vred – ett kvarts varv stänger. Alla lägenheter ska ha egna avstängningar för att kunna göra service utan att stänga hela stammen."
+    },
+    {
+      "id": "in-rokdetektor",
+      "bild": "rokdetektor",
+      "ratt": "Rökdetektor",
+      "fel": [
+        "Sprinkler",
+        "Värmedetektor",
+        "Kolmonoxidvarnare"
+      ],
+      "fakta": "Reagerar på rökpartiklar långt före värmen. I flerbostadshus kopplas de ofta till gemensamt brandlarm i trapphusen."
     }
   ]
 }
