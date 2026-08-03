@@ -1,5 +1,6 @@
 /* Byggkoll – studiekort och quiz för byggbranschen.
-   Frågorna ligger i data/*.json. Bilderna är SVG i js/icons/*.js. */
+   Frågorna ligger i data/*.json. Bilderna är foton från Wikimedia Commons
+   (data/bilder.js + img/) med de ritade SVG:erna i js/icons/ som reserv. */
 
 (function () {
   'use strict';
@@ -102,6 +103,26 @@
 
   function ikon(namn) {
     return (window.BQ_ICONS && window.BQ_ICONS[namn]) || '<svg viewBox="0 0 120 120"><rect x="20" y="20" width="80" height="80" rx="10" fill="#dde3ea"/><text x="60" y="70" text-anchor="middle" font-size="34" fill="#8f9aa6">?</text></svg>';
+  }
+
+  function foto(namn) {
+    return (window.BQ_BILDER && window.BQ_BILDER[namn]) || null;
+  }
+
+  /* Foto om det finns, annars den ritade illustrationen. Bilden är dekorativ –
+     frågan står i texten – så alt hålls tomt för skärmläsare. */
+  function bild(namn) {
+    if (!namn) return '';
+    var f = foto(namn);
+    if (!f) return ikon(namn);
+    return '<img class="bildfoto" src="' + f.fil + '" alt="" loading="lazy" ' +
+      'onerror="this.parentNode.innerHTML=window.BQ_ICONS[\'' + namn + '\']||\'\'">';
+  }
+
+  function bildkredit(namn) {
+    var f = foto(namn);
+    if (!f) return '';
+    return 'Foto: ' + f.upphov + ' · ' + f.licens + ' · Wikimedia Commons';
   }
 
   function fragetext(f) {
@@ -212,8 +233,11 @@
 
     $('card-category').textContent = f.kategoriNamn;
     $('card-box').textContent = s.sedd ? 'Nivå ' + s.box + '/' + MAX_BOX : 'Nytt kort';
-    $('card-image').innerHTML = f.bild ? ikon(f.bild) : '';
+    $('card-image').innerHTML = bild(f.bild);
     $('plate').hidden = !f.bild;
+    var kredit = bildkredit(f.bild);
+    $('card-credit').textContent = kredit;
+    $('card-credit').hidden = !kredit;
     $('card-question').textContent = fragetext(f);
 
     $('feedback').hidden = true;
@@ -341,7 +365,7 @@
       var d = document.createElement('div');
       d.className = 'review-item';
       d.innerHTML =
-        '<span class="review-thumb">' + (f.bild ? ikon(f.bild) : '') + '</span>' +
+        '<span class="review-thumb">' + bild(f.bild) + '</span>' +
         '<span><span class="review-name">' + f.ratt + '</span>' +
         '<br><span class="review-fact">' + (f.fakta || '') + '</span></span>';
       lista.appendChild(d);
@@ -396,13 +420,29 @@
       var d = document.createElement('div');
       d.className = 'browse-card';
       d.innerHTML =
-        '<div class="browse-img">' + (f.bild ? ikon(f.bild) : '') + '</div>' +
+        '<div class="browse-img">' + bild(f.bild) + '</div>' +
         '<div class="browse-body">' +
           '<div class="browse-cat">' + f.kategoriNamn + '</div>' +
           '<div class="browse-name">' + f.ratt + '</div>' +
           '<div class="browse-fact">' + (f.fakta || '') + '</div>' +
         '</div>';
       grid.appendChild(d);
+    });
+  }
+
+  function ritaKallor() {
+    var lista = $('kallor-lista');
+    var bilder = window.BQ_BILDER || {};
+    var namn = Object.keys(bilder);
+    $('kallor').hidden = namn.length === 0;
+    if (!namn.length || lista.childElementCount) return;
+
+    namn.sort().forEach(function (n) {
+      var b = bilder[n];
+      var li = document.createElement('li');
+      li.innerHTML = '<a href="' + b.kalla + '" target="_blank" rel="noopener">' + b.titel + '</a> – ' +
+        b.upphov + ' (' + b.licens + ')';
+      lista.appendChild(li);
     });
   }
 
@@ -445,7 +485,7 @@
     $('brand').addEventListener('click', function () { ritaKategorier(); visaSkarm('screen-start'); });
 
     $('btn-browse').addEventListener('click', function () {
-      ritaBrowseFilter(); ritaBrowse(); visaSkarm('screen-browse');
+      ritaBrowseFilter(); ritaBrowse(); ritaKallor(); visaSkarm('screen-browse');
     });
     $('browse-search').addEventListener('input', ritaBrowse);
 

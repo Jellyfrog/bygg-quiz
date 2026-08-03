@@ -1,0 +1,54 @@
+{
+ "_kommentar": "Genererad av tools/hamta-bilder.mjs",
+ "bilder": {
+  "hammare": {
+   "fil": "img/hammare.jpg",
+   "titel": "Stanley graphite claw hammer.jpg",
+   "upphov": "J.C. Fields (Talk) (Uploads)",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Stanley_graphite_claw_hammer.jpg"
+  },
+  "slagga": {
+   "fil": "img/slagga.jpg",
+   "titel": "Worker with sledgehammer on the NYC Subway.jpg",
+   "upphov": "Grendelkhan",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Worker_with_sledgehammer_on_the_NYC_Subway.jpg"
+  },
+  "skruvdragare": {
+   "fil": "img/skruvdragare.jpg",
+   "titel": "Drill-driver.JPG",
+   "upphov": "Gisling",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Drill-driver.JPG"
+  },
+  "tigersag": {
+   "fil": "img/tigersag.jpg",
+   "titel": "Wright Saw 1952 model.jpg",
+   "upphov": "The Interior",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Wright_Saw_1952_model.jpg"
+  },
+  "takpapp": {
+   "fil": "img/takpapp.jpg",
+   "titel": "Bituminous waterproofing on flat roof 2.jpg",
+   "upphov": "W.carter",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Bituminous_waterproofing_on_flat_roof_2.jpg"
+  },
+  "varselvast": {
+   "fil": "img/varselvast.jpg",
+   "titel": "Warnweste gelb.jpg",
+   "upphov": "Magnus Mertens",
+   "licens": "CC BY-SA 2.0 de",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Warnweste_gelb.jpg"
+  },
+  "golvbrunn": {
+   "fil": "img/golvbrunn.jpg",
+   "titel": "Toilet drain.jpg",
+   "upphov": "Downtowngal",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Toilet_drain.jpg"
+  }
+ }
+}

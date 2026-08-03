@@ -4,9 +4,13 @@ Studiekort och quiz för byggbranschen. 161 bildkort i sex kategorier – verkty
 maskiner, material, skydd, konstruktion och installationer – med fokus på
 husbyggnad, t.ex. uppförande av ett lägenhetshus.
 
-Ren HTML, CSS och JavaScript. Inga beroenden, inget byggsteg för att köra, inga
-externa anrop. Alla illustrationer är handritade SVG:er som ligger i repot, så
-appen fungerar helt offline.
+Ren HTML, CSS och JavaScript. Inget backend, inga beroenden i körläget och inga
+externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller vilken
+filserver som helst.
+
+Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/`. Varje
+kort har dessutom en handritad SVG som reserv, så appen fungerar även om ett foto
+saknas eller inte laddas.
 
 ## Kör
 
@@ -18,6 +22,16 @@ python3 -m http.server 8000
 Det går även att öppna `index.html` direkt från filsystemet. Webbläsare blockerar
 `fetch()` mot lokala JSON-filer, så appen faller då tillbaka på den förgenererade
 kopian i `data/bundle.js`.
+
+## Publicering
+
+`.github/workflows/pages.yml` publicerar sajten till GitHub Pages vid varje push
+till `main`, `master` eller utvecklingsgrenen. Flödet validerar frågedatan med
+`node build.mjs`, kontrollerar att `data/bundle.js` är i synk med JSON-filerna,
+kopierar bara det sajten behöver till `_site` och deployar.
+
+Engångsinställning i repot: **Settings → Pages → Source = "GitHub Actions"**.
+Därefter sker allt vid push. Ingen server, ingen databas.
 
 ## Lägen
 
@@ -55,13 +69,20 @@ tillämpningsfrågor på samma bild ("Varför har skruven trumpetformat huvud?",
 ## Filer
 
 ```
-index.html            gränssnitt
-css/style.css         formgivning, ljust och mörkt läge
-js/app.js             logik: pass, kö, självrättning, statistik
-js/icons/*.js         143 SVG-illustrationer, en fil per kategori
-data/*.json           frågorna – redigeras här
-data/bundle.js        genererad kopia av JSON för file://-läge
-build.mjs             genererar bundle.js och validerar frågorna
+index.html               gränssnitt
+css/style.css            formgivning, ljust och mörkt läge
+js/app.js                logik: pass, kö, självrättning, statistik
+js/icons/*.js            143 SVG-illustrationer, en fil per kategori
+img/*.jpg                nedladdade foton
+data/*.json              frågorna – redigeras här
+data/bundle.js           genererad kopia av JSON för file://-läge
+data/bilder.js           genererad bildkatalog med upphov och licens
+build.mjs                genererar bundle.js och validerar frågorna
+tools/sokord.json        sökord mot Commons per bild
+tools/val.json           överstyrning: vilken kandidat som ska användas
+tools/hamta-bilder.mjs   hämtar foton och skriver data/bilder.js
+tools/optimera.py        krymper fotona till max 720 px jpg
+.github/workflows/       publicering till GitHub Pages
 ```
 
 ## Lägga till frågor
@@ -91,6 +112,34 @@ Redigera rätt fil i `data/` och kör sedan `node build.mjs`.
 `build.mjs` kontrollerar dubbletter av id, att ikonerna finns, att rätt svar
 inte råkat hamna bland felalternativen och att varje fråga har minst fyra
 alternativ. Den avslutar med felkod om något är fel.
+
+## Bilder
+
+Fotona hämtas från Wikimedia Commons och filtreras på fri licens (public domain
+och CC). Upphovsperson, licens och länk till källsidan sparas per bild i
+`data/bilder.js`, visas under bilden i appen och listas samlat under
+"Bildkällor" i bläddra-vyn.
+
+```bash
+node tools/hamta-bilder.mjs --sok   # söker fram kandidater (nätverk, tar en stund)
+node tools/hamta-bilder.mjs         # laddar ner valda bilder och krymper dem
+```
+
+Blir en bild fel: titta i `tools/kandidater.json` på listan för det id:t och peka
+ut en annan i `tools/val.json`, antingen med nummer eller exakt filnamn.
+
+```json
+{
+  "hammare": 3,
+  "tumstock": "File:Zollstock.jpg"
+}
+```
+
+Kör sedan `TVINGA=1 node tools/hamta-bilder.mjs` för att hämta om. Vill du hellre
+söka på något annat – ändra sökordet i `tools/sokord.json` och kör om med `--sok`.
+
+Kort utan foto faller tillbaka på SVG-illustrationen automatiskt, både om filen
+saknas i `data/bilder.js` och om `<img>` misslyckas med att ladda.
 
 ## Tangentbord
 
