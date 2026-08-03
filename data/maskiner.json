@@ -1,0 +1,189 @@
+{
+  "id": "maskiner",
+  "namn": "Maskiner",
+  "emoji": "🚜",
+  "beskrivning": "Anläggnings- och byggmaskiner på arbetsplatsen.",
+  "fragor": [
+    {
+      "id": "ma-gravmaskin",
+      "bild": "gravmaskin",
+      "ratt": "Grävmaskin",
+      "fel": ["Hjullastare", "Bandschaktare", "Väghyvel"],
+      "fakta": "Bandgående maskin med skopa på bom och arm. Gräver schakt för grund, ledningar och dränering."
+    },
+    {
+      "id": "ma-gravmaskin-anv",
+      "typ": "anvandning",
+      "bild": "gravmaskin",
+      "fraga": "Vilket arbetsmoment utförs oftast med maskinen på bilden?",
+      "ratt": "Schakta för grund och ledningsgravar",
+      "fel": ["Packa fyllningen inför asfaltering", "Lyfta upp väggelement till plan 5", "Transportera betong från fabrik"],
+      "fakta": "Bandunderredet ger lågt marktryck och stabilitet, vilket behövs vid djupa schakter."
+    },
+    {
+      "id": "ma-minigravare",
+      "bild": "minigravare",
+      "ratt": "Minigrävare",
+      "fel": ["Grävmaskin", "Kompaktlastare", "Teleskoplastare"],
+      "fakta": "Liten bandgrävare, ofta under 5 ton. Används inne på trånga tomter och i källare där stor maskin inte kommer in."
+    },
+    {
+      "id": "ma-hjullastare",
+      "bild": "hjullastare",
+      "ratt": "Hjullastare",
+      "fel": ["Grävmaskin", "Dumper", "Traktor"],
+      "fakta": "Hjulburen maskin med skopa fram. Lastar massor, flyttar material och håller ordning på arbetsplatsen."
+    },
+    {
+      "id": "ma-valt",
+      "bild": "valt",
+      "ratt": "Vält",
+      "fel": ["Väghyvel", "Bandschaktare", "Hjullastare"],
+      "fakta": "Packar fyllning, bärlager och asfalt. Vibrationen ger packning på djupet så att marken inte sätter sig senare."
+    },
+    {
+      "id": "ma-valt-anv",
+      "typ": "anvandning",
+      "bild": "valt",
+      "fraga": "Varför används maskinen på bilden innan man gjuter en platta på mark?",
+      "ratt": "För att packa fyllningen så att plattan inte sätter sig",
+      "fel": ["För att jämna av betongytan", "För att värma marken vid tjäle", "För att mäta in höjder"],
+      "fakta": "Otillräcklig packning är en klassisk orsak till sättningar och sprickor i platta på mark."
+    },
+    {
+      "id": "ma-padda",
+      "bild": "padda",
+      "ratt": "Markvibrator (padda)",
+      "fel": ["Vält", "Betongvibrator", "Asfaltskärare"],
+      "fakta": "Handförd packningsmaskin. Används där välten inte kommer åt: kring ledningsgravar, brunnar och husgrunder."
+    },
+    {
+      "id": "ma-traktor",
+      "bild": "traktor",
+      "ratt": "Traktor",
+      "fel": ["Hjullastare", "Teleskoplastare", "Väghyvel"],
+      "fakta": "Dragfordon med kraftuttag. På bygget används den mest för transport, snöröjning och redskap som kärra eller sandspridare."
+    },
+    {
+      "id": "ma-tornkran",
+      "bild": "tornkran",
+      "ratt": "Tornkran",
+      "fel": ["Mobilkran", "Bygghiss", "Pålkran"],
+      "fakta": "Fast kran som byggs upp och kan klättra med huset. Motviktsarmen på baksidan balanserar lasten på lyftarmen."
+    },
+    {
+      "id": "ma-tornkran-anv",
+      "typ": "anvandning",
+      "bild": "tornkran",
+      "fraga": "Vad är maskinen på bilden viktigast för vid stomresning av ett lägenhetshus?",
+      "ratt": "Lyfta prefabelement och material till rätt våningsplan",
+      "fel": ["Gjuta bjälklag", "Packa markens fyllning", "Borra för bergvärme"],
+      "fakta": "Kranens räckvidd och lyftkapacitet vid ytterläget styr ofta hur tunga element som kan väljas i projekteringen."
+    },
+    {
+      "id": "ma-mobilkran",
+      "bild": "mobilkran",
+      "ratt": "Mobilkran",
+      "fel": ["Tornkran", "Lastbil med kran", "Teleskoplastare"],
+      "fakta": "Hjulburen kran med teleskopbom som körs till platsen. Stödben fälls ut för att ge stabilitet vid lyft."
+    },
+    {
+      "id": "ma-teleskoplastare",
+      "bild": "teleskoplastare",
+      "ratt": "Teleskoplastare",
+      "fel": ["Hjullastare", "Mobilkran", "Skylift"],
+      "fakta": "Lastare med teleskopbom och gafflar. Lyfter pallar med gips och tegel upp på bjälklag och ställningar."
+    },
+    {
+      "id": "ma-dumper",
+      "bild": "dumper",
+      "ratt": "Dumper",
+      "fel": ["Lastbil", "Hjullastare", "Containerbil"],
+      "fakta": "Terränggående maskin med tippflak. Kör bort schaktmassor och kör in fyllning inne på arbetsplatsen."
+    },
+    {
+      "id": "ma-betongbil",
+      "bild": "betongbil",
+      "ratt": "Betongbil",
+      "fel": ["Betongpump", "Containerbil", "Tankbil"],
+      "fakta": "Roterande trumma håller betongen i rörelse under transporten så att den inte separerar eller börjar hårdna."
+    },
+    {
+      "id": "ma-betongpump",
+      "bild": "betongpump",
+      "ratt": "Betongpump",
+      "fel": ["Betongbil", "Mobilkran", "Sprutbetongrigg"],
+      "fakta": "Pumpar betongen genom rör på en vikbar bom. Gör att man kan gjuta bjälklag flera våningar upp utan kranlyft."
+    },
+    {
+      "id": "ma-bandschaktare",
+      "bild": "bandschaktare",
+      "ratt": "Bandschaktare (dozer)",
+      "fel": ["Grävmaskin", "Väghyvel", "Vält"],
+      "fakta": "Bandmaskin med blad framtill. Skjuter massor och grovplanerar stora ytor inför finjustering."
+    },
+    {
+      "id": "ma-vaghyvel",
+      "bild": "vaghyvel",
+      "ratt": "Väghyvel",
+      "fel": ["Bandschaktare", "Vält", "Hjullastare"],
+      "fakta": "Långt chassi med justerbart blad under mitten. Finjusterar vägbanor och bärlager till exakt lutning."
+    },
+    {
+      "id": "ma-skylift",
+      "bild": "skylift",
+      "ratt": "Bomlift",
+      "fel": ["Saxlift", "Teleskoplastare", "Bygghiss"],
+      "fakta": "Arbetskorg på ledad eller teleskopisk bom. Når höjd och kan sträcka sig ut över hinder, t.ex. vid fasadarbete."
+    },
+    {
+      "id": "ma-saxlift",
+      "bild": "saxlift",
+      "ratt": "Saxlift",
+      "fel": ["Bomlift", "Bygghiss", "Ställning"],
+      "fakta": "Lyfter plattformen rakt upp med saxarmar. Bra för invändiga arbeten i tak, t.ex. ventilation och el."
+    },
+    {
+      "id": "ma-borrigg",
+      "bild": "borrigg",
+      "ratt": "Borrigg",
+      "fel": ["Pålkran", "Grävmaskin", "Betongpump"],
+      "fakta": "Borrar i berg för sprängning, bergvärme eller förankring. Bandburen med borrmast och slagborr."
+    },
+    {
+      "id": "ma-palkran",
+      "bild": "palkran",
+      "ratt": "Pålkran",
+      "fel": ["Borrigg", "Tornkran", "Bandschaktare"],
+      "fakta": "Slår ner pålar tills de når fast botten eller berg. Används när marken inte bär huset direkt."
+    },
+    {
+      "id": "ma-lastbilskran",
+      "bild": "lastbilskran",
+      "ratt": "Lastbil med kran",
+      "fel": ["Mobilkran", "Containerbil", "Betongbil"],
+      "fakta": "Levererar och lossar material själv. Vanligast för virke, gips och byggbodar när kran inte finns på plats."
+    },
+    {
+      "id": "ma-bygghiss",
+      "bild": "bygghiss",
+      "ratt": "Bygghiss",
+      "fel": ["Saxlift", "Tornkran", "Materialtorn"],
+      "fakta": "Hiss i mast längs fasaden för material och personal. Fästs i stommen och följer med uppåt när huset växer."
+    },
+    {
+      "id": "ma-containerbil",
+      "bild": "containerbil",
+      "ratt": "Lastväxlare med container",
+      "fel": ["Dumper", "Betongbil", "Lastbil med kran"],
+      "fakta": "Byter containrar för byggavfall. Källsortering i flera containrar sänker avfallskostnaden i projektet."
+    },
+    {
+      "id": "ma-dammsugare",
+      "bild": "dammsugare_bygg",
+      "ratt": "Byggdammsugare",
+      "fel": ["Luftrenare", "Byggtork", "Kompressor"],
+      "fakta": "Grovdammsugare med H- eller M-filter som kopplas direkt på maskinen. Minskar kvartsdamm vid håltagning och slipning."
+    }
+  ]
+}

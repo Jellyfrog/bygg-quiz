@@ -1,0 +1,243 @@
+{
+  "id": "konstruktion",
+  "namn": "Konstruktion",
+  "emoji": "🏢",
+  "beskrivning": "Byggnadsdelar och konstruktioner i ett flerbostadshus – från grund till tak.",
+  "fragor": [
+    {
+      "id": "ko-platta",
+      "bild": "platta_pa_mark",
+      "fraga": "Vilken konstruktion visar sektionen?",
+      "ratt": "Platta på mark",
+      "fel": ["Krypgrund", "Källarbjälklag", "Pålad platta"],
+      "fakta": "Underifrån: dränerande makadam, cellplast, armerad betongplatta. Isoleringen ligger under plattan så att betongen hålls varm."
+    },
+    {
+      "id": "ko-platta-anv",
+      "typ": "anvandning",
+      "bild": "platta_pa_mark",
+      "fraga": "Vad har det dränerande lagret av makadam under konstruktionen för funktion?",
+      "ratt": "Bryta kapillärsugningen så att fukt inte vandrar upp",
+      "fel": ["Isolera mot kyla", "Ta upp lasten från huset", "Ge plats åt golvvärmeslingor"],
+      "fakta": "Kapillärbrytande lager ska ha grov och enhetlig fraktion – finmaterial förstör effekten."
+    },
+    {
+      "id": "ko-kantbalk",
+      "bild": "kantbalk",
+      "fraga": "Vad kallas den förtjockade delen längs plattans kant?",
+      "ratt": "Kantbalk",
+      "fel": ["Sockel", "Grundmur", "Bärlina"],
+      "fakta": "Kantbalken bär ytterväggen och för ner lasten. Den isoleras utvändigt för att undvika köldbrygga vid golvkanten."
+    },
+    {
+      "id": "ko-syll",
+      "bild": "syll",
+      "fraga": "Vad kallas det liggande virket underst i väggen, direkt på betongen?",
+      "ratt": "Syll",
+      "fel": ["Hammarband", "Regel", "Bärlina"],
+      "fakta": "Syllen förankras i betongen med expander eller syllbult och läggs alltid på syllisolering."
+    },
+    {
+      "id": "ko-regelvagg",
+      "bild": "regelvagg",
+      "fraga": "Vilken konstruktion visar bilden?",
+      "ratt": "Regelvägg med isolering",
+      "fel": ["Massivträvägg", "Skalmur", "Prefabricerad betongvägg"],
+      "fakta": "Stående reglar med c/c 600 mm och isolering i facken. Regelavståndet styr också var gipsskivans skarv hamnar."
+    },
+    {
+      "id": "ko-hammarband",
+      "bild": "hammarband",
+      "fraga": "Vad kallas det liggande virket överst i regelväggen?",
+      "ratt": "Hammarband",
+      "fel": ["Syll", "Takfotsbalk", "Nockbalk"],
+      "fakta": "Hammarbandet binder ihop reglarna och fördelar lasten från bjälklaget eller takstolarna ovanför."
+    },
+    {
+      "id": "ko-takstol",
+      "bild": "takstol",
+      "fraga": "Vad heter takkonstruktionen på bilden?",
+      "ratt": "Takstol",
+      "fel": ["Sparrtak", "Ramverkstak", "Pulpettak"],
+      "fakta": "Fackverk av virke sammanbundet med spikplåtar. Får aldrig kapas eller borras i utan konstruktörens godkännande."
+    },
+    {
+      "id": "ko-taksparre",
+      "bild": "taksparre",
+      "fraga": "Vad kallas det snedställda virket som bär yttertaket?",
+      "ratt": "Taksparre",
+      "fel": ["Hanbjälke", "Takstol", "Läkt"],
+      "fakta": "Sparren går från takfot till nock och bär upp underlagstak, läkt och taktäckning."
+    },
+    {
+      "id": "ko-nock",
+      "bild": "nock",
+      "fraga": "Vad kallas takets högsta linje, markerad på bilden?",
+      "ratt": "Nock",
+      "fel": ["Takfot", "Ränndal", "Gavelspets"],
+      "fakta": "Nocken täcks med nockpannor och ska vara ventilerad så att fukt från vindsutrymmet kan komma ut."
+    },
+    {
+      "id": "ko-haldack",
+      "bild": "haldack",
+      "fraga": "Vilken bjälklagstyp visar bilden?",
+      "ratt": "Håldäck",
+      "fel": ["Platsgjutet bjälklag", "Träbjälklag", "Plattbärlag"],
+      "fakta": "Förspänd betongplatta med långa kanaler. Kanalerna sparar vikt och gör att elementet kan spänna 10 m eller mer utan pelare."
+    },
+    {
+      "id": "ko-haldack-anv",
+      "typ": "anvandning",
+      "bild": "haldack",
+      "fraga": "Varför är elementet på bilden urholkat med kanaler?",
+      "ratt": "Lägre egenvikt utan att bärförmågan går förlorad",
+      "fel": ["För att dra el och ventilation i kanalerna", "För att betongen ska torka fortare", "För att kunna kapa elementet på plats"],
+      "fakta": "Materialet tas bort där betongen ändå inte tar last, mitt i tvärsnittet. Det ger längre spännvidder och lättare lyft."
+    },
+    {
+      "id": "ko-pelare",
+      "bild": "pelare",
+      "fraga": "Vilken byggnadsdel visar bilden?",
+      "ratt": "Pelare",
+      "fel": ["Balk", "Bärande vägg", "Påle"],
+      "fakta": "Vertikalt bärverk som tar tryckkrafter och för ner last till grunden. I garageplan ersätter pelare bärande väggar för att ge fria ytor."
+    },
+    {
+      "id": "ko-balk",
+      "bild": "balk",
+      "fraga": "Vilken byggnadsdel är markerad överst i bilden?",
+      "ratt": "Balk",
+      "fel": ["Pelare", "Bjälklag", "Syll"],
+      "fakta": "Horisontellt bärverk som spänner mellan stöd och bär bjälklag eller vägg ovanför en öppning."
+    },
+    {
+      "id": "ko-prefab",
+      "bild": "prefab_vaggelement",
+      "fraga": "Vad visar bilden?",
+      "ratt": "Prefabricerat väggelement som lyfts på plats",
+      "fel": ["Platsbyggd regelvägg", "Formsatt vägg före gjutning", "Skalmur under murning"],
+      "fakta": "Elementen tillverkas i fabrik med fönster och ytskikt monterade. Kortar byggtiden och minskar fuktrisken på plats."
+    },
+    {
+      "id": "ko-fasad",
+      "bild": "fasad_luftspalt",
+      "fraga": "Vad kallas det tomma skiktet mellan vindskyddet och fasadteglet?",
+      "ratt": "Luftspalt",
+      "fel": ["Isolerskikt", "Installationsskikt", "Dilatationsfog"],
+      "fakta": "Luftspalten ventilerar bort fukt bakom fasaden och bryter kapillär transport av regnvatten in i väggen."
+    },
+    {
+      "id": "ko-fasad-ordning",
+      "typ": "anvandning",
+      "bild": "fasad_luftspalt",
+      "fraga": "I vilken ordning ligger skikten i ytterväggen, inifrån och ut?",
+      "ratt": "Gips – isolering – ångspärr på varm sida – vindskydd – luftspalt – tegel",
+      "fel": ["Gips – vindskydd – isolering – ångspärr – tegel", "Tegel – isolering – gips – luftspalt", "Isolering – gips – ångspärr – tegel – luftspalt"],
+      "fakta": "Principen är tätt inne och öppet ute: ångspärren stoppar fukt inifrån, vindskyddet släpper ut den som ändå tar sig in."
+    },
+    {
+      "id": "ko-gjutform",
+      "bild": "gjutform",
+      "fraga": "Vad visar bilden?",
+      "ratt": "Gjutform med formstag",
+      "fel": ["Skyddsräcke vid kant", "Ställning mot vägg", "Stämp under bjälklag"],
+      "fakta": "Formen håller betongen tills den bär sig själv. Formstagen tar det stora trycket från den flytande betongen."
+    },
+    {
+      "id": "ko-bjalklag",
+      "bild": "bjalklag",
+      "fraga": "Vilken konstruktion visar sektionen?",
+      "ratt": "Träbjälklag",
+      "fel": ["Håldäck", "Plattbärlag", "Platta på mark"],
+      "fakta": "Bjälkar med isolering emellan, golvskiva ovanpå och undertak under. I lägenhetshus ställs höga krav på stegljudsdämpning."
+    },
+    {
+      "id": "ko-undertak",
+      "bild": "undertak",
+      "fraga": "Vad kallas konstruktionen som hänger under betongbjälklaget?",
+      "ratt": "Undertak",
+      "fel": ["Installationsgolv", "Innertaksgips på reglar", "Akustikvägg"],
+      "fakta": "Nedpendlat tak som döljer ventilation, el och sprinkler och som ofta bidrar till rummets akustik."
+    },
+    {
+      "id": "ko-flytandegolv",
+      "bild": "flytande_golv",
+      "fraga": "Vilken golvkonstruktion visar bilden?",
+      "ratt": "Flytande golv",
+      "fel": ["Golv på reglar", "Golv direkt på betong", "Uppreglat installationsgolv"],
+      "fakta": "Golvskivan vilar på ett mjukt mellanlägg utan fast infästning i betongen. Det bryter stegljud mellan lägenheter."
+    },
+    {
+      "id": "ko-trapphus",
+      "bild": "trapphus",
+      "fraga": "Vad kallas den prefabricerade delen på bilden?",
+      "ratt": "Trapplopp",
+      "fel": ["Vilplan", "Trapphusvägg", "Loftgång"],
+      "fakta": "Trapplopp och vilplan levereras ofta som färdiga betongelement och monteras tidigt så att stommen får en säker väg upp."
+    },
+    {
+      "id": "ko-hisschakt",
+      "bild": "hisschakt",
+      "fraga": "Vad visar bilden?",
+      "ratt": "Hisschakt",
+      "fel": ["Installationsschakt", "Ventilationsschakt", "Sopnedkast"],
+      "fakta": "Schaktet muras eller gjuts som en styv kärna. Det bidrar ofta även till att stabilisera huset mot vindlast."
+    },
+    {
+      "id": "ko-dranering",
+      "bild": "dranering",
+      "fraga": "Vilken konstruktion visar bilden?",
+      "ratt": "Dränering av källarvägg",
+      "fel": ["Kapillärbrytande skikt under platta", "Markisolering mot tjäle", "Fuktspärr under syll"],
+      "fakta": "Utvändig isolering, dräneringsskiva och dräneringsrör i makadam leder bort vattnet innan det når betongväggen."
+    },
+    {
+      "id": "ko-balkong",
+      "bild": "balkong",
+      "fraga": "Vad visar bilden?",
+      "ratt": "Balkongplatta med räcke",
+      "fel": ["Loftgång", "Takterrass", "Franskt fönster"],
+      "fakta": "Balkongen fästs ofta med en isolerad konsol så att köldbryggan genom bjälklaget bryts."
+    },
+    {
+      "id": "ko-formsattning",
+      "bild": "formsattning_valv",
+      "fraga": "Vad kallas konstruktionen som håller uppe formen under ett bjälklag?",
+      "ratt": "Stämp",
+      "fel": ["Formstag", "Ställningstorn", "Bockar"],
+      "fakta": "Stämpen bär formen och den färska betongen. De får rivas först när betongen nått föreskriven hållfasthet."
+    },
+    {
+      "id": "ko-stomresning",
+      "bild": "stomresning",
+      "fraga": "Vilket skede i bygget visar bilden?",
+      "ratt": "Stomresning",
+      "fel": ["Grundläggning", "Stomkomplettering", "Inredningsskede"],
+      "fakta": "Bärande väggar, pelare och bjälklag monteras. Tidplanen styrs här nästan alltid av kranens kapacitet."
+    },
+    {
+      "id": "ko-dilatationsfog",
+      "bild": "dilatationsfog",
+      "fraga": "Vad kallas fogen mellan de två betongdelarna?",
+      "ratt": "Dilatationsfog",
+      "fel": ["Arbetsfog", "Krympfog", "Elastisk fasadfog"],
+      "fakta": "Rörelsefog som låter delarna röra sig fritt vid temperaturändring och sättning, så att sprickor inte uppstår okontrollerat."
+    },
+    {
+      "id": "ko-krypgrund",
+      "bild": "krypgrund",
+      "fraga": "Vilken grundläggning visar bilden?",
+      "ratt": "Krypgrund",
+      "fel": ["Platta på mark", "Källare", "Plintgrund"],
+      "fakta": "Ventilerat utrymme under bjälklaget. Riskerar fuktproblem sommartid när varm luft kyls ner mot marken – kräver rätt ventilation eller avfuktning."
+    },
+    {
+      "id": "ko-sockel",
+      "bild": "sockel",
+      "fraga": "Vad kallas den synliga delen av grunden ovanför marken?",
+      "ratt": "Sockel",
+      "fel": ["Kantbalk", "Grundmur", "Syll"],
+      "fakta": "Sockeln skyddar mot stänk och snö. Fasadmaterial ska alltid börja en bit upp på sockeln, aldrig ner i marken."
+    }
+  ]
+}

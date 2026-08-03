@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Byggkoll – plugga bygg med bildkort</title>
+<meta name="description" content="Studiekort och quiz för byggbranschen: verktyg, maskiner, material, skydd, konstruktion och installationer.">
+<meta name="theme-color" content="#15181d">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>%F0%9F%94%A8</text></svg>">
+</head>
+<body>
+
+<header class="topbar">
+  <button class="brand" id="brand" type="button" title="Till startsidan">
+    <span class="brand-mark">🔨</span>
+    <span class="brand-text">Byggkoll</span>
+  </button>
+  <div class="topbar-right">
+    <span class="pill" id="global-stat">–</span>
+    <button class="icon-btn" id="btn-reset" type="button" title="Nollställ min statistik">↺</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ START ============ -->
+  <section id="screen-start" class="screen">
+    <h1>Plugga bygg med bildkort</h1>
+    <p class="lead">
+      Välj kategorier, plugga in bilderna och testa dig själv. Korten kommer i slumpad
+      ordning och det du svarar fel på återkommer tills det sitter.
+    </p>
+
+    <div class="panel">
+      <div class="panel-head">
+        <h2>1. Välj kategorier</h2>
+        <div class="mini-actions">
+          <button class="link-btn" id="btn-all" type="button">Alla</button>
+          <button class="link-btn" id="btn-none" type="button">Inga</button>
+        </div>
+      </div>
+      <div id="category-list" class="category-list"></div>
+      <p class="hint" id="selection-summary">–</p>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><h2>2. Välj läge</h2></div>
+      <div class="mode-list">
+        <label class="mode">
+          <input type="radio" name="mode" value="plugg" checked>
+          <span class="mode-body">
+            <span class="mode-title">📚 Lärkort</span>
+            <span class="mode-desc">Se bilden, tänk efter, vänd kortet. Du bedömer själv om du kunde det. Bäst för att lära in nytt.</span>
+          </span>
+        </label>
+        <label class="mode">
+          <input type="radio" name="mode" value="quiz">
+          <span class="mode-body">
+            <span class="mode-title">✅ Quiz</span>
+            <span class="mode-desc">Fyra alternativ, direkt rätt eller fel och en faktaruta efter varje svar.</span>
+          </span>
+        </label>
+        <label class="mode">
+          <input type="radio" name="mode" value="repetera">
+          <span class="mode-body">
+            <span class="mode-title">🔁 Repetera svaga</span>
+            <span class="mode-desc">Quiz med bara de kort du brukar svara fel på eller inte sett än.</span>
+          </span>
+        </label>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-head"><h2>3. Hur många kort?</h2></div>
+      <div class="chips" id="length-chips">
+        <button class="chip" data-len="10" type="button">10</button>
+        <button class="chip is-on" data-len="20" type="button">20</button>
+        <button class="chip" data-len="40" type="button">40</button>
+        <button class="chip" data-len="0" type="button">Alla</button>
+      </div>
+    </div>
+
+    <div class="start-actions">
+      <button class="btn btn-primary btn-lg" id="btn-start" type="button">Starta</button>
+      <button class="btn btn-ghost" id="btn-browse" type="button">Bläddra i alla kort</button>
+    </div>
+
+    <p class="hint tiny" id="load-note"></p>
+  </section>
+
+  <!-- ============ KORT ============ -->
+  <section id="screen-card" class="screen" hidden>
+    <div class="progress">
+      <div class="progress-bar"><span id="progress-fill"></span></div>
+      <div class="progress-meta">
+        <span id="progress-text">–</span>
+        <span id="score-text" class="score">–</span>
+      </div>
+    </div>
+
+    <article class="card" id="card">
+      <div class="card-top">
+        <span class="tag" id="card-category">–</span>
+        <span class="tag tag-quiet" id="card-box">–</span>
+      </div>
+
+      <figure class="plate" id="plate">
+        <div class="plate-img" id="card-image"></div>
+      </figure>
+
+      <h2 class="question" id="card-question">–</h2>
+
+      <!-- quiz -->
+      <div class="options" id="options"></div>
+
+      <!-- lärkort -->
+      <div class="flip" id="flip-area" hidden>
+        <button class="btn btn-primary btn-block" id="btn-flip" type="button">Vänd kortet</button>
+        <div class="flip-answer" id="flip-answer" hidden>
+          <p class="answer-name" id="flip-name">–</p>
+          <div class="self-grade">
+            <button class="btn btn-bad" id="btn-again" type="button">Öva mer</button>
+            <button class="btn btn-good" id="btn-knew" type="button">Kunde den</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="feedback" id="feedback" hidden>
+        <p class="verdict" id="verdict">–</p>
+        <p class="fact" id="fact">–</p>
+        <button class="btn btn-primary btn-block" id="btn-next" type="button">Nästa kort →</button>
+      </div>
+    </article>
+
+    <div class="card-foot">
+      <button class="link-btn" id="btn-quit" type="button">Avsluta passet</button>
+      <span class="hint tiny" id="kbd-hint">Tangenter: 1–4 svarar, mellanslag går vidare</span>
+    </div>
+  </section>
+
+  <!-- ============ RESULTAT ============ -->
+  <section id="screen-result" class="screen" hidden>
+    <h1 id="result-title">Klart!</h1>
+    <div class="result-score">
+      <span id="result-big">–</span>
+      <span class="result-sub" id="result-sub">–</span>
+    </div>
+    <div class="panel" id="result-review-panel">
+      <div class="panel-head"><h2>Repetera de här</h2></div>
+      <div id="result-review" class="review-list"></div>
+    </div>
+    <div class="start-actions">
+      <button class="btn btn-primary btn-lg" id="btn-again-session" type="button">Kör igen</button>
+      <button class="btn btn-ghost" id="btn-home" type="button">Till start</button>
+    </div>
+  </section>
+
+  <!-- ============ BLÄDDRA ============ -->
+  <section id="screen-browse" class="screen" hidden>
+    <h1>Alla kort</h1>
+    <p class="lead">Uppslagsverk över alla kort. Bra att skumma igenom innan du testar dig själv.</p>
+    <input class="search" id="browse-search" type="search" placeholder="Sök på namn, t.ex. tigersåg eller håldäck" autocomplete="off">
+    <div class="chips" id="browse-cats"></div>
+    <div class="browse-grid" id="browse-grid"></div>
+    <div class="start-actions">
+      <button class="btn btn-ghost" id="btn-home2" type="button">Till start</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span id="foot-count">–</span> · Illustrationerna är ritade som SVG och fungerar utan internet.
+</footer>
+
+<script src="js/icons/verktyg.js"></script>
+<script src="js/icons/maskiner.js"></script>
+<script src="js/icons/material.js"></script>
+<script src="js/icons/skydd.js"></script>
+<script src="js/icons/konstruktion.js"></script>
+<script src="js/icons/installationer.js"></script>
+<script src="data/bundle.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
