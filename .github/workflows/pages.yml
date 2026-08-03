@@ -1,0 +1,73 @@
+name: Publicera till GitHub Pages
+
+# Sajten är helt statisk. Vid push byggs data-filerna om, innehållet valideras
+# och hela katalogen publiceras till GitHub Pages.
+#
+# Engångsinställning i repot: Settings -> Pages -> Source = "GitHub Actions".
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - claude/byggbransch-quiz-wsv97e
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Låt en pågående publicering göra klart, men köa bara den senaste efter den.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  bygg:
+    name: Validera och bygg
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Validerar frågorna (dubbletter, saknade ikoner, felaktiga alternativ)
+      # och genererar data/bundle.js. Avbryter bygget om något är fel.
+      - name: Bygg och validera frågedata
+        run: node build.mjs
+
+      - name: Kontrollera att bundle.js är i synk med JSON-filerna
+        run: |
+          if ! git diff --quiet -- data/bundle.js; then
+            echo "::error::data/bundle.js är inte i synk. Kör 'node build.mjs' och committa resultatet."
+            git diff --stat -- data/bundle.js
+            exit 1
+          fi
+
+      # Publicera bara det sajten behöver – inte .git, .github eller tools/.
+      - name: Samla sajten i _site
+        run: |
+          mkdir -p _site
+          cp index.html _site/
+          cp -r css js data img _site/ 2>/dev/null || cp -r css js data _site/
+          du -sh _site
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  publicera:
+    name: Publicera
+    needs: bygg
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
