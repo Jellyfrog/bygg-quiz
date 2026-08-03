@@ -8,14 +8,22 @@
       "id": "mt-traskruv",
       "bild": "traskruv",
       "ratt": "Träskruv",
-      "fel": ["Gipsskruv", "Maskinskruv", "Betongskruv"],
+      "fel": [
+        "Gipsskruv",
+        "Maskinskruv",
+        "Betongskruv"
+      ],
       "fakta": "Grov gänga och slät hals nära huvudet gör att skruven drar ihop de två delarna istället för att bara skruva sig in."
     },
     {
       "id": "mt-gipsskruv",
       "bild": "gipsskruv",
       "ratt": "Gipsskruv",
-      "fel": ["Träskruv", "Plåtskruv", "Betongskruv"],
+      "fel": [
+        "Träskruv",
+        "Plåtskruv",
+        "Betongskruv"
+      ],
       "fakta": "Svart fosfaterad skruv med trumpetformat huvud som sjunker ner i kartongen utan att riva sönder den."
     },
     {
@@ -24,49 +32,77 @@
       "bild": "gipsskruv",
       "fraga": "Varför har skruven på bilden ett trumpetformat (kupat) huvud?",
       "ratt": "För att sjunka ner i gipsskivan utan att skada kartongen",
-      "fel": ["För att tåla högre vridmoment", "För att kunna dras med hylsnyckel", "För att skruven ska kunna återanvändas"],
+      "fel": [
+        "För att tåla högre vridmoment",
+        "För att kunna dras med hylsnyckel",
+        "För att skruven ska kunna återanvändas"
+      ],
       "fakta": "Går skruven igenom kartongen tappar infästningen nästan all hållfasthet – därför momentinställning på dragaren."
     },
     {
       "id": "mt-spik",
       "bild": "spik",
       "ratt": "Spik",
-      "fel": ["Skruv", "Bult", "Dymling"],
+      "fel": [
+        "Skruv",
+        "Bult",
+        "Dymling"
+      ],
       "fakta": "Slås i med hammare eller spikpistol. Spik tål stötar och dynamiska laster bättre än skruv, därför spikas takstolar och regelverk."
     },
     {
       "id": "mt-mutter",
       "bild": "mutter",
       "ratt": "Mutter",
-      "fel": ["Bricka", "Bult", "Nit"],
+      "fel": [
+        "Bricka",
+        "Bult",
+        "Nit"
+      ],
       "fakta": "Invändigt gängad sexkant som skruvas på en bult. Låsmutter med nylonring används där vibrationer kan lossa förbandet."
     },
     {
       "id": "mt-bricka",
       "bild": "bricka",
       "ratt": "Bricka",
-      "fel": ["Mutter", "Distans", "Packning"],
+      "fel": [
+        "Mutter",
+        "Distans",
+        "Packning"
+      ],
       "fakta": "Fördelar trycket från muttern över en större yta så att den inte trycker in i materialet."
     },
     {
       "id": "mt-bult",
       "bild": "bult",
       "ratt": "Bult",
-      "fel": ["Träskruv", "Expanderbult", "Ankarskruv"],
+      "fel": [
+        "Träskruv",
+        "Expanderbult",
+        "Ankarskruv"
+      ],
       "fakta": "Sexkantsskruv med genomgående gänga som spänns med mutter. Används i stålkonstruktioner och kraftiga träförband."
     },
     {
       "id": "mt-expander",
       "bild": "expander",
       "ratt": "Expanderbult",
-      "fel": ["Bult", "Träskruv", "Kemankare"],
+      "fel": [
+        "Bult",
+        "Träskruv",
+        "Kemankare"
+      ],
       "fakta": "Hylsan spärrar ut mot borrhålets vägg när bulten dras åt. Standard för infästning i betong, t.ex. räcken och maskinfundament."
     },
     {
       "id": "mt-gipsskiva",
       "bild": "gipsskiva",
       "ratt": "Gipsskiva",
-      "fel": ["Plywood", "OSB-skiva", "Cementbunden skiva"],
+      "fel": [
+        "Plywood",
+        "OSB-skiva",
+        "Cementbunden skiva"
+      ],
       "fakta": "Gipskärna mellan två kartonglager. Ger brandmotstånd och släta ytor. Standardformat 1200 × 2400 mm och 13 mm tjocklek."
     },
     {
@@ -75,77 +111,121 @@
       "bild": "gipsskiva",
       "fraga": "Varför sätts ofta dubbla lager av materialet på bilden i lägenhetsskiljande väggar?",
       "ratt": "För att förbättra brandmotstånd och ljudisolering",
-      "fel": ["För att väggen ska bära mer last", "För att slippa isolering i väggen", "För att väggen ska bli fuktsäker"],
+      "fel": [
+        "För att väggen ska bära mer last",
+        "För att slippa isolering i väggen",
+        "För att väggen ska bli fuktsäker"
+      ],
       "fakta": "Dubbla skivor med förskjutna skarvar ger både bättre täthet mot ljud och längre brandmotstånd."
     },
     {
       "id": "mt-regel",
       "bild": "regel",
       "ratt": "Regel",
-      "fel": ["Limträbalk", "List", "Läkt"],
+      "fel": [
+        "Limträbalk",
+        "List",
+        "Läkt"
+      ],
       "fakta": "Konstruktionsvirke i vägg och bjälklag, t.ex. 45 × 95 eller 45 × 120 mm. Reglarna sitter oftast med 450 eller 600 mm centrumavstånd."
     },
     {
       "id": "mt-limtrabalk",
       "bild": "limtrabalk",
       "ratt": "Limträbalk",
-      "fel": ["Regel", "Plywoodbalk", "Massivträbalk"],
+      "fel": [
+        "Regel",
+        "Plywoodbalk",
+        "Massivträbalk"
+      ],
       "fakta": "Hoplimmade lameller ger en balk som är starkare och rakare än massivt trä och kan göras mycket lång."
     },
     {
       "id": "mt-plywood",
       "bild": "plywood",
       "ratt": "Plywood",
-      "fel": ["OSB-skiva", "Spånskiva", "Gipsskiva"],
+      "fel": [
+        "OSB-skiva",
+        "Spånskiva",
+        "Gipsskiva"
+      ],
       "fakta": "Korslimmade faner ger hög styvhet i båda riktningar. Används som formskiva och vindavstyvning."
     },
     {
       "id": "mt-osb",
       "bild": "osb",
       "ratt": "OSB-skiva",
-      "fel": ["Plywood", "Spånskiva", "Board"],
+      "fel": [
+        "Plywood",
+        "Spånskiva",
+        "Board"
+      ],
       "fakta": "Stora limmade träspån i riktade skikt. Billigare än plywood och vanlig som underlagsskiva i väggar och tak."
     },
     {
       "id": "mt-cementsack",
       "bild": "cementsack",
       "ratt": "Cement",
-      "fel": ["Kalk", "Flytspackel", "Gipsputs"],
+      "fel": [
+        "Kalk",
+        "Flytspackel",
+        "Gipsputs"
+      ],
       "fakta": "Bindemedlet i betong och bruk. Cement + ballast (sand, sten) + vatten = betong. Vattenmängden styr hållfastheten."
     },
     {
       "id": "mt-armeringsjarn",
       "bild": "armeringsjarn",
       "ratt": "Armeringsjärn",
-      "fel": ["Armeringsnät", "Ingjutningsskena", "Kamstål för räcke"],
+      "fel": [
+        "Armeringsnät",
+        "Ingjutningsskena",
+        "Kamstål för räcke"
+      ],
       "fakta": "Kamstål som tar dragkrafterna i betongen. Betongen tar tryck, stålet tar drag – tillsammans blir det armerad betong."
     },
     {
       "id": "mt-armeringsnat",
       "bild": "armeringsnat",
       "ratt": "Armeringsnät",
-      "fel": ["Armeringsjärn", "Putsnät", "Byggnät"],
+      "fel": [
+        "Armeringsjärn",
+        "Putsnät",
+        "Byggnät"
+      ],
       "fakta": "Svetsat nät som rullas ut i plattor och bjälklag. Snabbare att lägga än lösa järn och ger jämn armering i två riktningar."
     },
     {
       "id": "mt-tegel",
       "bild": "tegel",
       "ratt": "Tegel",
-      "fel": ["Lecablock", "Betongsten", "Kalksandsten"],
+      "fel": [
+        "Lecablock",
+        "Betongsten",
+        "Kalksandsten"
+      ],
       "fakta": "Bränd lera som muras i förband så att stötfogarna förskjuts. Vanligt som fasadskal utanpå en bärande stomme."
     },
     {
       "id": "mt-lecablock",
       "bild": "lecablock",
       "ratt": "Lecablock",
-      "fel": ["Betongblock", "Tegel", "Cellbetongblock"],
+      "fel": [
+        "Betongblock",
+        "Tegel",
+        "Cellbetongblock"
+      ],
       "fakta": "Block av expanderade lerkulor i cement. Lätt, fuktbeständigt och vanligt i grundmurar och garageväggar."
     },
     {
       "id": "mt-mineralull",
       "bild": "mineralull",
       "ratt": "Mineralull",
-      "fel": ["Cellplast", "Lösull", "Träfiberisolering"],
+      "fel": [
+        "Cellplast",
+        "Lösull",
+        "Träfiberisolering"
+      ],
       "fakta": "Skivor eller rullar av sten- eller glasull. Isolerar värme och ljud, är obrännbar och skärs med ullkniv."
     },
     {
@@ -154,35 +234,55 @@
       "bild": "mineralull",
       "fraga": "Varför ska isoleringen på bilden fylla ut regelfacket helt?",
       "ratt": "Springor ger luftrörelser och kraftigt försämrad isolerförmåga",
-      "fel": ["Isoleringen bär upp regeln", "För att gipsskivan ska sitta fast", "För att undvika att den brinner"],
+      "fel": [
+        "Isoleringen bär upp regeln",
+        "För att gipsskivan ska sitta fast",
+        "För att undvika att den brinner"
+      ],
       "fakta": "En springa på några millimeter kan ge stora värmeförluster – isoleringen ska tryckas lätt mot alla sidor utan att packas ihop."
     },
     {
       "id": "mt-losull",
       "bild": "losull",
       "ratt": "Lösull",
-      "fel": ["Mineralullsskiva", "Cellplast", "Fogskum"],
+      "fel": [
+        "Mineralullsskiva",
+        "Cellplast",
+        "Fogskum"
+      ],
       "fakta": "Blåses in på vindsbjälklag eller i slutna konstruktioner. Fyller ut kring rör och hammarband utan skarvar."
     },
     {
       "id": "mt-cellplast",
       "bild": "cellplast",
       "ratt": "Cellplast (EPS)",
-      "fel": ["XPS", "Mineralull", "PIR-skiva"],
+      "fel": [
+        "XPS",
+        "Mineralull",
+        "PIR-skiva"
+      ],
       "fakta": "Vit skumplast med små kulor. Vanlig under betongplattor eftersom den tål tryck och tar upp lite fukt."
     },
     {
       "id": "mt-xps",
       "bild": "xps",
       "ratt": "XPS",
-      "fel": ["Cellplast (EPS)", "PIR-skiva", "Mineralull"],
+      "fel": [
+        "Cellplast (EPS)",
+        "PIR-skiva",
+        "Mineralull"
+      ],
       "fakta": "Extruderad, tätcellig skiva – ofta rosa eller blå. Tål mer tryck och fukt än EPS och används i mark och under källargolv."
     },
     {
       "id": "mt-angsparr",
       "bild": "angsparr",
       "ratt": "Ångspärr",
-      "fel": ["Vindskydd", "Markduk", "Byggplast för skydd"],
+      "fel": [
+        "Vindskydd",
+        "Markduk",
+        "Byggplast för skydd"
+      ],
       "fakta": "Plastfolie på den varma sidan av isoleringen. Hindrar fuktig inneluft från att tränga ut och kondensera i konstruktionen."
     },
     {
@@ -191,99 +291,232 @@
       "bild": "angsparr",
       "fraga": "På vilken sida av isoleringen ska materialet på bilden sitta?",
       "ratt": "På den varma sidan, mot rummet",
-      "fel": ["På den kalla sidan, mot fasaden", "Mitt i isoleringen", "Spelar ingen roll om skarvarna tejpas"],
+      "fel": [
+        "På den kalla sidan, mot fasaden",
+        "Mitt i isoleringen",
+        "Spelar ingen roll om skarvarna tejpas"
+      ],
       "fakta": "Fel placering flyttar kondenspunkten in i konstruktionen och kan ge fuktskador. Skarvar ska överlappas och tejpas."
     },
     {
       "id": "mt-vindskydd",
       "bild": "vindskydd",
       "ratt": "Vindskydd",
-      "fel": ["Ångspärr", "Takpapp", "Markduk"],
+      "fel": [
+        "Ångspärr",
+        "Takpapp",
+        "Markduk"
+      ],
       "fakta": "Sitter på isoleringens kalla sida. Stoppar vind och vatten utifrån men släpper ut fukt inifrån – alltså diffusionsöppet."
     },
     {
       "id": "mt-takpapp",
       "bild": "takpapp",
       "ratt": "Takpapp",
-      "fel": ["Vindskydd", "Ångspärr", "Fuktspärr för mark"],
+      "fel": [
+        "Vindskydd",
+        "Ångspärr",
+        "Fuktspärr för mark"
+      ],
       "fakta": "Asfaltbaserad våd som svetsas eller spikas. Utgör tätskikt på låglutande tak och underlagstäckning under pannor."
     },
     {
       "id": "mt-takpannor",
       "bild": "takpannor",
       "ratt": "Takpannor",
-      "fel": ["Takplåt", "Takpapp", "Fasadtegel"],
+      "fel": [
+        "Takplåt",
+        "Takpapp",
+        "Fasadtegel"
+      ],
       "fakta": "Betong- eller lertegelpannor läggs omlott på läkt. Under dem ska alltid finnas underlagstäckning och luftspalt."
     },
     {
       "id": "mt-fogskum",
       "bild": "fogskum",
       "ratt": "Fogskum",
-      "fel": ["Silikon", "Akryl", "Fästmassa"],
+      "fel": [
+        "Silikon",
+        "Akryl",
+        "Fästmassa"
+      ],
       "fakta": "Expanderande polyuretanskum för drevning kring karmar och genomföringar. Tätar men får inte ersätta mekanisk infästning."
     },
     {
       "id": "mt-silikon",
       "bild": "silikon",
       "ratt": "Silikon",
-      "fel": ["Akrylfog", "Fogskum", "Lim"],
+      "fel": [
+        "Akrylfog",
+        "Fogskum",
+        "Lim"
+      ],
       "fakta": "Elastisk fogmassa som tål fukt och rörelse. Används i våtrum och mot kakel – men kan inte målas, till skillnad från akryl."
     },
     {
       "id": "mt-spackel",
       "bild": "spackel",
       "ratt": "Spackel",
-      "fel": ["Fästmassa", "Murbruk", "Grundfärg"],
+      "fel": [
+        "Fästmassa",
+        "Murbruk",
+        "Grundfärg"
+      ],
       "fakta": "Fyller skarvar, skruvhål och ojämnheter före målning. Gipsskarvar spacklas i flera lager med pappersremsa i första lagret."
     },
     {
       "id": "mt-murbruk",
       "bild": "murbruk",
       "ratt": "Murbruk",
-      "fel": ["Betong", "Flytspackel", "Fästmassa"],
+      "fel": [
+        "Betong",
+        "Flytspackel",
+        "Fästmassa"
+      ],
       "fakta": "Blandning av cement, kalk, sand och vatten. Limmar ihop tegel och block och tar upp måttavvikelser i muren."
     },
     {
       "id": "mt-makadam",
       "bild": "makadam",
       "ratt": "Makadam",
-      "fel": ["Grus", "Singel", "Bergkross med finmaterial"],
+      "fel": [
+        "Grus",
+        "Singel",
+        "Bergkross med finmaterial"
+      ],
       "fakta": "Krossat berg i en smal fraktion, t.ex. 8–16 mm. Kantiga korn låser i varandra och ger ett dränerande, bärande lager under plattan."
     },
     {
       "id": "mt-drankerror",
       "bild": "drankerror",
       "ratt": "Dräneringsrör",
-      "fel": ["Avloppsrör", "Kabelskyddsrör", "Dagvattenledning"],
+      "fel": [
+        "Avloppsrör",
+        "Kabelskyddsrör",
+        "Dagvattenledning"
+      ],
       "fakta": "Perforerat rör i dräneringslagret runt grunden. Leder bort vatten till dräneringsbrunn så att inte källarväggen blir våt."
     },
     {
       "id": "mt-markduk",
       "bild": "markduk",
       "ratt": "Markduk (geotextil)",
-      "fel": ["Vindskydd", "Fuktspärr", "Armeringsnät"],
+      "fel": [
+        "Vindskydd",
+        "Fuktspärr",
+        "Armeringsnät"
+      ],
       "fakta": "Skiljer material åt så att finkornig jord inte vandrar upp i det dränerande lagret och sätter igen det."
     },
     {
       "id": "mt-kantsten",
       "bild": "kantsten",
       "ratt": "Kantsten",
-      "fel": ["Marksten", "Sockelsten", "Betongblock"],
+      "fel": [
+        "Marksten",
+        "Sockelsten",
+        "Betongblock"
+      ],
       "fakta": "Sätts i bruk och avgränsar gata, gångbana och planteringar. Ger stöd åt beläggningen så att den inte vandrar isär."
     },
     {
       "id": "mt-syllisolering",
       "bild": "syllisolering",
       "ratt": "Syllisolering",
-      "fel": ["Ångspärr", "Grundpapp", "Fogband för fönster"],
+      "fel": [
+        "Ångspärr",
+        "Grundpapp",
+        "Fogband för fönster"
+      ],
       "fakta": "Fuktspärrande list mellan betong och träsyll. Hindrar att fukt vandrar upp i syllen och ger röta."
     },
     {
       "id": "mt-gipsband",
       "bild": "gipsband",
       "ratt": "Skarvremsa för gips",
-      "fel": ["Fogband", "Målartejp", "Putsnät"],
+      "fel": [
+        "Fogband",
+        "Målartejp",
+        "Putsnät"
+      ],
       "fakta": "Pappers- eller glasfiberremsa som spacklas in i skarven mellan gipsskivor så att den inte spricker."
+    },
+    {
+      "id": "mt-marksten",
+      "bild": "marksten",
+      "ratt": "Marksten",
+      "fel": [
+        "Kantsten",
+        "Gatsten",
+        "Kakel"
+      ],
+      "fakta": "Betongsten som läggs i mönster på packat bärlager och sättsand. Fogas med fogsand som låser stenarna."
+    },
+    {
+      "id": "mt-kakel",
+      "bild": "kakel",
+      "ratt": "Kakel",
+      "fel": [
+        "Klinker",
+        "Marksten",
+        "Mosaik"
+      ],
+      "fakta": "Glaserad keramisk platta för väggar. Tål inte frost och golvbelastning – då används klinker."
+    },
+    {
+      "id": "mt-klinker",
+      "bild": "golvplattor",
+      "ratt": "Klinker",
+      "fel": [
+        "Kakel",
+        "Marksten",
+        "Natursten"
+      ],
+      "fakta": "Tätare bränd keramik än kakel. Används på golv och utomhus eftersom den tål slitage, fukt och frost."
+    },
+    {
+      "id": "mt-fogmassa",
+      "bild": "fogmassa",
+      "ratt": "Fogmassa",
+      "fel": [
+        "Fästmassa",
+        "Silikon",
+        "Flytspackel"
+      ],
+      "fakta": "Fyller fogarna mellan plattorna när fästmassan härdat. I hörn och rörelsefogar används mjukfog i stället."
+    },
+    {
+      "id": "mt-spanskiva",
+      "bild": "spanskiva",
+      "ratt": "Spånskiva",
+      "fel": [
+        "OSB-skiva",
+        "Plywood",
+        "Board"
+      ],
+      "fakta": "Pressade småspån med lim. Golvspånskiva med not och spont är vanligaste undergolvet i bostäder."
+    },
+    {
+      "id": "mt-balksko",
+      "bild": "balksko",
+      "ratt": "Balksko",
+      "fel": [
+        "Vinkelbeslag",
+        "Bjälkankare",
+        "Hålplatta"
+      ],
+      "fakta": "Beslag som bär upp en bjälke mot en annan. Spikas med ankarspik i alla hål – inte bara några."
+    },
+    {
+      "id": "mt-tralim",
+      "bild": "tralim",
+      "ratt": "Trälim",
+      "fel": [
+        "Karmskum",
+        "Montagelim",
+        "Kontaktlim"
+      ],
+      "fakta": "Vitt PVAc-lim för träförband. Limfogen blir starkare än träet – men kräver presstryck medan limmet torkar."
     }
   ]
 }

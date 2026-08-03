@@ -8,7 +8,11 @@
       "id": "vt-hammare",
       "bild": "hammare",
       "ratt": "Hammare",
-      "fel": ["Slägga", "Kofot", "Huggmejsel"],
+      "fel": [
+        "Slägga",
+        "Kofot",
+        "Huggmejsel"
+      ],
       "fakta": "Snickarhammare med klo. Klon används för att dra ut spik och bända loss formvirke. Vanlig vikt är 500–700 g."
     },
     {
@@ -17,28 +21,44 @@
       "bild": "hammare",
       "fraga": "Vad används verktyget på bilden främst till?",
       "ratt": "Slå i och dra ut spik",
-      "fel": ["Kapa armeringsjärn", "Slipa betongkanter", "Mäta väggens lutning"],
+      "fel": [
+        "Kapa armeringsjärn",
+        "Slipa betongkanter",
+        "Mäta väggens lutning"
+      ],
       "fakta": "Klon på baksidan är hävarm för att dra spik – därför kallas den klohammare."
     },
     {
       "id": "vt-slagga",
       "bild": "slagga",
       "ratt": "Slägga",
-      "fel": ["Hammare", "Klubba", "Mejselhammare"],
+      "fel": [
+        "Hammare",
+        "Klubba",
+        "Mejselhammare"
+      ],
       "fakta": "Tung hammare med två slagytor, ofta 3–5 kg. Används för rivning, att slå ner formstag och driva ner jordspett."
     },
     {
       "id": "vt-skruvmejsel",
       "bild": "skruvmejsel",
       "ratt": "Skruvmejsel",
-      "fel": ["Huggmejsel", "Syl", "Fil"],
+      "fel": [
+        "Huggmejsel",
+        "Syl",
+        "Fil"
+      ],
       "fakta": "Handverktyg för skruv. Vanliga spårtyper i Sverige är PZ (Pozidriv), TX (Torx) och spår."
     },
     {
       "id": "vt-skruvdragare",
       "bild": "skruvdragare",
       "ratt": "Skruvdragare",
-      "fel": ["Borrhammare", "Mutterdragare", "Vinkelslip"],
+      "fel": [
+        "Borrhammare",
+        "Mutterdragare",
+        "Vinkelslip"
+      ],
       "fakta": "Batteridriven dragare med chuck och momentinställning. Standardverktyget för gips, reglar och beslag."
     },
     {
@@ -47,49 +67,77 @@
       "bild": "skruvdragare",
       "fraga": "Varför har verktyget på bilden en momentinställning (ring med siffror)?",
       "ratt": "För att skruven inte ska dras för hårt och gå igenom materialet",
-      "fel": ["För att ställa in borrdjupet", "För att byta rotationsriktning", "För att spara batteri"],
+      "fel": [
+        "För att ställa in borrdjupet",
+        "För att byta rotationsriktning",
+        "För att spara batteri"
+      ],
       "fakta": "Momentkopplingen slirar när inställt vridmoment nås – viktigt vid gipsskruv som annars går rakt igenom kartongen."
     },
     {
       "id": "vt-borrhammare",
       "bild": "borrhammare",
       "ratt": "Borrhammare",
-      "fel": ["Skruvdragare", "Slagborrmaskin för trä", "Mutterdragare"],
+      "fel": [
+        "Skruvdragare",
+        "Slagborrmaskin för trä",
+        "Mutterdragare"
+      ],
       "fakta": "Har slagverk och SDS-fäste. Används för att borra i betong och tegel, t.ex. för expanderbultar och genomföringar."
     },
     {
       "id": "vt-tigersag",
       "bild": "tigersag",
       "ratt": "Tigersåg",
-      "fel": ["Sticksåg", "Cirkelsåg", "Kapsåg"],
+      "fel": [
+        "Sticksåg",
+        "Cirkelsåg",
+        "Kapsåg"
+      ],
       "fakta": "Fram- och återgående såg med långt blad. Rivningsverktyget framför andra – sågar genom trä med spik, rör och profiler."
     },
     {
       "id": "vt-cirkelsag",
       "bild": "cirkelsag",
       "ratt": "Cirkelsåg",
-      "fel": ["Kap- och gersåg", "Vinkelslip", "Sticksåg"],
+      "fel": [
+        "Kap- och gersåg",
+        "Vinkelslip",
+        "Sticksåg"
+      ],
       "fakta": "Handhållen sågklinga med anhåll och inställbart sågdjup. Används för att klyva och kapa skivor och virke på plats."
     },
     {
       "id": "vt-sticksag",
       "bild": "sticksag",
       "ratt": "Sticksåg",
-      "fel": ["Tigersåg", "Cirkelsåg", "Bandsåg"],
+      "fel": [
+        "Tigersåg",
+        "Cirkelsåg",
+        "Bandsåg"
+      ],
       "fakta": "Kort blad som går upp och ner. Den enda handsågen som enkelt sågar kurvor och urtag, t.ex. hål för golvbrunn i skiva."
     },
     {
       "id": "vt-kapsag",
       "bild": "kapsag",
       "ratt": "Kap- och gersåg",
-      "fel": ["Bordscirkelsåg", "Cirkelsåg", "Bandkap"],
+      "fel": [
+        "Bordscirkelsåg",
+        "Cirkelsåg",
+        "Bandkap"
+      ],
       "fakta": "Stationär såg på bock. Ger exakta 90°- och geringssnitt i reglar, lister och panel."
     },
     {
       "id": "vt-vinkelslip",
       "bild": "vinkelslip",
       "ratt": "Vinkelslip",
-      "fel": ["Putsmaskin", "Kapsåg", "Slipmaskin för golv"],
+      "fel": [
+        "Putsmaskin",
+        "Kapsåg",
+        "Slipmaskin för golv"
+      ],
       "fakta": "Roterande kap- eller slipskiva. Kapar armeringsjärn, plåt och sten. Kräver alltid skyddsglasögon och visir."
     },
     {
@@ -98,127 +146,333 @@
       "bild": "vinkelslip",
       "fraga": "Vilket arbete passar verktyget på bilden bäst för?",
       "ratt": "Kapa armeringsjärn och plåt",
-      "fel": ["Skruva gips", "Kapa listverk med exakt gering", "Borra hål i betong"],
+      "fel": [
+        "Skruva gips",
+        "Kapa listverk med exakt gering",
+        "Borra hål i betong"
+      ],
       "fakta": "Med kapskiva för metall går armering och profiler snabbt – men gnistorna kräver brandvakt vid heta arbeten."
     },
     {
       "id": "vt-vattenpass",
       "bild": "vattenpass",
       "ratt": "Vattenpass",
-      "fel": ["Rätskiva", "Gradskiva", "Lod"],
+      "fel": [
+        "Rätskiva",
+        "Gradskiva",
+        "Lod"
+      ],
       "fakta": "Libell med luftbubbla visar vågrätt och lodrätt. På bygget kontrolleras reglar, karmar och formar med 60–200 cm pass."
     },
     {
       "id": "vt-laser",
       "bild": "laser",
       "ratt": "Korslaser",
-      "fel": ["Avvägningsinstrument", "Rotationsvält", "Teodolit"],
+      "fel": [
+        "Avvägningsinstrument",
+        "Rotationsvält",
+        "Teodolit"
+      ],
       "fakta": "Projicerar en vågrät och en lodrät laserlinje. Används för att sätta ut väggar, undertak och kakelrader."
     },
     {
       "id": "vt-tumstock",
       "bild": "tumstock",
       "ratt": "Tumstock",
-      "fel": ["Måttband", "Rätskiva", "Vinkelhake"],
+      "fel": [
+        "Måttband",
+        "Rätskiva",
+        "Vinkelhake"
+      ],
       "fakta": "Hopfällbar trälinjal, oftast 2 m. Styv nog att mäta ensam och kan användas som djupmått."
     },
     {
       "id": "vt-matband",
       "bild": "matband",
       "ratt": "Måttband",
-      "fel": ["Tumstock", "Kritsnöre", "Lod"],
+      "fel": [
+        "Tumstock",
+        "Kritsnöre",
+        "Lod"
+      ],
       "fakta": "Upprullbart stålband med krok. Kroken sitter medvetet löst så att måttet stämmer både inv- och utvändigt."
     },
     {
       "id": "vt-kofot",
       "bild": "kofot",
       "ratt": "Kofot",
-      "fel": ["Bräckjärn för spik", "Huggmejsel", "Slägga"],
+      "fel": [
+        "Bräckjärn för spik",
+        "Huggmejsel",
+        "Slägga"
+      ],
       "fakta": "Böjt bändverktyg med klo i båda ändar. Används vid rivning och för att bända loss formvirke och reglar."
     },
     {
       "id": "vt-murslev",
       "bild": "murslev",
       "ratt": "Murslev",
-      "fel": ["Spackelspade", "Stålglättare", "Putsbräda"],
+      "fel": [
+        "Spackelspade",
+        "Stålglättare",
+        "Putsbräda"
+      ],
       "fakta": "Triangulärt blad för att lägga ut och fördela murbruk vid murning av tegel och block."
     },
     {
       "id": "vt-spackelspade",
       "bild": "spackelspade",
       "ratt": "Spackelspade",
-      "fel": ["Murslev", "Skrapa", "Stålglättare"],
+      "fel": [
+        "Murslev",
+        "Skrapa",
+        "Stålglättare"
+      ],
       "fakta": "Brett fjädrande blad. Används för att dra ut spackel över gipsskarvar och skruvhål."
     },
     {
       "id": "vt-ratskiva",
       "bild": "ratskiva",
       "ratt": "Rätskiva",
-      "fel": ["Vattenpass", "Avjämningsbräda", "Anslagslinjal"],
+      "fel": [
+        "Vattenpass",
+        "Avjämningsbräda",
+        "Anslagslinjal"
+      ],
       "fakta": "Lång rak aluminiumprofil. Används för att dra av flytspackel och kontrollera att golv och väggar är plana."
     },
     {
       "id": "vt-skiftnyckel",
       "bild": "skiftnyckel",
       "ratt": "Skiftnyckel",
-      "fel": ["Rörtång", "Polygrip", "Fast nyckel"],
+      "fel": [
+        "Rörtång",
+        "Polygrip",
+        "Fast nyckel"
+      ],
       "fakta": "Justerbar käft för olika nyckelvidder. Vanlig vid montage av bult och rörkopplingar."
     },
     {
       "id": "vt-polygrip",
       "bild": "polygrip",
       "ratt": "Polygrip",
-      "fel": ["Avbitartång", "Skiftnyckel", "Kombinationstång"],
+      "fel": [
+        "Avbitartång",
+        "Skiftnyckel",
+        "Kombinationstång"
+      ],
       "fakta": "Tång med förskjutbart led som ger stort grepp. Används mest på rör och muttrar i VVS-arbete."
     },
     {
       "id": "vt-hylsnyckel",
       "bild": "hylsnyckel",
       "ratt": "Spärrskaft med hylsa",
-      "fel": ["Momentnyckel", "Skiftnyckel", "Insexnyckel"],
+      "fel": [
+        "Momentnyckel",
+        "Skiftnyckel",
+        "Insexnyckel"
+      ],
       "fakta": "Hylsa på spärrskaft ger snabb åtdragning i trånga lägen, t.ex. vid montage av ställning och beslag."
     },
     {
       "id": "vt-kritsnore",
       "bild": "kritsnore",
       "ratt": "Kritsnöre",
-      "fel": ["Lod", "Måttband", "Laseravståndsmätare"],
+      "fel": [
+        "Lod",
+        "Måttband",
+        "Laseravståndsmätare"
+      ],
       "fakta": "Snöre indränkt i krita som knäpps mot underlaget och lämnar en rak linje. Används för att märka ut regelrader på bjälklaget."
     },
     {
       "id": "vt-huggmejsel",
       "bild": "huggmejsel",
       "ratt": "Huggmejsel",
-      "fel": ["Skruvmejsel", "Körnare", "Stämjärn"],
+      "fel": [
+        "Skruvmejsel",
+        "Körnare",
+        "Stämjärn"
+      ],
       "fakta": "Härdad mejsel som slås med hammare. Används för att hugga bort betong, bruk och puts."
     },
     {
       "id": "vt-fogspruta",
       "bild": "fogspruta",
       "ratt": "Fogspruta",
-      "fel": ["Sprutpistol för färg", "Skumpistol", "Limpistol"],
+      "fel": [
+        "Sprutpistol för färg",
+        "Skumpistol",
+        "Limpistol"
+      ],
       "fakta": "Handpistol för patroner med silikon, akryl eller lim. Jämnt tryck ger en jämn fog."
     },
     {
       "id": "vt-mattkniv",
       "bild": "mattkniv",
       "ratt": "Mattkniv",
-      "fel": ["Gipssåg", "Fogsvans", "Skrapa"],
+      "fel": [
+        "Gipssåg",
+        "Fogsvans",
+        "Skrapa"
+      ],
       "fakta": "Kniv med brytbart blad. Gipsskivor skärs genom att rista kartongen, knäcka skivan och skära baksidan."
     },
     {
       "id": "vt-lod",
       "bild": "bandmatt_lod",
       "ratt": "Lod",
-      "fel": ["Vattenpass", "Kritsnöre", "Avvägningsstång"],
+      "fel": [
+        "Vattenpass",
+        "Kritsnöre",
+        "Avvägningsstång"
+      ],
       "fakta": "Vikt i ett snöre som alltid hänger lodrätt. Enkel och strömlös kontroll av lodlinje i schakt och vid höga väggar."
     },
     {
       "id": "vt-gradskiva",
       "bild": "gradskiva",
       "ratt": "Gradskiva",
-      "fel": ["Vinkelhake", "Rätskiva", "Vattenpass"],
+      "fel": [
+        "Vinkelhake",
+        "Rätskiva",
+        "Vattenpass"
+      ],
       "fakta": "Mäter vinklar i grader. Används för att ta av befintliga vinklar innan gering av lister och taksparrar."
+    },
+    {
+      "id": "vt-fogsvans",
+      "bild": "fogsvans",
+      "ratt": "Fogsvans",
+      "fel": [
+        "Ryggsåg",
+        "Bågfil",
+        "Japansåg"
+      ],
+      "fakta": "Klassisk handsåg för grovkapning av virke. Tänderna är ställda för att såga på frånskjutet."
+    },
+    {
+      "id": "vt-hyvel",
+      "bild": "hyvel",
+      "ratt": "Hyvel",
+      "fel": [
+        "Stämjärn",
+        "Rasp",
+        "Sickel"
+      ],
+      "fakta": "Tar av tunna spån och ger släta, raka ytor. På bygget mest för att passa in dörrar och lister."
+    },
+    {
+      "id": "vt-stamjarn",
+      "bild": "stamjarn",
+      "ratt": "Stämjärn",
+      "fel": [
+        "Huggmejsel",
+        "Skruvmejsel",
+        "Sickel"
+      ],
+      "fakta": "Vasst eggverktyg för trä. Används till urtag för gångjärn, låsbleck och tappförband."
+    },
+    {
+      "id": "vt-multiverktyg",
+      "bild": "multiverktyg",
+      "ratt": "Multiverktyg",
+      "fel": [
+        "Sticksåg",
+        "Vinkelslip",
+        "Excenterslip"
+      ],
+      "fakta": "Oscillerande maskin med utbytbara blad. Oslagbar för instickssågning i lister, karmar och rör som redan sitter på plats."
+    },
+    {
+      "id": "vt-avvagning",
+      "bild": "avvagningsinstrument",
+      "ratt": "Avvägningsinstrument",
+      "fel": [
+        "Teodolit",
+        "Korslaser",
+        "Lod"
+      ],
+      "fakta": "Optiskt instrument på stativ som tillsammans med mätstång ger exakta höjder vid grundläggning och markarbeten."
+    },
+    {
+      "id": "vt-momentnyckel",
+      "bild": "momentnyckel",
+      "ratt": "Momentnyckel",
+      "fel": [
+        "Spärrskaft",
+        "Skiftnyckel",
+        "Blocknyckel"
+      ],
+      "fakta": "Klickar när inställt vridmoment nås. Krävs där förband ska dras med bestämt moment, t.ex. stålförband och ställningskopplingar."
+    },
+    {
+      "id": "vt-momentnyckel-anv",
+      "typ": "anvandning",
+      "bild": "momentnyckel",
+      "fraga": "Varför används verktyget på bilden i stället för ett vanligt spärrskaft?",
+      "ratt": "För att dra förbandet med exakt föreskrivet moment",
+      "fel": [
+        "För att det går snabbare",
+        "För att nå trängre utrymmen",
+        "För att slippa hylsor"
+      ],
+      "fakta": "För hårt dragen bult kan sträckas av, för löst dragen kan skaka loss – båda är hållfasthetsfel."
+    },
+    {
+      "id": "vt-bagfil",
+      "bild": "bagfil",
+      "ratt": "Bågfil",
+      "fel": [
+        "Fogsvans",
+        "Tigersåg",
+        "Sticksåg"
+      ],
+      "fakta": "Metallsåg med utbytbart, spänt blad. Kapar gängstång, rör och profiler där maskin inte behövs."
+    },
+    {
+      "id": "vt-vinkelhake",
+      "bild": "vinkelhake",
+      "ratt": "Vinkelhake",
+      "fel": [
+        "Gradskiva",
+        "Smygvinkel",
+        "Rätskiva"
+      ],
+      "fakta": "Fast 90-gradersvinkel för att märka ut och kontrollera räta kapsnitt och hörn."
+    },
+    {
+      "id": "vt-borr",
+      "bild": "borr",
+      "ratt": "Borr",
+      "fel": [
+        "Bits",
+        "Hylsor",
+        "Försänkare"
+      ],
+      "fakta": "Spiralborr för metall och trä, betongborr har hårdmetallskär. Färgen på spetsen skiljer ofta typerna åt."
+    },
+    {
+      "id": "vt-rortang",
+      "bild": "rortang",
+      "ratt": "Rörtång",
+      "fel": [
+        "Polygrip",
+        "Skiftnyckel",
+        "Avbitare"
+      ],
+      "fakta": "Grov tång med tandade käftar som griper hårdare ju mer man drar. VVS-montörens klassiker för gängade rör."
+    },
+    {
+      "id": "vt-slipmaskin",
+      "bild": "slipmaskin",
+      "ratt": "Excenterslip",
+      "fel": [
+        "Vinkelslip",
+        "Bandslip",
+        "Planslip"
+      ],
+      "fakta": "Rondellen roterar och oscillerar samtidigt, vilket ger ett fint slipresultat utan cirkelspår."
     }
   ]
 }

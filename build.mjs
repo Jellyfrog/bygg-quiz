@@ -17,6 +17,9 @@ for (const fil of readdirSync(join(rot, 'js', 'icons'))) {
   for (const m of kod.matchAll(/^\s{2}([a-z0-9_]+):\s*`</gm)) ikoner.add(m[1]);
 }
 
+/* --- foton från data/bilder.json (nyare kort har bara foto, ingen SVG) --- */
+const foton = new Set(Object.keys(JSON.parse(readFileSync(join(rot, 'data', 'bilder.json'), 'utf8')).bilder));
+
 const fel = [];
 const varningar = [];
 const anvanda = new Set();
@@ -46,7 +49,8 @@ for (const id of KATEGORIER) {
 
     if (f.bild) {
       anvanda.add(f.bild);
-      if (!ikoner.has(f.bild)) fel.push(`${f.id}: ikonen "${f.bild}" finns inte i js/icons/`);
+      if (!ikoner.has(f.bild) && !foton.has(f.bild))
+        fel.push(`${f.id}: "${f.bild}" saknar både foto i data/bilder.json och ikon i js/icons/`);
     } else {
       varningar.push(`${f.id}: bildlös fråga`);
     }
@@ -54,6 +58,7 @@ for (const id of KATEGORIER) {
 }
 
 const oanvanda = [...ikoner].filter((i) => !anvanda.has(i));
+const utanFoto = [...anvanda].filter((i) => !foton.has(i));
 
 const huvud = '/* GENERERAD AV build.mjs – redigera data/*.json och kör "node build.mjs" istället. */\n';
 writeFileSync(join(rot, 'data', 'bundle.js'), `${huvud}window.BQ_BUNDLE = ${JSON.stringify(bundle, null, 1)};\n`);
@@ -62,7 +67,8 @@ const medBild = Object.values(bundle).flatMap((k) => k.fragor).filter((f) => f.b
 
 console.log(`Kategorier : ${KATEGORIER.length}`);
 console.log(`Frågor     : ${antal} (${medBild} med bild, ${Math.round((medBild / antal) * 100)} %)`);
-console.log(`Ikoner     : ${ikoner.size} definierade, ${anvanda.size} använda`);
+console.log(`Ikoner     : ${ikoner.size} definierade`);
+console.log(`Foton      : ${foton.size} kort har foto, ${utanFoto.length} visas som SVG (${utanFoto.join(', ')})`);
 if (oanvanda.length) console.log(`Oanvända ikoner: ${oanvanda.join(', ')}`);
 if (varningar.length) console.log(`Varningar  : ${varningar.length}\n  ${varningar.join('\n  ')}`);
 if (fel.length) {
