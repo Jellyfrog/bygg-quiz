@@ -1,6 +1,7 @@
 /* Byggkoll – studiekort och quiz för byggbranschen.
    Frågorna ligger i data/*.json. Bilderna är foton från Wikimedia Commons
-   (data/bilder.js + img/) med de ritade SVG:erna i js/icons/ som reserv. */
+   (data/bilder.js + img/, flera per begrepp) med de ritade SVG:erna i
+   js/icons/ som reserv. */
 
 (function () {
   'use strict';
@@ -105,22 +106,37 @@
     return (window.BQ_ICONS && window.BQ_ICONS[namn]) || '<svg viewBox="0 0 120 120"><rect x="20" y="20" width="80" height="80" rx="10" fill="#dde3ea"/><text x="60" y="70" text-anchor="middle" font-size="34" fill="#8f9aa6">?</text></svg>';
   }
 
-  function foto(namn) {
-    return (window.BQ_BILDER && window.BQ_BILDER[namn]) || null;
+  /* Varje begrepp har flera foton. Listan tål även det äldre formatet med
+     ett enda objekt per bild. */
+  function foton(namn) {
+    var f = window.BQ_BILDER && window.BQ_BILDER[namn];
+    if (!f) return [];
+    return Array.isArray(f) ? f : [f];
+  }
+
+  /* Slumpar fram ett av fotona. Samma kort visas alltså i olika utföranden –
+     poängen är att känna igen begreppet, inte en viss bild. */
+  function slumpatFoto(namn, undvik) {
+    var lista = foton(namn);
+    if (!lista.length) return null;
+    if (lista.length > 1 && undvik) {
+      var andra = lista.filter(function (b) { return b.fil !== undvik; });
+      if (andra.length) lista = andra;
+    }
+    return lista[Math.floor(Math.random() * lista.length)];
   }
 
   /* Foto om det finns, annars den ritade illustrationen. Bilden är dekorativ –
      frågan står i texten – så alt hålls tomt för skärmläsare. */
-  function bild(namn) {
+  function bild(namn, valtFoto) {
     if (!namn) return '';
-    var f = foto(namn);
+    var f = valtFoto || foton(namn)[0];
     if (!f) return ikon(namn);
     return '<img class="bildfoto" src="' + f.fil + '" alt="" loading="lazy" ' +
       'onerror="this.parentNode.innerHTML=window.BQ_ICONS[\'' + namn + '\']||\'\'">';
   }
 
-  function bildkredit(namn) {
-    var f = foto(namn);
+  function bildkredit(f) {
     if (!f) return '';
     return 'Foto: ' + f.upphov + ' · ' + f.licens + ' · Wikimedia Commons';
   }
@@ -215,6 +231,7 @@
       klara: new Set(),
       forstaForsok: {},   // id -> true/false
       felade: [],         // frågor att repetera
+      senasteFoto: {},    // id -> senast visad bildfil, för att variera vid repris
       aktuell: null,
       besvarad: false
     };
@@ -233,9 +250,13 @@
 
     $('card-category').textContent = f.kategoriNamn;
     $('card-box').textContent = s.sedd ? 'Nivå ' + s.box + '/' + MAX_BOX : 'Nytt kort';
-    $('card-image').innerHTML = bild(f.bild);
+    // ett kort som kommer tillbaka i passet visas med en annan bild än nyss
+    var valtFoto = slumpatFoto(f.bild, pass.senasteFoto[f.id]);
+    if (valtFoto) pass.senasteFoto[f.id] = valtFoto.fil;
+
+    $('card-image').innerHTML = bild(f.bild, valtFoto);
     $('plate').hidden = !f.bild;
-    var kredit = bildkredit(f.bild);
+    var kredit = bildkredit(valtFoto);
     $('card-credit').textContent = kredit;
     $('card-credit').hidden = !kredit;
     $('card-question').textContent = fragetext(f);
@@ -438,11 +459,12 @@
     if (!namn.length || lista.childElementCount) return;
 
     namn.sort().forEach(function (n) {
-      var b = bilder[n];
-      var li = document.createElement('li');
-      li.innerHTML = '<a href="' + b.kalla + '" target="_blank" rel="noopener">' + b.titel + '</a> – ' +
-        b.upphov + ' (' + b.licens + ')';
-      lista.appendChild(li);
+      foton(n).forEach(function (b) {
+        var li = document.createElement('li');
+        li.innerHTML = '<a href="' + b.kalla + '" target="_blank" rel="noopener">' + b.titel + '</a> – ' +
+          b.upphov + ' (' + b.licens + ')';
+        lista.appendChild(li);
+      });
     });
   }
 

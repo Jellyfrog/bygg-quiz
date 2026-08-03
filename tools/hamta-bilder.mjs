@@ -6,13 +6,15 @@
  * Endast fritt licensierade filer används (public domain och CC). Upphovsperson,
  * licens och källa sparas per bild och visas i appen.
  *
- * tools/val.json styr vilken kandidat som väljs:
- *   { "hammare": 2 }                     -> kandidat nr 2 i listan
- *   { "hammare": "File:Exakt namn.jpg" } -> en specifik fil
- *   { "hammare": false }                 -> inget foto, behåll SVG-illustrationen
+ * Varje kort får flera foton (MAX_BILDER) så att appen kan slumpa fram olika
+ * bilder på samma begrepp. tools/val.json styr urvalet:
+ *   { "hammare": 2 }                     -> kandidat nr 2 först, sedan de bäst rankade
+ *   { "hammare": [2, 5, 7] }             -> exakt dessa kandidater, i den ordningen
+ *   { "hammare": "File:Exakt namn.jpg" } -> en specifik fil först
+ *   { "hammare": false }                 -> inga foton, behåll SVG-illustrationen
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, unlinkSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { spawnSync } from 'node:child_process';
@@ -22,6 +24,7 @@ const API = 'https://commons.wikimedia.org/w/api.php';
 const UA = 'ByggkollBildhamtare/1.0 (utbildningsmaterial; kontakt via GitHub)';
 const BREDD = 800;
 const KANDIDATER = 8;
+const MAX_BILDER = 3;   // så många foton per kort, appen slumpar mellan dem
 
 const sokord = JSON.parse(readFileSync(join(rot, 'tools', 'sokord.json'), 'utf8'));
 const val = existsSync(join(rot, 'tools', 'val.json'))
@@ -139,20 +142,25 @@ function poang(titel, id) {
   return ord.reduce((sum, o, i) => sum + (t.includes(o) ? ord.length - i : 0), 0);
 }
 
-function valjKandidat(id, lista) {
+/* Returnerar upp till MAX_BILDER kandidater, bäst först. */
+function valjKandidater(id, lista) {
   const v = val[id];
-  if (v === false) return null;              // behåll den ritade illustrationen
-  if (!lista || !lista.length) return null;
-  if (typeof v === 'number') return lista[v - 1] || lista[0];
-  if (typeof v === 'string') return lista.find((k) => k.titel === v) || lista[0];
+  if (v === false) return [];                // behåll den ritade illustrationen
+  if (!lista || !lista.length) return [];
 
-  let bast = lista[0];
-  let bastPoang = poang(lista[0].titel, id);
-  lista.forEach(function (k) {
-    const p = poang(k.titel, id);
-    if (p > bastPoang) { bast = k; bastPoang = p; }
-  });
-  return bast;
+  if (Array.isArray(v)) {
+    return v.map((n) => lista[n - 1]).filter(Boolean).slice(0, MAX_BILDER);
+  }
+
+  // Array.sort är stabil, så lika poäng behåller Commons träffordning.
+  const rankad = lista.slice().sort((a, b) => poang(b.titel, id) - poang(a.titel, id));
+
+  let primar = null;
+  if (typeof v === 'number') primar = lista[v - 1] || lista[0];
+  if (typeof v === 'string') primar = lista.find((k) => k.titel === v) || lista[0];
+  if (!primar) return rankad.slice(0, MAX_BILDER);
+
+  return [primar, ...rankad.filter((k) => k !== primar)].slice(0, MAX_BILDER);
 }
 
 async function hamtaFil(url, mal, forsok = 12) {
@@ -185,39 +193,46 @@ async function laddaNer() {
   async function arbetare() {
     while (kö.length) {
       const id = kö.shift();
-      const k = valjKandidat(id, kandidater[id]);
-      if (!k) { saknas.push(id); continue; }
+      const valda_k = valjKandidater(id, kandidater[id]);
+      if (!valda_k.length) { saknas.push(id); continue; }
 
-      const ext = k.mime === 'image/png' ? 'png' : 'jpg';
-      const kalla = join(raw, `${id}.${ext}`);
-      const inaktuell = valda[id] !== k.titel;   // annat val än förra körningen
+      const ut = [];
+      for (let n = 0; n < valda_k.length; n++) {
+        const k = valda_k[n];
+        const nyckel = `${id}-${n + 1}`;
+        const ext = k.mime === 'image/png' ? 'png' : 'jpg';
+        const kalla = join(raw, `${nyckel}.${ext}`);
+        const inaktuell = valda[nyckel] !== k.titel;   // annat val än förra körningen
 
-      if (!existsSync(kalla) || inaktuell || process.env.TVINGA) {
-        try {
-          await hamtaFil(k.fil, kalla);
-        } catch (e) {
-          console.error(`  ! ${id}: ${e.message}`);
-          saknas.push(id);
-          continue;
+        if (!existsSync(kalla) || inaktuell || process.env.TVINGA) {
+          try {
+            await hamtaFil(k.fil, kalla);
+          } catch (e) {
+            console.error(`  ! ${nyckel}: ${e.message}`);
+            continue;
+          }
+          // ett tidigare val kan ha haft annat filformat – ta bort resten
+          for (const annan of ['jpg', 'png']) {
+            const gammal = join(raw, `${nyckel}.${annan}`);
+            if (annan !== ext && existsSync(gammal)) unlinkSync(gammal);
+          }
+          hamtade++;
+          if (hamtade % 10 === 0) console.log(`  ${hamtade} hämtade …`);
+          await sov(300);
         }
-        // ett tidigare val kan ha haft annat filformat – ta bort resten
-        for (const annan of ['jpg', 'png']) {
-          const gammal = join(raw, `${id}.${annan}`);
-          if (annan !== ext && existsSync(gammal)) unlinkSync(gammal);
-        }
-        hamtade++;
-        if (hamtade % 10 === 0) console.log(`  ${hamtade} hämtade …`);
-        await sov(300);
+        valda[nyckel] = k.titel;
+
+        ut.push({
+          fil: `img/${nyckel}.jpg`,
+          titel: k.titel.replace(/^File:/, ''),
+          upphov: k.upphov,
+          licens: k.licens,
+          kalla: k.sida
+        });
       }
-      valda[id] = k.titel;
 
-      bilder[id] = {
-        fil: `img/${id}.jpg`,
-        titel: k.titel.replace(/^File:/, ''),
-        upphov: k.upphov,
-        licens: k.licens,
-        kalla: k.sida
-      };
+      if (ut.length) bilder[id] = ut;
+      else saknas.push(id);
     }
   }
 
@@ -227,6 +242,17 @@ async function laddaNer() {
 
   // krymp till webbstorlek: tools/raw/*.jpg|png -> img/*.jpg
   spawnSync('python3', [join(rot, 'tools', 'optimera.py')], { stdio: 'inherit' });
+
+  // rensa bort foton som inte längre används (t.ex. efter ändring i val.json)
+  const anvands = new Set(Object.values(bilder).flat().map((b) => b.fil.replace('img/', '')));
+  const bildkatalog = join(rot, 'img');
+  let rensade = 0;
+  if (existsSync(bildkatalog)) {
+    for (const f of readdirSync(bildkatalog)) {
+      if (!anvands.has(f)) { unlinkSync(join(bildkatalog, f)); rensade++; }
+    }
+  }
+  if (rensade) console.log(`Rensade       : ${rensade} oanvända bildfiler`);
 
   writeFileSync(
     join(rot, 'data', 'bilder.json'),
@@ -238,7 +264,9 @@ async function laddaNer() {
       JSON.stringify(bilder, null, 1) + ';\n'
   );
 
-  console.log(`Bilder totalt : ${Object.keys(bilder).length} av ${ids.length}`);
+  const antalFoton = Object.values(bilder).reduce((n, b) => n + b.length, 0);
+  console.log(`Kort med foto : ${Object.keys(bilder).length} av ${ids.length}`);
+  console.log(`Foton totalt  : ${antalFoton}`);
   console.log(`Nyhämtade     : ${hamtade}`);
   if (saknas.length) console.log(`Utan foto     : ${saknas.join(', ')}`);
 }

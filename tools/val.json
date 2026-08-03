@@ -1,36 +1,93 @@
 {
   "_kommentar": "Vilken kandidat i tools/kandidater.json som ska användas. Siffra = plats i listan, false = inget foto (den ritade SVG:en används i stället). Fritextsökningen på Commons ger en del oanvändbara träffar, t.ex. rockbandet Cold Chisel i stället för en huggmejsel.",
   "angsparr": 7,
-  "balk": 7,
+  "balk": [
+    7
+  ],
   "bandmatt_lod": 2,
-  "betongpump": 3,
-  "bjalklag": 1,
-  "cellplast": 2,
-  "cirkelsag": 2,
-  "drankerror": 2,
+  "betongpump": [
+    3,
+    4
+  ],
+  "bjalklag": [
+    1,
+    5
+  ],
+  "cellplast": [
+    2,
+    3
+  ],
+  "cirkelsag": [
+    2,
+    3
+  ],
+  "drankerror": [
+    2
+  ],
   "elcentral": 5,
-  "fallskyddssele": 1,
-  "forbandslada": 4,
-  "gipsskiva": 3,
-  "horselskydd": 3,
+  "fallskyddssele": [
+    1,
+    6
+  ],
+  "forbandslada": [
+    4
+  ],
+  "gipsskiva": [
+    3,
+    1
+  ],
+  "horselskydd": [
+    3
+  ],
   "kantsten": 1,
-  "kapsag": 1,
-  "krypgrund": 2,
-  "laser": 5,
-  "makadam": 6,
-  "mineralull": 3,
-  "mobilkran": 1,
-  "murbruk": 1,
-  "murslev": 6,
-  "pelare": 7,
+  "kapsag": [
+    1,
+    2
+  ],
+  "krypgrund": [
+    2
+  ],
+  "laser": [
+    5,
+    1
+  ],
+  "makadam": [
+    6
+  ],
+  "mineralull": [
+    3
+  ],
+  "mobilkran": [
+    1,
+    2
+  ],
+  "murbruk": [
+    1,
+    3
+  ],
+  "murslev": [
+    6
+  ],
+  "pelare": [
+    7
+  ],
   "prefab_vaggelement": false,
   "skruvmejsel": 4,
-  "slagga": 3,
-  "spackel": 1,
-  "sprinkler": 3,
+  "slagga": [
+    3
+  ],
+  "spackel": [
+    1,
+    3
+  ],
+  "sprinkler": [
+    3
+  ],
   "takpapp": 1,
   "traktor": 6,
-  "undertak": 1,
+  "undertak": [
+    1
+  ],
   "dammsugare_bygg": false,
   "dilatationsfog": false,
   "dranering": false,
@@ -54,7 +111,137 @@
   "syllisolering": false,
   "varningsskylt": false,
   "vindskydd": false,
-  "varselvast": 1,
-  "markduk": 3,
-  "valt": 4
+  "varselvast": [
+    1
+  ],
+  "markduk": [
+    3
+  ],
+  "valt": [
+    4,
+    7
+  ],
+  "avloppsror": [
+    1,
+    2
+  ],
+  "bricka": [
+    5
+  ],
+  "bult": [
+    3,
+    2
+  ],
+  "borrigg": [
+    1,
+    2
+  ],
+  "betongbil": [
+    2,
+    6
+  ],
+  "expander": [
+    1
+  ],
+  "fallskyddsnat": [
+    1,
+    2
+  ],
+  "ftx": [
+    1
+  ],
+  "gipsskruv": [
+    1,
+    2
+  ],
+  "fasad_luftspalt": [
+    1
+  ],
+  "fogspruta": [
+    1,
+    2
+  ],
+  "golvbrunn": [
+    1,
+    2
+  ],
+  "hammarband": [
+    1,
+    2
+  ],
+  "hisschakt": [
+    2,
+    3
+  ],
+  "jordfelsbrytare": [
+    1,
+    2
+  ],
+  "knaskydd": [
+    1
+  ],
+  "lecablock": [
+    1,
+    2
+  ],
+  "matband": [
+    1,
+    5
+  ],
+  "mattkniv": [
+    1,
+    2
+  ],
+  "nock": [
+    1,
+    3
+  ],
+  "platta_pa_mark": [
+    1
+  ],
+  "plywood": [
+    1,
+    3
+  ],
+  "polygrip": [
+    1,
+    2
+  ],
+  "radiator": [
+    1
+  ],
+  "saxlift": [
+    1
+  ],
+  "stomresning": [
+    1
+  ],
+  "taksparre": [
+    3,
+    1
+  ],
+  "teleskoplastare": [
+    1
+  ],
+  "tigersag": [
+    2,
+    4
+  ],
+  "tomror": [
+    1
+  ],
+  "vaghyvel": [
+    3
+  ],
+  "vattenpass": [
+    4,
+    6
+  ],
+  "vattenutkastare": [
+    1
+  ],
+  "vinkelslip": [
+    2,
+    3
+  ]
 }

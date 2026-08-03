@@ -23,12 +23,15 @@ for fil in os.listdir(os.path.join(ROT, "data")):
 
 celler = []
 for bild_id in sorted(bilder):
-    b = bilder[bild_id]
-    celler.append(
-        f'<div class=c><img src="../{b["fil"]}" loading="lazy">'
-        f'<div class=n>{namn.get(bild_id, bild_id)}</div>'
-        f'<div class=i>{bild_id}</div></div>'
-    )
+    lista = bilder[bild_id]
+    if isinstance(lista, dict):          # äldre format med ett foto per kort
+        lista = [lista]
+    for nr, b in enumerate(lista, start=1):
+        celler.append(
+            f'<div class=c><img src="../{b["fil"]}" loading="lazy">'
+            f'<div class=n>{namn.get(bild_id, bild_id)}</div>'
+            f'<div class=i>{bild_id} · {nr}</div></div>'
+        )
 
 html = (
     "<meta charset=utf8><style>"
@@ -44,4 +47,4 @@ html = (
 ut = os.path.join(ROT, "tools", "kontaktkarta.html")
 with open(ut, "w", encoding="utf8") as f:
     f.write(html)
-print(f"{len(celler)} bilder -> {ut}")
+print(f"{len(celler)} bilder på {len(bilder)} kort -> {ut}")

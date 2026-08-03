@@ -8,8 +8,10 @@ Ren HTML, CSS och JavaScript. Inget backend, inga beroenden i körläget och ing
 externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller vilken
 filserver som helst.
 
-Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 119 av
-143 begrepp. För resten saknar Commons användbara bilder, och där visas i stället
+Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 264
+foton på 119 av 143 begrepp. De flesta korten har två eller tre olika bilder och
+appen slumpar fram en vid varje visning, så att du lär dig känna igen begreppet
+och inte en viss bild. För resten saknar Commons användbara bilder, och där visas
 en handritad SVG. Varje kort har en SVG som reserv, så appen fungerar även om ett
 foto skulle saknas eller inte kunna laddas.
 
@@ -74,7 +76,7 @@ index.html               gränssnitt
 css/style.css            formgivning, ljust och mörkt läge
 js/app.js                logik: pass, kö, självrättning, statistik
 js/icons/*.js            143 SVG-illustrationer, en fil per kategori
-img/*.jpg                119 nedladdade foton (max 720 px, ca 8 MB totalt)
+img/*.jpg                264 nedladdade foton (max 720 px, ca 18 MB totalt)
 data/*.json              frågorna – redigeras här
 data/bundle.js           genererad kopia av JSON för file://-läge
 data/bilder.js           genererad bildkatalog med upphov och licens
@@ -134,11 +136,15 @@ SVG-illustrationen.
 
 ```json
 {
-  "hammare": 3,
+  "hammare": [1, 4, 6],
   "tumstock": "File:Zollstock.jpg",
   "huggmejsel": false
 }
 ```
+
+En lista väljer exakt de kandidaterna, ett tal lägger den kandidaten först och
+fyller på med de bäst rankade, `false` betyder inget foto alls. Utan post tas de
+tre bäst rankade kandidaterna. `MAX_BILDER` i skriptet styr taket per kort.
 
 `python3 tools/kontaktkarta.py` bygger en HTML-sida med alla nedladdade foton och
 rätt svar under varje bild – snabbaste sättet att se om någon bild visar fel sak.
@@ -147,7 +153,8 @@ Kör sedan `TVINGA=1 node tools/hamta-bilder.mjs` för att hämta om. Vill du he
 söka på något annat – ändra sökordet i `tools/sokord.json` och kör om med `--sok`.
 
 Kort utan foto faller tillbaka på SVG-illustrationen automatiskt, både om filen
-saknas i `data/bilder.js` och om `<img>` misslyckas med att ladda.
+saknas i `data/bilder.js` och om `<img>` misslyckas med att ladda. Kommer ett kort
+tillbaka senare i passet visas det med en annan av sina bilder.
 
 ## Tangentbord
 
