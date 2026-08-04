@@ -10,14 +10,7 @@ import { fileURLToPath } from 'node:url';
 const rot = dirname(fileURLToPath(import.meta.url));
 const KATEGORIER = ['verktyg', 'maskiner', 'material', 'skydd', 'konstruktion', 'installationer'];
 
-/* --- läs alla ikoner som finns definierade i js/icons/*.js --- */
-const ikoner = new Set();
-for (const fil of readdirSync(join(rot, 'js', 'icons'))) {
-  const kod = readFileSync(join(rot, 'js', 'icons', fil), 'utf8');
-  for (const m of kod.matchAll(/^\s{2}([a-z0-9_]+):\s*`</gm)) ikoner.add(m[1]);
-}
-
-/* --- foton från data/bilder.json (nyare kort har bara foto, ingen SVG) --- */
+/* --- foton från data/bilder.json: varje kort måste ha minst ett --- */
 const foton = new Set(Object.keys(JSON.parse(readFileSync(join(rot, 'data', 'bilder.json'), 'utf8')).bilder));
 
 const fel = [];
@@ -49,16 +42,14 @@ for (const id of KATEGORIER) {
 
     if (f.bild) {
       anvanda.add(f.bild);
-      if (!ikoner.has(f.bild) && !foton.has(f.bild))
-        fel.push(`${f.id}: "${f.bild}" saknar både foto i data/bilder.json och ikon i js/icons/`);
+      if (!foton.has(f.bild)) fel.push(`${f.id}: "${f.bild}" saknar foto i data/bilder.json`);
     } else {
       varningar.push(`${f.id}: bildlös fråga`);
     }
   }
 }
 
-const oanvanda = [...ikoner].filter((i) => !anvanda.has(i));
-const utanFoto = [...anvanda].filter((i) => !foton.has(i));
+const oanvandaFoton = [...foton].filter((i) => !anvanda.has(i));
 
 const huvud = '/* GENERERAD AV build.mjs – redigera data/*.json och kör "node build.mjs" istället. */\n';
 writeFileSync(join(rot, 'data', 'bundle.js'), `${huvud}window.BQ_BUNDLE = ${JSON.stringify(bundle, null, 1)};\n`);
@@ -67,9 +58,8 @@ const medBild = Object.values(bundle).flatMap((k) => k.fragor).filter((f) => f.b
 
 console.log(`Kategorier : ${KATEGORIER.length}`);
 console.log(`Frågor     : ${antal} (${medBild} med bild, ${Math.round((medBild / antal) * 100)} %)`);
-console.log(`Ikoner     : ${ikoner.size} definierade`);
-console.log(`Foton      : ${foton.size} kort har foto, ${utanFoto.length} visas som SVG (${utanFoto.join(', ')})`);
-if (oanvanda.length) console.log(`Oanvända ikoner: ${oanvanda.join(', ')}`);
+console.log(`Foton      : ${foton.size} kort med foto`);
+if (oanvandaFoton.length) console.log(`Foton utan fråga: ${oanvandaFoton.join(', ')}`);
 if (varningar.length) console.log(`Varningar  : ${varningar.length}\n  ${varningar.join('\n  ')}`);
 if (fel.length) {
   console.error(`\nFEL (${fel.length}):\n  ${fel.join('\n  ')}`);

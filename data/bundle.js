@@ -277,28 +277,6 @@ window.BQ_BUNDLE = {
     "fakta": "Hylsa på spärrskaft ger snabb åtdragning i trånga lägen, t.ex. vid montage av ställning och beslag."
    },
    {
-    "id": "vt-kritsnore",
-    "bild": "kritsnore",
-    "ratt": "Kritsnöre",
-    "fel": [
-     "Lod",
-     "Måttband",
-     "Laseravståndsmätare"
-    ],
-    "fakta": "Snöre indränkt i krita som knäpps mot underlaget och lämnar en rak linje. Används för att märka ut regelrader på bjälklaget."
-   },
-   {
-    "id": "vt-huggmejsel",
-    "bild": "huggmejsel",
-    "ratt": "Huggmejsel",
-    "fel": [
-     "Skruvmejsel",
-     "Körnare",
-     "Stämjärn"
-    ],
-    "fakta": "Härdad mejsel som slås med hammare. Används för att hugga bort betong, bruk och puts."
-   },
-   {
     "id": "vt-fogspruta",
     "bild": "fogspruta",
     "ratt": "Fogspruta",
@@ -475,6 +453,17 @@ window.BQ_BUNDLE = {
      "Planslip"
     ],
     "fakta": "Rondellen roterar och oscillerar samtidigt, vilket ger ett fint slipresultat utan cirkelspår."
+   },
+   {
+    "id": "vt-nitpistol",
+    "bild": "nitpistol",
+    "ratt": "Popnittång",
+    "fel": [
+     "Fogspruta",
+     "Håltång",
+     "Presstång"
+    ],
+    "fakta": "Drar ihop blindnitar från ena sidan – skarven behöver inte vara åtkomlig bakifrån. Vanlig vid plåtarbeten och beslag."
    }
   ]
  },
@@ -910,17 +899,6 @@ window.BQ_BUNDLE = {
     "fakta": "Invändigt gängad sexkant som skruvas på en bult. Låsmutter med nylonring används där vibrationer kan lossa förbandet."
    },
    {
-    "id": "mt-bricka",
-    "bild": "bricka",
-    "ratt": "Bricka",
-    "fel": [
-     "Mutter",
-     "Distans",
-     "Packning"
-    ],
-    "fakta": "Fördelar trycket från muttern över en större yta så att den inte trycker in i materialet."
-   },
-   {
     "id": "mt-bult",
     "bild": "bult",
     "ratt": "Bult",
@@ -930,17 +908,6 @@ window.BQ_BUNDLE = {
      "Ankarskruv"
     ],
     "fakta": "Sexkantsskruv med genomgående gänga som spänns med mutter. Används i stålkonstruktioner och kraftiga träförband."
-   },
-   {
-    "id": "mt-expander",
-    "bild": "expander",
-    "ratt": "Expanderbult",
-    "fel": [
-     "Bult",
-     "Träskruv",
-     "Kemankare"
-    ],
-    "fakta": "Hylsan spärrar ut mot borrhålets vägg när bulten dras åt. Standard för infästning i betong, t.ex. räcken och maskinfundament."
    },
    {
     "id": "mt-gipsskiva",
@@ -965,17 +932,6 @@ window.BQ_BUNDLE = {
      "För att väggen ska bli fuktsäker"
     ],
     "fakta": "Dubbla skivor med förskjutna skarvar ger både bättre täthet mot ljud och längre brandmotstånd."
-   },
-   {
-    "id": "mt-regel",
-    "bild": "regel",
-    "ratt": "Regel",
-    "fel": [
-     "Limträbalk",
-     "List",
-     "Läkt"
-    ],
-    "fakta": "Konstruktionsvirke i vägg och bjälklag, t.ex. 45 × 95 eller 45 × 120 mm. Reglarna sitter oftast med 450 eller 600 mm centrumavstånd."
    },
    {
     "id": "mt-limtrabalk",
@@ -1268,17 +1224,6 @@ window.BQ_BUNDLE = {
     "fakta": "Sätts i bruk och avgränsar gata, gångbana och planteringar. Ger stöd åt beläggningen så att den inte vandrar isär."
    },
    {
-    "id": "mt-syllisolering",
-    "bild": "syllisolering",
-    "ratt": "Syllisolering",
-    "fel": [
-     "Ångspärr",
-     "Grundpapp",
-     "Fogband för fönster"
-    ],
-    "fakta": "Fuktspärrande list mellan betong och träsyll. Hindrar att fukt vandrar upp i syllen och ger röta."
-   },
-   {
     "id": "mt-gipsband",
     "bild": "gipsband",
     "ratt": "Skarvremsa för gips",
@@ -1299,17 +1244,6 @@ window.BQ_BUNDLE = {
      "Kakel"
     ],
     "fakta": "Betongsten som läggs i mönster på packat bärlager och sättsand. Fogas med fogsand som låser stenarna."
-   },
-   {
-    "id": "mt-kakel",
-    "bild": "kakel",
-    "ratt": "Kakel",
-    "fel": [
-     "Klinker",
-     "Marksten",
-     "Mosaik"
-    ],
-    "fakta": "Glaserad keramisk platta för väggar. Tål inte frost och golvbelastning – då används klinker."
    },
    {
     "id": "mt-klinker",
@@ -1656,30 +1590,6 @@ window.BQ_BUNDLE = {
     "fakta": "Kapillärbrytande lager ska ha grov och enhetlig fraktion – finmaterial förstör effekten."
    },
    {
-    "id": "ko-kantbalk",
-    "bild": "kantbalk",
-    "fraga": "Vad kallas den förtjockade delen längs plattans kant?",
-    "ratt": "Kantbalk",
-    "fel": [
-     "Sockel",
-     "Grundmur",
-     "Bärlina"
-    ],
-    "fakta": "Kantbalken bär ytterväggen och för ner lasten. Den isoleras utvändigt för att undvika köldbrygga vid golvkanten."
-   },
-   {
-    "id": "ko-syll",
-    "bild": "syll",
-    "fraga": "Vad kallas det liggande virket underst i väggen, direkt på betongen?",
-    "ratt": "Syll",
-    "fel": [
-     "Hammarband",
-     "Regel",
-     "Bärlina"
-    ],
-    "fakta": "Syllen förankras i betongen med expander eller syllbult och läggs alltid på syllisolering."
-   },
-   {
     "id": "ko-regelvagg",
     "bild": "regelvagg",
     "fraga": "Vilken konstruktion visar bilden?",
@@ -1789,43 +1699,6 @@ window.BQ_BUNDLE = {
     "fakta": "Horisontellt bärverk som spänner mellan stöd och bär bjälklag eller vägg ovanför en öppning."
    },
    {
-    "id": "ko-prefab",
-    "bild": "prefab_vaggelement",
-    "fraga": "Vad visar bilden?",
-    "ratt": "Prefabricerat väggelement som lyfts på plats",
-    "fel": [
-     "Platsbyggd regelvägg",
-     "Formsatt vägg före gjutning",
-     "Skalmur under murning"
-    ],
-    "fakta": "Elementen tillverkas i fabrik med fönster och ytskikt monterade. Kortar byggtiden och minskar fuktrisken på plats."
-   },
-   {
-    "id": "ko-fasad",
-    "bild": "fasad_luftspalt",
-    "fraga": "Vad kallas det tomma skiktet mellan vindskyddet och fasadteglet?",
-    "ratt": "Luftspalt",
-    "fel": [
-     "Isolerskikt",
-     "Installationsskikt",
-     "Dilatationsfog"
-    ],
-    "fakta": "Luftspalten ventilerar bort fukt bakom fasaden och bryter kapillär transport av regnvatten in i väggen."
-   },
-   {
-    "id": "ko-fasad-ordning",
-    "typ": "anvandning",
-    "bild": "fasad_luftspalt",
-    "fraga": "I vilken ordning ligger skikten i ytterväggen, inifrån och ut?",
-    "ratt": "Gips – isolering – ångspärr på varm sida – vindskydd – luftspalt – tegel",
-    "fel": [
-     "Gips – vindskydd – isolering – ångspärr – tegel",
-     "Tegel – isolering – gips – luftspalt",
-     "Isolering – gips – ångspärr – tegel – luftspalt"
-    ],
-    "fakta": "Principen är tätt inne och öppet ute: ångspärren stoppar fukt inifrån, vindskyddet släpper ut den som ändå tar sig in."
-   },
-   {
     "id": "ko-gjutform",
     "bild": "gjutform",
     "fraga": "Vad visar bilden?",
@@ -1850,30 +1723,6 @@ window.BQ_BUNDLE = {
     "fakta": "Bjälkar med isolering emellan, golvskiva ovanpå och undertak under. I lägenhetshus ställs höga krav på stegljudsdämpning."
    },
    {
-    "id": "ko-undertak",
-    "bild": "undertak",
-    "fraga": "Vad kallas konstruktionen som hänger under betongbjälklaget?",
-    "ratt": "Undertak",
-    "fel": [
-     "Installationsgolv",
-     "Innertaksgips på reglar",
-     "Akustikvägg"
-    ],
-    "fakta": "Nedpendlat tak som döljer ventilation, el och sprinkler och som ofta bidrar till rummets akustik."
-   },
-   {
-    "id": "ko-flytandegolv",
-    "bild": "flytande_golv",
-    "fraga": "Vilken golvkonstruktion visar bilden?",
-    "ratt": "Flytande golv",
-    "fel": [
-     "Golv på reglar",
-     "Golv direkt på betong",
-     "Uppreglat installationsgolv"
-    ],
-    "fakta": "Golvskivan vilar på ett mjukt mellanlägg utan fast infästning i betongen. Det bryter stegljud mellan lägenheter."
-   },
-   {
     "id": "ko-trapphus",
     "bild": "trapphus",
     "fraga": "Vad kallas den prefabricerade delen på bilden?",
@@ -1896,18 +1745,6 @@ window.BQ_BUNDLE = {
      "Sopnedkast"
     ],
     "fakta": "Schaktet muras eller gjuts som en styv kärna. Det bidrar ofta även till att stabilisera huset mot vindlast."
-   },
-   {
-    "id": "ko-dranering",
-    "bild": "dranering",
-    "fraga": "Vilken konstruktion visar bilden?",
-    "ratt": "Dränering av källarvägg",
-    "fel": [
-     "Kapillärbrytande skikt under platta",
-     "Markisolering mot tjäle",
-     "Fuktspärr under syll"
-    ],
-    "fakta": "Utvändig isolering, dräneringsskiva och dräneringsrör i makadam leder bort vattnet innan det når betongväggen."
    },
    {
     "id": "ko-balkong",
@@ -1956,30 +1793,6 @@ window.BQ_BUNDLE = {
      "Elastisk fasadfog"
     ],
     "fakta": "Rörelsefog som låter delarna röra sig fritt vid temperaturändring och sättning, så att sprickor inte uppstår okontrollerat."
-   },
-   {
-    "id": "ko-krypgrund",
-    "bild": "krypgrund",
-    "fraga": "Vilken grundläggning visar bilden?",
-    "ratt": "Krypgrund",
-    "fel": [
-     "Platta på mark",
-     "Källare",
-     "Plintgrund"
-    ],
-    "fakta": "Ventilerat utrymme under bjälklaget. Riskerar fuktproblem sommartid när varm luft kyls ner mot marken – kräver rätt ventilation eller avfuktning."
-   },
-   {
-    "id": "ko-sockel",
-    "bild": "sockel",
-    "fraga": "Vad kallas den synliga delen av grunden ovanför marken?",
-    "ratt": "Sockel",
-    "fel": [
-     "Kantbalk",
-     "Grundmur",
-     "Syll"
-    ],
-    "fakta": "Sockeln skyddar mot stänk och snö. Fasadmaterial ska alltid börja en bit upp på sockeln, aldrig ner i marken."
    },
    {
     "id": "ko-fonsterkarm",
@@ -2160,17 +1973,6 @@ window.BQ_BUNDLE = {
     "fakta": "Här skarvas kablar. Dosan måste alltid vara åtkomlig – den får inte byggas in bakom gips eller kaklas över."
    },
    {
-    "id": "in-tomror",
-    "bild": "tomror",
-    "ratt": "Tomrör",
-    "fel": [
-     "Kabelskyddsrör i mark",
-     "Vattenrör i skyddsrör",
-     "Dräneringsslang"
-    ],
-    "fakta": "Böjligt rör som gjuts in eller dras i väggen. Kablar kan dras och bytas i efterhand utan att bila upp konstruktionen."
-   },
-   {
     "id": "in-sprinkler",
     "bild": "sprinkler",
     "ratt": "Sprinkler",
@@ -2226,17 +2028,6 @@ window.BQ_BUNDLE = {
     "fakta": "Löser ut vid små läckströmmar, typiskt 30 mA, och skyddar person. Dvärgbrytaren skyddar däremot ledningen mot överlast."
    },
    {
-    "id": "in-stamledning",
-    "bild": "stamledning",
-    "ratt": "Stam",
-    "fel": [
-     "Servisledning",
-     "Grenledning",
-     "Luftningsledning"
-    ],
-    "fakta": "Den vertikala ledningen genom huset som lägenheternas grenledningar kopplas till. Byte av stammar kallas stambyte."
-   },
-   {
     "id": "in-vattenutkastare",
     "bild": "vattenutkastare",
     "ratt": "Vattenutkastare",
@@ -2257,17 +2048,6 @@ window.BQ_BUNDLE = {
      "FTX-aggregat"
     ],
     "fakta": "Takfläkt som suger ut frånluften ur huset. I äldre flerbostadshus är frånluft utan värmeåtervinning fortfarande vanligast."
-   },
-   {
-    "id": "in-vagguttag",
-    "bild": "vagguttag",
-    "ratt": "Vägguttag",
-    "fel": [
-     "Strömbrytare",
-     "Kopplingsdosa",
-     "Dimmer"
-    ],
-    "fakta": "Jordat uttag är krav i nya installationer. I våtrum gäller kapslingsklass och avstånd till vatten enligt elinstallationsreglerna."
    },
    {
     "id": "in-vattenmatare",

@@ -130,17 +130,6 @@
       "fakta": "Här skarvas kablar. Dosan måste alltid vara åtkomlig – den får inte byggas in bakom gips eller kaklas över."
     },
     {
-      "id": "in-tomror",
-      "bild": "tomror",
-      "ratt": "Tomrör",
-      "fel": [
-        "Kabelskyddsrör i mark",
-        "Vattenrör i skyddsrör",
-        "Dräneringsslang"
-      ],
-      "fakta": "Böjligt rör som gjuts in eller dras i väggen. Kablar kan dras och bytas i efterhand utan att bila upp konstruktionen."
-    },
-    {
       "id": "in-sprinkler",
       "bild": "sprinkler",
       "ratt": "Sprinkler",
@@ -196,17 +185,6 @@
       "fakta": "Löser ut vid små läckströmmar, typiskt 30 mA, och skyddar person. Dvärgbrytaren skyddar däremot ledningen mot överlast."
     },
     {
-      "id": "in-stamledning",
-      "bild": "stamledning",
-      "ratt": "Stam",
-      "fel": [
-        "Servisledning",
-        "Grenledning",
-        "Luftningsledning"
-      ],
-      "fakta": "Den vertikala ledningen genom huset som lägenheternas grenledningar kopplas till. Byte av stammar kallas stambyte."
-    },
-    {
       "id": "in-vattenutkastare",
       "bild": "vattenutkastare",
       "ratt": "Vattenutkastare",
@@ -227,17 +205,6 @@
         "FTX-aggregat"
       ],
       "fakta": "Takfläkt som suger ut frånluften ur huset. I äldre flerbostadshus är frånluft utan värmeåtervinning fortfarande vanligast."
-    },
-    {
-      "id": "in-vagguttag",
-      "bild": "vagguttag",
-      "ratt": "Vägguttag",
-      "fel": [
-        "Strömbrytare",
-        "Kopplingsdosa",
-        "Dimmer"
-      ],
-      "fakta": "Jordat uttag är krav i nya installationer. I våtrum gäller kapslingsklass och avstånd till vatten enligt elinstallationsreglerna."
     },
     {
       "id": "in-vattenmatare",
