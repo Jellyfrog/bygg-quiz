@@ -288,16 +288,66 @@ h2 { font-size: 1rem; margin: 0; }
   height: clamp(190px, 36vh, 300px);
   overflow: hidden;
 }
-.plate-img { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; }
+.plate-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 .plate-img svg { width: 100%; height: 100%; }
-.plate-img .bildfoto { width: 100%; height: 100%; object-fit: contain; border-radius: 6px; }
+/* med två foton delar de ytan lika; med ett fyller det hela plattan */
+.plate-img .bildfoto { flex: 1 1 0; min-width: 0; height: 100%; object-fit: contain; border-radius: 6px; }
 
 .credit {
   font-size: .72rem;
   color: var(--text-dim);
   margin: -8px 0 12px;
   text-align: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
 }
+.zoom-hint { color: var(--text-dim); opacity: .8; }
+
+/* ---------- förstorad bild ---------- */
+.bildfoto { cursor: zoom-in; }
+
+.lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(8, 10, 13, .93);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px;
+  cursor: zoom-out;
+  -webkit-tap-highlight-color: transparent;
+}
+.lightbox[hidden] { display: none; }
+.lightbox img {
+  max-width: 100%;
+  max-height: 82vh;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f4f6f8;
+}
+.lightbox-credit,
+.lightbox-hint {
+  margin: 0;
+  color: #cbd3dc;
+  font-size: .76rem;
+  text-align: center;
+  max-width: 70ch;
+}
+.lightbox-hint { opacity: .65; }
+
+body.is-locked { overflow: hidden; }
 
 .question { font-size: 1.15rem; margin: 0 0 14px; }
 
@@ -521,6 +571,9 @@ h2 { font-size: 1rem; margin: 0; }
    ryms utan att man behöver scrolla för att svara. */
 @media (max-width: 480px) {
   .plate { height: clamp(140px, 24vh, 220px); margin-bottom: 10px; }
+  /* två foton delar bredden – ge dem lite mer höjd så detaljerna syns */
+  .plate.is-two { height: clamp(150px, 27vh, 230px); }
+  .plate-img { gap: 6px; }
   .question { font-size: 1.05rem; margin-bottom: 10px; }
   .options { gap: 6px; }
   .opt { padding: 11px 11px; }
