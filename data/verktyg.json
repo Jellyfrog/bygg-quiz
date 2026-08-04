@@ -275,28 +275,6 @@
       "fakta": "Hylsa på spärrskaft ger snabb åtdragning i trånga lägen, t.ex. vid montage av ställning och beslag."
     },
     {
-      "id": "vt-kritsnore",
-      "bild": "kritsnore",
-      "ratt": "Kritsnöre",
-      "fel": [
-        "Lod",
-        "Måttband",
-        "Laseravståndsmätare"
-      ],
-      "fakta": "Snöre indränkt i krita som knäpps mot underlaget och lämnar en rak linje. Används för att märka ut regelrader på bjälklaget."
-    },
-    {
-      "id": "vt-huggmejsel",
-      "bild": "huggmejsel",
-      "ratt": "Huggmejsel",
-      "fel": [
-        "Skruvmejsel",
-        "Körnare",
-        "Stämjärn"
-      ],
-      "fakta": "Härdad mejsel som slås med hammare. Används för att hugga bort betong, bruk och puts."
-    },
-    {
       "id": "vt-fogspruta",
       "bild": "fogspruta",
       "ratt": "Fogspruta",
@@ -473,6 +451,17 @@
         "Planslip"
       ],
       "fakta": "Rondellen roterar och oscillerar samtidigt, vilket ger ett fint slipresultat utan cirkelspår."
+    },
+    {
+      "id": "vt-nitpistol",
+      "bild": "nitpistol",
+      "ratt": "Popnittång",
+      "fel": [
+        "Fogspruta",
+        "Håltång",
+        "Presstång"
+      ],
+      "fakta": "Drar ihop blindnitar från ena sidan – skarven behöver inte vara åtkomlig bakifrån. Vanlig vid plåtarbeten och beslag."
     }
   ]
 }

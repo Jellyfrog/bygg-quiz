@@ -1,7 +1,6 @@
 /* Byggkoll – studiekort och quiz för byggbranschen.
    Frågorna ligger i data/*.json. Bilderna är foton från Wikimedia Commons
-   (data/bilder.js + img/, flera per begrepp) med de ritade SVG:erna i
-   js/icons/ som reserv. */
+   (data/bilder.js + img/, flera per begrepp). */
 
 (function () {
   'use strict';
@@ -102,10 +101,6 @@
     return a;
   }
 
-  function ikon(namn) {
-    return (window.BQ_ICONS && window.BQ_ICONS[namn]) || '<svg viewBox="0 0 120 120"><rect x="20" y="20" width="80" height="80" rx="10" fill="#dde3ea"/><text x="60" y="70" text-anchor="middle" font-size="34" fill="#8f9aa6">?</text></svg>';
-  }
-
   /* Varje begrepp har flera foton. Listan tål även det äldre formatet med
      ett enda objekt per bild. */
   function foton(namn) {
@@ -126,14 +121,14 @@
     return lista[Math.floor(Math.random() * lista.length)];
   }
 
-  /* Foto om det finns, annars den ritade illustrationen. Bilden är dekorativ –
-     frågan står i texten – så alt hålls tomt för skärmläsare. */
+  /* Bilden är dekorativ – frågan står i texten – så alt hålls tomt för
+     skärmläsare. Om filen mot förmodan inte kan laddas döljs den bara. */
   function bild(namn, valtFoto) {
     if (!namn) return '';
     var f = valtFoto || foton(namn)[0];
-    if (!f) return ikon(namn);
+    if (!f) return '';
     return '<img class="bildfoto" src="' + f.fil + '" alt="" loading="lazy" ' +
-      'onerror="this.parentNode.innerHTML=window.BQ_ICONS[\'' + namn + '\']||\'\'">';
+      'onerror="this.style.visibility=\'hidden\'">';
   }
 
   function bildkredit(f) {

@@ -1,6 +1,6 @@
 # Byggkoll
 
-Studiekort och quiz för byggbranschen. 199 bildkort i sex kategorier – verktyg,
+Studiekort och quiz för byggbranschen. 182 bildkort i sex kategorier – verktyg,
 maskiner, material, skydd, konstruktion och installationer – med fokus på
 husbyggnad, t.ex. uppförande av ett lägenhetshus.
 
@@ -8,12 +8,11 @@ Ren HTML, CSS och JavaScript. Inget backend, inga beroenden i körläget och ing
 externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller vilken
 filserver som helst.
 
-Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 487
-foton på 164 av 180 begrepp. De flesta korten har flera olika bilder och appen
-slumpar fram en vid varje visning, så att du lär dig känna igen begreppet och
-inte en viss bild. För 16 begrepp saknar Commons användbara bilder, och där
-visas en handritad SVG i stället. Alla foton är granskade manuellt – fritextsök
-på Commons ger annars allt från rockband till daguerreotyper.
+Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 455
+foton på 163 begrepp, alltså i snitt knappt tre per kort. Appen slumpar fram en
+av dem vid varje visning, så att du lär dig känna igen begreppet och inte en viss
+bild. Varje foto är granskat manuellt mot sin fråga; begrepp där Commons inte har
+någon användbar bild finns helt enkelt inte som kort.
 
 ## Kör
 
@@ -58,14 +57,14 @@ knappen ↺ uppe till höger.
 
 | Kategori | Kort |
 | --- | --- |
-| Verktyg | 42 |
+| Verktyg | 41 |
 | Maskiner | 32 |
-| Material | 46 |
+| Material | 42 |
 | Skydd & säkerhet | 22 |
-| Konstruktion | 33 |
-| VVS & el | 24 |
+| Konstruktion | 24 |
+| VVS & el | 21 |
 
-Samtliga 199 kort är bildfrågor. De flesta frågar "Vad heter detta?", resten är
+Samtliga 182 kort är bildfrågor. De flesta frågar "Vad heter detta?", resten är
 tillämpningsfrågor på samma bild ("Varför har skruven trumpetformat huvud?",
 "På vilken sida av isoleringen ska ångspärren sitta?").
 
@@ -75,8 +74,7 @@ tillämpningsfrågor på samma bild ("Varför har skruven trumpetformat huvud?",
 index.html               gränssnitt
 css/style.css            formgivning, ljust och mörkt läge
 js/app.js                logik: pass, kö, självrättning, statistik
-js/icons/*.js            143 SVG-illustrationer, en fil per kategori
-img/*.jpg                487 nedladdade foton (max 720 px, ca 34 MB totalt)
+img/*.jpg                455 nedladdade foton (max 720 px, ca 32 MB totalt)
 data/*.json              frågorna – redigeras här
 data/bundle.js           genererad kopia av JSON för file://-läge
 data/bilder.js           genererad bildkatalog med upphov och licens
@@ -104,15 +102,14 @@ Redigera rätt fil i `data/` och kör sedan `node build.mjs`.
 ```
 
 * `id` – unikt, används för statistiken. Byt inte i onödan.
-* `bild` – namnet på en ikon i `js/icons/`. Nya ikoner läggs till i samma
-  format: `namn: \`<svg viewBox="0 0 120 120"> … </svg>\`` med två inledande
-  mellanslag, så hittar `build.mjs` dem.
+* `bild` – namnet på ett begrepp som har foton i `data/bilder.js`. Lägg till
+  sökord i `tools/sokord.json` och kör hämtaren innan du lägger till frågan.
 * `fraga` – valfri, standard är "Vad heter detta?".
 * `fel` – minst tre alternativ. De fyra visade alternativen blandas varje gång.
 * `typ: "anvandning"` – markerar en tillämpningsfråga. Sådana visas inte i
   bläddra-vyn, eftersom den listar ett kort per begrepp.
 
-`build.mjs` kontrollerar dubbletter av id, att ikonerna finns, att rätt svar
+`build.mjs` kontrollerar dubbletter av id, att varje kort har foto, att rätt svar
 inte råkat hamna bland felalternativen och att varje fråga har minst fyra
 alternativ. Den avslutar med felkod om något är fel.
 
@@ -131,8 +128,8 @@ node tools/hamta-bilder.mjs         # laddar ner valda bilder och krymper dem
 Fritextsökning på Commons ger en del skräpträffar – sökningen på "cold chisel"
 hittade rockbandet i stället för huggmejseln. Blir en bild fel: titta i
 `tools/kandidater.json` på listan för det id:t och peka ut en annan i
-`tools/val.json`, antingen med nummer, exakt filnamn eller `false` för att behålla
-SVG-illustrationen.
+`tools/val.json`, antingen med nummer, exakt filnamn eller `false` för att stänga
+av kortet helt.
 
 ```json
 {
@@ -142,9 +139,10 @@ SVG-illustrationen.
 }
 ```
 
-En lista väljer exakt de kandidaterna, ett tal lägger den kandidaten först och
-fyller på med de bäst rankade, `false` betyder inget foto alls. Utan post tas de
-tre bäst rankade kandidaterna. `MAX_BILDER` i skriptet styr taket per kort.
+En lista är ett granskat urval och används exakt som den står – den fylls aldrig
+på med ogranskat material. Ett tal lägger den kandidaten först och fyller på med
+de bäst rankade, `false` betyder inget foto alls. Utan post tas de bäst rankade
+kandidaterna. `MAX_BILDER` i skriptet styr taket per kort.
 
 `python3 tools/kontaktkarta.py` bygger en HTML-sida med alla nedladdade foton och
 rätt svar under varje bild – snabbaste sättet att se om någon bild visar fel sak.
@@ -152,9 +150,8 @@ rätt svar under varje bild – snabbaste sättet att se om någon bild visar fe
 Kör sedan `TVINGA=1 node tools/hamta-bilder.mjs` för att hämta om. Vill du hellre
 söka på något annat – ändra sökordet i `tools/sokord.json` och kör om med `--sok`.
 
-Kort utan foto faller tillbaka på SVG-illustrationen automatiskt, både om filen
-saknas i `data/bilder.js` och om `<img>` misslyckas med att ladda. Kommer ett kort
-tillbaka senare i passet visas det med en annan av sina bilder.
+Kommer ett kort tillbaka senare i passet visas det med en annan av sina bilder.
+Ett kort utan foto i `data/bilder.js` underkänns av `node build.mjs`.
 
 ## Tangentbord
 

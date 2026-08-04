@@ -2,16 +2,13 @@
   "_kommentar": "Vilken kandidat i tools/kandidater.json som ska användas. Siffra = plats i listan, false = inget foto (den ritade SVG:en används i stället). Fritextsökningen på Commons ger en del oanvändbara träffar, t.ex. rockbandet Cold Chisel i stället för en huggmejsel.",
   "andningsskydd": [
     "File:Half-Mask Respirators, 4.jpg",
-    "File:Half-Mask Respirators, 3.jpg",
-    "File:Half-Mask Respirators, 1.jpg",
-    "File:Half-Mask Respirators, 2.jpg"
+    "File:Half-Mask Respirators, 3.jpg"
   ],
   "angsparr": [
     "File:Dampfbremse mit Klebestreifen Modellaufbau.jpg",
     "File:Vapour barrier.JPG",
     "File:Georgia-Pacific ForceField moisture barrier sheathing.jpg"
   ],
-  "ansiktsvisir": false,
   "armeringsjarn": [
     "File:A worker ties together reinforcing bar, or rebar, to strengthen concrete floors for a facility that will house 372 students as part of the Herat University Women's Dormitory Project in Herat province 140311-A-DT641-242.jpg",
     "File:A bunch of rebar up close.jpg",
@@ -28,22 +25,10 @@
     "File:MAZ-6422 transporting asphalt paver by the road N9569.jpg",
     "File:LeeBoy 8510B asphalt paver - Arlington, MA.jpg"
   ],
-  "avloppsror": [
-    "File:Fernco PVC Drain Trap J-Bend.jpg",
-    "File:Fernco PVC Drain Trap J-Bend-white copy.jpg"
-  ],
   "avsparrningsband": [
     "File:NSW Police tape in Sydenham.jpg",
     "File:Luxembourg, yellow and white caution tape road works.jpg",
     "File:NSW Police tape attached to a Hyundai police van in Sydenham.jpg"
-  ],
-  "avstangningsventil": [
-    "File:23 0049594 Convair Negative Image - Valve assembly disconnect and shut-off for fuel (53867608214).jpg",
-    "File:23 0049593 Convair Negative Image - Valve assembly disconnect and shut-off for fuel (53867608229).jpg"
-  ],
-  "avvagningsinstrument": [
-    "File:Illustrated catalogue and price-list of drawing and tracing papers, sun print papers and equipments, drawing instruments and materials, surveying instruments, accessories, etc. - Kolesch and Company. (14803757583).jpg",
-    "File:Illustrated catalogue and price-list of drawing and tracing papers, sun print papers and equipments, drawing instruments and materials, surveying instruments, accessories, etc. - Kolesch and Company. (14781544964).jpg"
   ],
   "bagfil": [
     "File:Hacksaw with grey handle.jpg",
@@ -77,7 +62,6 @@
   "betongbil": [
     "File:Clean concrete mixer truck.jpg",
     "File:Dornbirn-mobile concrete pump-concrete mixer truck-01ASD.jpg",
-    "File:Concrete mixer and pump truck with extended boom.jpg",
     "File:CAMC concrete mixer truck Xing Kaima. Spielvogel 2.jpg",
     "File:2013 SANY SY306C Concrete Mixer Truck.JPG"
   ],
@@ -120,18 +104,13 @@
     "File:Fire extinguisher tool.jpg",
     "File:Fire extinguisher bottle.jpg"
   ],
-  "bricka": [
-    "File:Insulating fiberglass washers for M3.jpg"
-  ],
   "bult": [
     "File:DIN 914-like 1-4\"-20 UNC x 9.5mm hex socket screws.jpg",
-    "File:Schraube1.jpg",
     "File:Maschinenschraube 03 (fcm).jpg"
   ],
   "bygghiss": [
     "File:Orbion business center and Construction Hoists.jpg"
   ],
-  "byggtork": false,
   "cellplast": [
     "File:Sto - Insulation boards 5.jpg",
     "File:Sto - Insulation boards 4.jpg",
@@ -156,13 +135,11 @@
     "File:Støperiet kulturhus industrihall Kaldnes Mek. Verksted container Tønsberg Norway 2019-08-25 4974.jpg",
     "File:Dumpster Rental Charlotte Roll off Dumpster.png"
   ],
-  "dammsugare_bygg": false,
   "dilatationsfog": [
     "File:El Gâla the expansion joint for separating irregular plan shapes Tenjin 1-chōme Chūō-ku Fukuoka 20251107.jpg",
     "File:Whittier Bridge- Expansion joint ready to be set in place (21010169043).jpg",
     "File:Petőfi Bridge expansion joints, 2019 Lágymányos.jpg"
   ],
-  "dranering": false,
   "drankerror": [
     "File:Laying land drains in the Aire valley - geograph.org.uk - 1397265.jpg"
   ],
@@ -184,9 +161,6 @@
     "File:Yancey Caterpillar Portable Generator.jpg",
     "File:Portable electrical generator side.jpg"
   ],
-  "expander": [
-    "File:Anchor bolt in concrete.jpg"
-  ],
   "fallskyddsnat": [
     "File:HDPE Construction safety net.jpg",
     "File:11 Scaffolding safety plastic net - polyethylene material nets at construction site in Makati Manila.jpg",
@@ -197,18 +171,7 @@
     "File:New, Mobile Fall Arrest System Improves Safety for NAVFAC Hawaii’s Transportation Personnel (36629242434).jpg",
     "File:Residential construction fall arrest (9256408986).jpg"
   ],
-  "fasad_luftspalt": [
-    "File:Partially-filled Cavity wall tie shape diagram.png"
-  ],
-  "fastmassa": false,
-  "fjarrvarmecentral": [
-    "File:District heating substation 2.jpg",
-    "File:District heating substation.jpg",
-    "File:Wärmeübergabestation 300 kW.jpg"
-  ],
-  "flytande_golv": false,
   "fogmassa": [
-    "File:Applying grout.jpg",
     "File:Mixing of grout after inspection for use in Queens. (49469743441).jpg"
   ],
   "fogskum": [
@@ -218,9 +181,6 @@
   "fogspruta": [
     "File:Caulking.jpg",
     "File:Caulking, USAF.jpg"
-  ],
-  "fogsvans": [
-    "File:Wood & steel hand saw (1900-1940). There was a carpenter’s shop at Hampton during the historic era. Numerous woodworking and (97a61514-4e47-47e9-9271-c7cf0ac8a63b).JPG"
   ],
   "fonsterkarm": [
     "File:16. Window Frame Installation. (18fb7ca4-ddb2-4ed6-90af-c5d2a624bbed).jpg",
@@ -249,12 +209,11 @@
     "File:Moffett truck-mounted forklift 01.jpg"
   ],
   "gipsband": [
-    1
+    "File:180726-Z-IL540-1128 (30058183198).jpg"
   ],
   "gipsskiva": [
     "File:Gib board aka plasterboard tapered edges 02.jpg",
-    "File:Drywall and tools.jpg",
-    "File:Gib board aka plasterboard tapered edges 01.jpg"
+    "File:Drywall and tools.jpg"
   ],
   "gipsskruv": [
     "File:Drywall-screws-v1 (1).png",
@@ -277,8 +236,7 @@
     "File:Ingco Gasoline 2026-06-18 Engine Power Trowel GPT361-2.jpg"
   ],
   "golvbrunn": [
-    "File:Toilet drain.jpg",
-    "File:Ellsworth W. Allen Park td (2019-06-28) 050 - Bathrooms.jpg"
+    "File:Toilet drain.jpg"
   ],
   "golvplattor": [
     "File:Medieval lion-motif ceramic floor tiles, Winchester Cathedral, Winchester, Hampshire, England (51692457547).jpg",
@@ -312,8 +270,7 @@
     "File:Stanley graphite claw hammer.jpg",
     "File:Hammer hand tool.jpg",
     "File:IKEA hammer.jpg",
-    "File:Head of IKEA hammer.jpg",
-    "File:Hammering a nail (line art) (PSF H-420004 (cropped)).png"
+    "File:Head of IKEA hammer.jpg"
   ],
   "hisschakt": [
     "File:Elevator shaft for Kamppi Health and Well-being Centre under construction in July 2024.jpg",
@@ -338,7 +295,6 @@
     "File:Ear muff white bg.jpg",
     "File:Over the Head Earmuffs (Ear Protectors, left) and trowels of various sizes and shapes in German hardware store.jpg"
   ],
-  "huggmejsel": false,
   "hylsnyckel": [
     "File:Socket wrench and sockets.JPG",
     "File:First socket wrench.png",
@@ -347,7 +303,6 @@
     "File:Socket set with two ratchets in metal box, industrial grade quality, on white background.jpg"
   ],
   "hyvel": [
-    "File:Woodworking hand tools on timber planks 01.jpg",
     "File:Germany Side-Rabbet-Plane--01.jpg",
     "File:Germany Side-Rabbet-Plane--02.jpg"
   ],
@@ -363,14 +318,9 @@
     "File:Ladder rack (4198869995).jpg",
     "File:Cabtray 12.jpg"
   ],
-  "kakel": [
-    "File:Railing shadows on ceramic wall tiles, Alameda Afonso Henriques, Lisbon, Portugal julesvernex2.jpg"
-  ],
   "kallarvagg": [
     "File:Placing steel and forms for concrete basement walls at Mission 66 Visitor Center and Museum construction. ; ZION Museum and (abfa9c597daf4f85bbc0fb08e639aac7).jpg"
   ],
-  "kantbalk": false,
-  "kantsten": false,
   "kapsag": [
     "File:Black & Decker miter saw.jpg",
     "File:Miter saw blade.jpg",
@@ -396,14 +346,6 @@
     "File:Power line electrical underground junction box with armoured cable connectors Haringey.jpg",
     "File:Cable junction box for maintaining electrical functional integrity according to DIN 4102 Part 12.JPG"
   ],
-  "kritsnore": [
-    "File:Chalk line reel (AM 713530-1).jpg",
-    "File:Chalk line reel (AM 713530-4).jpg",
-    "File:Chalk line reel (AM 713530-3).jpg"
-  ],
-  "krypgrund": [
-    "File:Crawl spaces 1.jpg"
-  ],
   "laser": [
     "File:Rotationslaser stationär mit Powerpack.jpg",
     "File:Laser reflector generator at Kings Cross St Pancras.jpg",
@@ -418,8 +360,7 @@
   ],
   "lecablock": [
     "File:Aquadrainpflaster.jpg",
-    "File:Hydroton.jpg",
-    "File:Leca pellets.jpg"
+    "File:Hydroton.jpg"
   ],
   "limtrabalk": [
     "File:Thurston Grange Hall.jpg"
@@ -432,21 +373,17 @@
   ],
   "makadam": [
     "File:20mm-aggregate.jpg",
-    "File:Stone crushed into building material.jpg",
     "File:Dump truck laying crushed stone in Jyväskylä.JPG"
   ],
   "markduk": [
-    2,
-    16
+    "File:Geotextile-GSI.JPG"
   ],
   "marksten": [
     "File:Paving stones concrete s-shape 2025-03-11.jpg",
     "File:Mix of paving stones IMG 20200910 163455.jpg"
   ],
   "matband": [
-    "File:B&Q Tape Measure.jpg",
-    "File:Lufkin Universal 50 ft tape measure.jpg",
-    "File:Dornbirn-Ebnit-Tape measure-02ASD.jpg"
+    "File:B&Q Tape Measure.jpg"
   ],
   "mattkniv": [
     "File:Generic utility knife with blade extended.JPG",
@@ -454,7 +391,7 @@
     "File:Utility knife.jpg"
   ],
   "mineralull": [
-    1
+    "File:Quartz glass wool.jpg"
   ],
   "minigravare": [
     "File:Bobcat E50 mini excavator with oversized treads.jpg",
@@ -471,17 +408,14 @@
   ],
   "momentnyckel": [
     "File:Click-torque-wrench.jpg",
-    "File:Craftsman click torque wrench.jpg",
-    "File:Dental torque wrench, Camlog Model J5320.1030-0114.jpg"
+    "File:Craftsman click torque wrench.jpg"
   ],
   "multiverktyg": [
     "File:Craftsman Oscillating Multi-Tool (5073775654).jpg",
     "File:Oscillating Cutter.JPG"
   ],
   "murbruk": [
-    "File:Mortar mixed inside bucket.jpg",
-    "File:Preservationists mix mortar by hand in a wheel barrow to complete foundation wall masonry infills. (2358aa3f-b007-4968-8357-e51c1e036ae8).jpg",
-    "File:EuroMix mortar silo - 31 July 2026.jpg"
+    "File:Mortar mixed inside bucket.jpg"
   ],
   "murslev": [
     "File:Masons trowel.jpg"
@@ -510,7 +444,6 @@
     "File:OSB production.jpg",
     "File:OSB plaat.jpg"
   ],
-  "padda": false,
   "palkran": [
     "File:081111-Pile-driver.jpeg",
     "File:Woltman 50PR pile driving rig.jpg",
@@ -537,14 +470,9 @@
     "File:Slip-Joint Pliers ROBOGRIP.jpg",
     "File:440Tongue+and+GroovePliers.JPG"
   ],
-  "prefab_vaggelement": false,
   "radiator": [
-    "File:Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 06.jpg",
-    "File:Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 08.jpg"
+    "File:Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 06.jpg"
   ],
-  "rannadal": false,
-  "regel": false,
-  "regelvagg": false,
   "rokdetektor": [
     "File:Smoke detector at Gateway Hotel.jpg",
     "File:Smoke sensor - detector chamber open displaying transmitter and detector.jpg",
@@ -595,8 +523,7 @@
   "skyddsglasogon": [
     "File:Safety glasses Phillips Safety Products Didymium and gold coating.jpg",
     "File:Safety Eyewear.jpg",
-    "File:Empiral Vision Grey goggles.jpg",
-    "File:Goggles (PSF).png"
+    "File:Empiral Vision Grey goggles.jpg"
   ],
   "skyddshandskar": [
     "File:Protective nitrile gloves.jpg",
@@ -620,7 +547,6 @@
     "File:Articulated boom lift, Australia Road - geograph.org.uk - 4533041.jpg"
   ],
   "slagga": [
-    "File:Various sledge hammers and an axe in hardware store in Germany.jpg",
     "File:Sledgehammer (5489039867).jpg",
     "File:Sledgehammer with very flexible handle - 02.jpg"
   ],
@@ -630,9 +556,7 @@
     "File:Random orbit sander.jpg",
     "File:Makita BO5041 Random Orbit Sander (6169160923).jpg"
   ],
-  "sockel": false,
   "spackel": [
-    "File:Kitchen renovation spackling to cover holes and tape between sheetrock boards.JPG",
     "File:Spackling (5397974123).jpg"
   ],
   "spackelspade": [
@@ -646,12 +570,9 @@
   ],
   "spik": [
     "File:Nails Flat Head Steel Industry 4607200 Edited 2020 (49931938461).jpg",
-    "File:Steel nails.jpg",
-    "File:Spijkers (Nails).jpg"
+    "File:Steel nails.jpg"
   ],
   "sprinkler": [
-    "File:TYCO-Standard-Spray-Sprinkler-head-141-degree-celsius-01.jpg",
-    "File:Sprinkler head NH.agr.jpg",
     "File:Fusable link sprinkler head.jpg"
   ],
   "stallning": [
@@ -668,7 +589,6 @@
     "File:Selection of woodworking chisels.jpg",
     "File:Hand-wood-chisel-01.jpg"
   ],
-  "stamledning": false,
   "sticksag": [
     "File:Jigsaw AccuMaster.jpg",
     "File:Jigsaws.jpg",
@@ -683,9 +603,6 @@
     "File:Workers Welding.png",
     "File:Welding pipe.jpg"
   ],
-  "syll": false,
-  "syllisolering": false,
-  "takfot": false,
   "takpannor": [
     "File:Red clay roof tiles in Saligney (Jura, France) January 2018.jpg",
     "File:Red clay roof tiles.jpg",
@@ -693,10 +610,7 @@
     "File:Rooftiles.JPG"
   ],
   "takpapp": [
-    "File:Bituminous waterproofing on flat roof 2.jpg",
-    "File:Bituminous waterproofing on flat roof 1.jpg",
-    "File:Bituminous waterproofing on flat roof 3.jpg",
-    "File:Bituminous waterproofing on flat roof 4.jpg"
+    "File:Bituminous waterproofing on flat roof 2.jpg"
   ],
   "taksparre": [
     "File:Equipment Operator 3rd Class Bobby Smith prefabricates rafters for the roof of the Richardson Multipurpose Facility (7512568).jpg",
@@ -711,7 +625,6 @@
   ],
   "tegel": [
     "File:Thai brick masonry (Flemish bond).jpg",
-    "File:Brickwork detail, Corning.jpg",
     "File:Old brickwork. Red brick.jpg"
   ],
   "teleskoplastare": [
@@ -723,12 +636,7 @@
   "tigersag": [
     "File:Reciprocating Saw.JPG",
     "File:DeWalt Reciprocating Saw (5073128275).jpg",
-    "File:Makita JR3070CT Reciprocating Saw (4887723644).jpg",
-    "File:Makita JR3070CT Reciprocating Saw (4887120605).jpg"
-  ],
-  "tilluftsdon": false,
-  "tomror": [
-    "File:金属製可とう管.jpg"
+    "File:Makita JR3070CT Reciprocating Saw (4887723644).jpg"
   ],
   "tornkran": [
     "File:Tower crane rising at hollywoodHUB construction site, Portland, Oregon.jpg",
@@ -750,8 +658,7 @@
     "File:Wood glue and clamping the pieces before screwing them together.jpg"
   ],
   "trapphus": [
-    16,
-    3
+    "File:Faschina-Precast concrete stair-02ASD.jpg"
   ],
   "traskruv": [
     "File:Black wood screw with flat Phillips head.jpg",
@@ -763,20 +670,12 @@
     "File:INT. REKENLINIAAL (PART. COLL. C.J. ROMEIJN) - Naarden - 20311798 - RCE.jpg",
     "File:Tape Measure (4245551509).jpg"
   ],
-  "undertak": [
-    "File:Running wall molding for a suspended ceiling grid in the back of house area in the LIRR concourse. 04-25-2019 (33830512818).jpg"
-  ],
   "utrymningsskylt": [
     "File:Emergency exit sign 2016.jpg",
     "File:An emergency exit sign.jpg"
   ],
-  "vagguttag": [
-    "File:Australian Dual Socket Outlet and LAN Wall Plate.jpg"
-  ],
   "vaghyvel": [
-    "File:Caterpillar motor grader left AGSEM.jpg",
-    "File:Caterpillar motor grader front AGSEM.jpg",
-    "File:Motor grader Teräskarhu 2.jpg"
+    "File:Caterpillar motor grader left AGSEM.jpg"
   ],
   "valt": [
     "File:Ride-on roller compactor, an equipment for asphalt pavement, Canada.jpg",
@@ -791,7 +690,6 @@
     "File:Ariston Water heater.jpg"
   ],
   "varningsskylt": [
-    "File:Sign-1150014, Leixlip, Co. Kildare, Ireland.jpg",
     "File:Sign-1050269, Dingle Peninsula, Co. Kerry, Ireland.jpg",
     "File:Sign-1150567, Leixlip, Co. Kildare, Ireland.jpg"
   ],
@@ -801,8 +699,7 @@
   "vattenlas": [
     "File:Leaking PVC Pipe Under Sink - P Trap (52842956605).jpg",
     "File:247 Home Rescue back of sink plumbing.jpg",
-    "File:HK public toilet bathing hand sink drain pipes December 2019 SS2 01.jpg",
-    "File:HK public toilet bathing hand sink drain pipes December 2019 SS2 02.jpg"
+    "File:HK public toilet bathing hand sink drain pipes December 2019 SS2 01.jpg"
   ],
   "vattenmatare": [
     "File:WMBUS Water Meter for submetering.jpg",
@@ -824,10 +721,7 @@
     "File:Blue Grass Chemical Agent-Destruction Pilot Plant Supercritical Water Oxidation Processing Building (25907690623).jpg",
     "File:013 Office building air conditioning rooftop system in Tokyo city - airconditioning op het dak.jpg"
   ],
-  "vindsbjalklag": false,
-  "vinkelbeslag": false,
   "vinkelhake": [
-    "File:Testing a try square for accuracy.png",
     "File:Try Square.jpg",
     "File:Trysquare.jpg"
   ],
@@ -837,10 +731,61 @@
   ],
   "xps": [
     "File:Styrofoam-grey-board.jpg",
-    "File:Vapour barrier.JPG",
     "File:Pueblo Chemical Agent-Destruction Pilot Plant, Static Detonation Chamber Assembly Site (48879909448).jpg"
   ],
-  "ratskiva": false,
-  "vindskydd": false,
-  "kopplingslina": false
+  "avvagningsinstrument": [
+    "File:US Navy 030428-N-4936C-119 Chief Equipment Operator Chris Walaszek uses a dumpy level to survey the topography.jpg",
+    "File:DumpyLevel.jpg"
+  ],
+  "kantsten": [
+    "File:Sternstraße Jungfernstieg Kiel Abgesenkter Bordstein.jpg",
+    "File:Nieder-Ingelheim - Granit-Bordstein für Bushalt.jpg",
+    "File:Einfahrt-Physik-Bordstein-Nord.jpg"
+  ],
+  "padda": [
+    "File:Rüttelplatte Ammann klein.JPG",
+    "File:Rüttelplatte mit Gummimatte.jpg",
+    "File:Wacker Neuson Rüttelplatte WPP1550.jpg"
+  ],
+  "regelvagg": [
+    "File:Holzständerwand.JPG"
+  ],
+  "vindskydd": [
+    "File:US Navy 100824-N-0858D-272 Sailors work on a new home for Habitat for Humanity during Boise Navy Week.jpg",
+    "File:Barricade-Plus-Housewrap.jpg",
+    "File:DuPontTyvekHouseUnderConstruction.jpg"
+  ],
+  "fjarrvarmecentral": [
+    "File:District heating substation 2.jpg",
+    "File:Wärmeübergabestation 300 kW.jpg",
+    "File:District heating substation.jpg"
+  ],
+  "avloppsror": [
+    "File:Keramikrohre.jpg"
+  ],
+  "ratskiva": [
+    "File:Screeding-concrete.jpg"
+  ],
+  "avstangningsventil": [
+    "File:Ball Valve.jpg",
+    "File:Ball-valve--The-Alloy-Valve-Stockist.JPG",
+    "File:Ball valve in household.jpg"
+  ],
+  "dammsugare_bygg": [
+    "File:Advance VL500 wetdry vacuum Yonge.jpg",
+    "File:Craftsman 16 Gallon Wet-Dry Vac.jpg"
+  ],
+  "fogsvans": [
+    "File:Handsäge Holz10.jpg"
+  ],
+  "regel": [
+    "File:Uso Fiume.jpg"
+  ],
+  "takfot": [
+    "File:D-79-155-49 Harburg Heroldingen Zehentstadel DetaIl Walmgrat-defekt 008.jpg"
+  ],
+  "bricka": false,
+  "kritsnore": false,
+  "krypgrund": false,
+  "vagguttag": false
 }

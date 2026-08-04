@@ -28,32 +28,18 @@ window.BQ_BILDER = {
    "upphov": "Jiří Sedláček",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Head_of_IKEA_hammer.jpg"
-  },
-  {
-   "fil": "img/hammare-5.jpg",
-   "titel": "Hammering a nail (line art) (PSF H-420004 (cropped)).png",
-   "upphov": "Pearson Scott Foresman",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Hammering_a_nail_(line_art)_(PSF_H-420004_(cropped)).png"
   }
  ],
  "slagga": [
   {
    "fil": "img/slagga-1.jpg",
-   "titel": "Various sledge hammers and an axe in hardware store in Germany.jpg",
-   "upphov": "Pittigrilli",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Various_sledge_hammers_and_an_axe_in_hardware_store_in_Germany.jpg"
-  },
-  {
-   "fil": "img/slagga-2.jpg",
    "titel": "Sledgehammer (5489039867).jpg",
    "upphov": "USAID U.S. Agency for International Development",
    "licens": "Public domain",
    "kalla": "https://commons.wikimedia.org/wiki/File:Sledgehammer_(5489039867).jpg"
   },
   {
-   "fil": "img/slagga-3.jpg",
+   "fil": "img/slagga-2.jpg",
    "titel": "Sledgehammer with very flexible handle - 02.jpg",
    "upphov": "Anna Frodesiak",
    "licens": "CC0",
@@ -171,13 +157,6 @@ window.BQ_BILDER = {
    "upphov": "Mark Hunter",
    "licens": "CC BY 2.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Makita_JR3070CT_Reciprocating_Saw_(4887723644).jpg"
-  },
-  {
-   "fil": "img/tigersag-4.jpg",
-   "titel": "Makita JR3070CT Reciprocating Saw (4887120605).jpg",
-   "upphov": "Mark Hunter",
-   "licens": "CC BY 2.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Makita_JR3070CT_Reciprocating_Saw_(4887120605).jpg"
   }
  ],
  "cirkelsag": [
@@ -362,20 +341,6 @@ window.BQ_BILDER = {
    "upphov": "多多123",
    "licens": "CC BY 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:B%26Q_Tape_Measure.jpg"
-  },
-  {
-   "fil": "img/matband-2.jpg",
-   "titel": "Lufkin Universal 50 ft tape measure.jpg",
-   "upphov": "Junkyardsparkle",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Lufkin_Universal_50_ft_tape_measure.jpg"
-  },
-  {
-   "fil": "img/matband-3.jpg",
-   "titel": "Dornbirn-Ebnit-Tape measure-02ASD.jpg",
-   "upphov": "Asurnipal",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Dornbirn-Ebnit-Tape_measure-02ASD.jpg"
   }
  ],
  "kofot": [
@@ -431,6 +396,15 @@ window.BQ_BILDER = {
    "upphov": "kelly taylor from winchvegas, usa",
    "licens": "CC BY-SA 2.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Putty_knife_(2653226995).jpg"
+  }
+ ],
+ "ratskiva": [
+  {
+   "fil": "img/ratskiva-1.jpg",
+   "titel": "Screeding-concrete.jpg",
+   "upphov": "Bill Bradley. billbeee 21:22, 24 October 2007 (UTC)",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Screeding-concrete.jpg"
   }
  ],
  "skiftnyckel": [
@@ -542,29 +516,6 @@ window.BQ_BILDER = {
    "upphov": "Pittigrilli~commonswiki",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Socket_set_with_two_ratchets_in_metal_box,_industrial_grade_quality,_on_white_background.jpg"
-  }
- ],
- "kritsnore": [
-  {
-   "fil": "img/kritsnore-1.jpg",
-   "titel": "Chalk line reel (AM 713530-1).jpg",
-   "upphov": "Okänd",
-   "licens": "CC BY 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Chalk_line_reel_(AM_713530-1).jpg"
-  },
-  {
-   "fil": "img/kritsnore-2.jpg",
-   "titel": "Chalk line reel (AM 713530-4).jpg",
-   "upphov": "Okänd",
-   "licens": "CC BY 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Chalk_line_reel_(AM_713530-4).jpg"
-  },
-  {
-   "fil": "img/kritsnore-3.jpg",
-   "titel": "Chalk line reel (AM 713530-3).jpg",
-   "upphov": "Okänd",
-   "licens": "CC BY 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Chalk_line_reel_(AM_713530-3).jpg"
   }
  ],
  "fogspruta": [
@@ -765,6 +716,29 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:CAT_CB-214D_roller_compactor_-_Arlington,_MA.jpg"
   }
  ],
+ "padda": [
+  {
+   "fil": "img/padda-1.jpg",
+   "titel": "Rüttelplatte Ammann klein.JPG",
+   "upphov": "Mailtosap",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:R%C3%BCttelplatte_Ammann_klein.JPG"
+  },
+  {
+   "fil": "img/padda-2.jpg",
+   "titel": "Rüttelplatte mit Gummimatte.jpg",
+   "upphov": "Leo Miregalitheo",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:R%C3%BCttelplatte_mit_Gummimatte.jpg"
+  },
+  {
+   "fil": "img/padda-3.jpg",
+   "titel": "Wacker Neuson Rüttelplatte WPP1550.jpg",
+   "upphov": "Wacker Neuson SE",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Wacker_Neuson_R%C3%BCttelplatte_WPP1550.jpg"
+  }
+ ],
  "traktor": [
   {
    "fil": "img/traktor-1.jpg",
@@ -932,20 +906,13 @@ window.BQ_BILDER = {
   },
   {
    "fil": "img/betongbil-3.jpg",
-   "titel": "Concrete mixer and pump truck with extended boom.jpg",
-   "upphov": "Grendelkhan",
-   "licens": "CC BY-SA 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_mixer_and_pump_truck_with_extended_boom.jpg"
-  },
-  {
-   "fil": "img/betongbil-4.jpg",
    "titel": "CAMC concrete mixer truck Xing Kaima. Spielvogel 2.jpg",
    "upphov": "Spielvogel For a gallery of some more of my uploaded pictures see: here. All images can be used free of charge.",
    "licens": "CC0",
    "kalla": "https://commons.wikimedia.org/wiki/File:CAMC_concrete_mixer_truck_Xing_Kaima._Spielvogel_2.jpg"
   },
   {
-   "fil": "img/betongbil-5.jpg",
+   "fil": "img/betongbil-4.jpg",
    "titel": "2013 SANY SY306C Concrete Mixer Truck.JPG",
    "upphov": "Reedhawk",
    "licens": "CC BY-SA 4.0",
@@ -1019,20 +986,6 @@ window.BQ_BILDER = {
    "upphov": "Eric Polk",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Caterpillar_motor_grader_left_AGSEM.jpg"
-  },
-  {
-   "fil": "img/vaghyvel-2.jpg",
-   "titel": "Caterpillar motor grader front AGSEM.jpg",
-   "upphov": "Eric Polk",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Caterpillar_motor_grader_front_AGSEM.jpg"
-  },
-  {
-   "fil": "img/vaghyvel-3.jpg",
-   "titel": "Motor grader Teräskarhu 2.jpg",
-   "upphov": "Periegetes",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Motor_grader_Ter%C3%A4skarhu_2.jpg"
   }
  ],
  "skylift": [
@@ -1238,6 +1191,22 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Dumpster_Rental_Charlotte_Roll_off_Dumpster.png"
   }
  ],
+ "dammsugare_bygg": [
+  {
+   "fil": "img/dammsugare_bygg-1.jpg",
+   "titel": "Advance VL500 wetdry vacuum Yonge.jpg",
+   "upphov": "PvOberstein",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Advance_VL500_wetdry_vacuum_Yonge.jpg"
+  },
+  {
+   "fil": "img/dammsugare_bygg-2.jpg",
+   "titel": "Craftsman 16 Gallon Wet-Dry Vac.jpg",
+   "upphov": "Nynexman4464",
+   "licens": "CC BY-SA 2.5",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Craftsman_16_Gallon_Wet-Dry_Vac.jpg"
+  }
+ ],
  "traskruv": [
   {
    "fil": "img/traskruv-1.jpg",
@@ -1298,13 +1267,6 @@ window.BQ_BILDER = {
    "upphov": "Gausanchennai",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Steel_nails.jpg"
-  },
-  {
-   "fil": "img/spik-3.jpg",
-   "titel": "Spijkers (Nails).jpg",
-   "upphov": "Rasbak",
-   "licens": "CC BY-SA 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg"
   }
  ],
  "mutter": [
@@ -1314,15 +1276,6 @@ window.BQ_BILDER = {
    "upphov": "Friedrich Haag",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Gro%C3%9F_und_klein_003_2022_07_15.jpg"
-  }
- ],
- "bricka": [
-  {
-   "fil": "img/bricka-1.jpg",
-   "titel": "Insulating fiberglass washers for M3.jpg",
-   "upphov": "Retired electrician",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Insulating_fiberglass_washers_for_M3.jpg"
   }
  ],
  "bult": [
@@ -1335,26 +1288,10 @@ window.BQ_BILDER = {
   },
   {
    "fil": "img/bult-2.jpg",
-   "titel": "Schraube1.jpg",
-   "upphov": "Montillona",
-   "licens": "CC BY 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Schraube1.jpg"
-  },
-  {
-   "fil": "img/bult-3.jpg",
    "titel": "Maschinenschraube 03 (fcm).jpg",
    "upphov": "Photograph: Frank C. Müller, Frankfurt am Main",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Maschinenschraube_03_(fcm).jpg"
-  }
- ],
- "expander": [
-  {
-   "fil": "img/expander-1.jpg",
-   "titel": "Anchor bolt in concrete.jpg",
-   "upphov": "Zeizmic at English Wikipedia",
-   "licens": "CC BY-SA 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Anchor_bolt_in_concrete.jpg"
   }
  ],
  "gipsskiva": [
@@ -1371,13 +1308,15 @@ window.BQ_BILDER = {
    "upphov": "Timothyjosephwood",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Drywall_and_tools.jpg"
-  },
+  }
+ ],
+ "regel": [
   {
-   "fil": "img/gipsskiva-3.jpg",
-   "titel": "Gib board aka plasterboard tapered edges 01.jpg",
-   "upphov": "Panamitsu",
+   "fil": "img/regel-1.jpg",
+   "titel": "Uso Fiume.jpg",
+   "upphov": "ReteMK",
    "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Gib_board_aka_plasterboard_tapered_edges_01.jpg"
+   "kalla": "https://commons.wikimedia.org/wiki/File:Uso_Fiume.jpg"
   }
  ],
  "limtrabalk": [
@@ -1535,13 +1474,6 @@ window.BQ_BILDER = {
   },
   {
    "fil": "img/tegel-2.jpg",
-   "titel": "Brickwork detail, Corning.jpg",
-   "upphov": "J. Passepartout",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Brickwork_detail,_Corning.jpg"
-  },
-  {
-   "fil": "img/tegel-3.jpg",
    "titel": "Old brickwork. Red brick.jpg",
    "upphov": "Dmitry Makeev",
    "licens": "CC BY-SA 3.0",
@@ -1562,13 +1494,6 @@ window.BQ_BILDER = {
    "upphov": "Lucis",
    "licens": "CC BY-SA 3.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Hydroton.jpg"
-  },
-  {
-   "fil": "img/lecablock-3.jpg",
-   "titel": "Leca pellets.jpg",
-   "upphov": "Leca67",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Leca_pellets.jpg"
   }
  ],
  "mineralull": [
@@ -1643,13 +1568,6 @@ window.BQ_BILDER = {
   },
   {
    "fil": "img/xps-2.jpg",
-   "titel": "Vapour barrier.JPG",
-   "upphov": "P199",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Vapour_barrier.JPG"
-  },
-  {
-   "fil": "img/xps-3.jpg",
    "titel": "Pueblo Chemical Agent-Destruction Pilot Plant, Static Detonation Chamber Assembly Site (48879909448).jpg",
    "upphov": "PEO ACWA",
    "licens": "CC BY 2.0",
@@ -1679,6 +1597,29 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Georgia-Pacific_ForceField_moisture_barrier_sheathing.jpg"
   }
  ],
+ "vindskydd": [
+  {
+   "fil": "img/vindskydd-1.jpg",
+   "titel": "US Navy 100824-N-0858D-272 Sailors work on a new home for Habitat for Humanity during Boise Navy Week.jpg",
+   "upphov": "U.S. Navy photo by Mass Communication Specialist 2nd Class Cheryl Dilgard",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:US_Navy_100824-N-0858D-272_Sailors_work_on_a_new_home_for_Habitat_for_Humanity_during_Boise_Navy_Week.jpg"
+  },
+  {
+   "fil": "img/vindskydd-2.jpg",
+   "titel": "Barricade-Plus-Housewrap.jpg",
+   "upphov": "Hubblead",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Barricade-Plus-Housewrap.jpg"
+  },
+  {
+   "fil": "img/vindskydd-3.jpg",
+   "titel": "DuPontTyvekHouseUnderConstruction.jpg",
+   "upphov": "Raysonho @ Open Grid Scheduler / Scalable Grid Engine",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:DuPontTyvekHouseUnderConstruction.jpg"
+  }
+ ],
  "takpapp": [
   {
    "fil": "img/takpapp-1.jpg",
@@ -1686,27 +1627,6 @@ window.BQ_BILDER = {
    "upphov": "W.carter",
    "licens": "CC0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Bituminous_waterproofing_on_flat_roof_2.jpg"
-  },
-  {
-   "fil": "img/takpapp-2.jpg",
-   "titel": "Bituminous waterproofing on flat roof 1.jpg",
-   "upphov": "W.carter",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Bituminous_waterproofing_on_flat_roof_1.jpg"
-  },
-  {
-   "fil": "img/takpapp-3.jpg",
-   "titel": "Bituminous waterproofing on flat roof 3.jpg",
-   "upphov": "W.carter",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Bituminous_waterproofing_on_flat_roof_3.jpg"
-  },
-  {
-   "fil": "img/takpapp-4.jpg",
-   "titel": "Bituminous waterproofing on flat roof 4.jpg",
-   "upphov": "W.carter",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Bituminous_waterproofing_on_flat_roof_4.jpg"
   }
  ],
  "takpannor": [
@@ -1795,13 +1715,6 @@ window.BQ_BILDER = {
  "spackel": [
   {
    "fil": "img/spackel-1.jpg",
-   "titel": "Kitchen renovation spackling to cover holes and tape between sheetrock boards.JPG",
-   "upphov": "Tomwsulcer",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Kitchen_renovation_spackling_to_cover_holes_and_tape_between_sheetrock_boards.JPG"
-  },
-  {
-   "fil": "img/spackel-2.jpg",
    "titel": "Spackling (5397974123).jpg",
    "upphov": "Jeremy Keith from Brighton &amp; Hove, United Kingdom",
    "licens": "CC BY 2.0",
@@ -1815,20 +1728,6 @@ window.BQ_BILDER = {
    "upphov": "Tomwsulcer",
    "licens": "CC0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Mortar_mixed_inside_bucket.jpg"
-  },
-  {
-   "fil": "img/murbruk-2.jpg",
-   "titel": "Preservationists mix mortar by hand in a wheel barrow to complete foundation wall masonry infills. (2358aa3f-b007-4968-8357-e51c1e036ae8).jpg",
-   "upphov": "NPS Photo",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Preservationists_mix_mortar_by_hand_in_a_wheel_barrow_to_complete_foundation_wall_masonry_infills._(2358aa3f-b007-4968-8357-e51c1e036ae8).jpg"
-  },
-  {
-   "fil": "img/murbruk-3.jpg",
-   "titel": "EuroMix mortar silo - 31 July 2026.jpg",
-   "upphov": "Aethonatic",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:EuroMix_mortar_silo_-_31_July_2026.jpg"
   }
  ],
  "makadam": [
@@ -1841,13 +1740,6 @@ window.BQ_BILDER = {
   },
   {
    "fil": "img/makadam-2.jpg",
-   "titel": "Stone crushed into building material.jpg",
-   "upphov": "BogTar201213",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Stone_crushed_into_building_material.jpg"
-  },
-  {
-   "fil": "img/makadam-3.jpg",
    "titel": "Dump truck laying crushed stone in Jyväskylä.JPG",
    "upphov": "Antti Leppänen",
    "licens": "CC BY-SA 3.0",
@@ -1861,6 +1753,38 @@ window.BQ_BILDER = {
    "upphov": "Stephen Craven",
    "licens": "CC BY-SA 2.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Laying_land_drains_in_the_Aire_valley_-_geograph.org.uk_-_1397265.jpg"
+  }
+ ],
+ "markduk": [
+  {
+   "fil": "img/markduk-1.jpg",
+   "titel": "Geotextile-GSI.JPG",
+   "upphov": "Marilyn475",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Geotextile-GSI.JPG"
+  }
+ ],
+ "kantsten": [
+  {
+   "fil": "img/kantsten-1.jpg",
+   "titel": "Sternstraße Jungfernstieg Kiel Abgesenkter Bordstein.jpg",
+   "upphov": "Michael Brandtner",
+   "licens": "CC BY 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Sternstra%C3%9Fe_Jungfernstieg_Kiel_Abgesenkter_Bordstein.jpg"
+  },
+  {
+   "fil": "img/kantsten-2.jpg",
+   "titel": "Nieder-Ingelheim - Granit-Bordstein für Bushalt.jpg",
+   "upphov": "ManuelB701",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Nieder-Ingelheim_-_Granit-Bordstein_f%C3%BCr_Bushalt.jpg"
+  },
+  {
+   "fil": "img/kantsten-3.jpg",
+   "titel": "Einfahrt-Physik-Bordstein-Nord.jpg",
+   "upphov": "SpeciesATosm",
+   "licens": "CC0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Einfahrt-Physik-Bordstein-Nord.jpg"
   }
  ],
  "gipsband": [
@@ -1923,13 +1847,6 @@ window.BQ_BILDER = {
    "upphov": "Wishofflying",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Empiral_Vision_Grey_goggles.jpg"
-  },
-  {
-   "fil": "img/skyddsglasogon-4.jpg",
-   "titel": "Goggles (PSF).png",
-   "upphov": "Pearson Scott Foresman",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Goggles_(PSF).png"
   }
  ],
  "horselskydd": [
@@ -1962,20 +1879,6 @@ window.BQ_BILDER = {
    "upphov": "Kent Madsen",
    "licens": "CC BY-SA 2.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Half-Mask_Respirators,_3.jpg"
-  },
-  {
-   "fil": "img/andningsskydd-3.jpg",
-   "titel": "Half-Mask Respirators, 1.jpg",
-   "upphov": "Kent Madsen",
-   "licens": "CC BY-SA 2.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Half-Mask_Respirators,_1.jpg"
-  },
-  {
-   "fil": "img/andningsskydd-4.jpg",
-   "titel": "Half-Mask Respirators, 2.jpg",
-   "upphov": "Kent Madsen",
-   "licens": "CC BY-SA 2.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Half-Mask_Respirators,_2.jpg"
   }
  ],
  "skyddshandskar": [
@@ -2234,20 +2137,13 @@ window.BQ_BILDER = {
  "varningsskylt": [
   {
    "fil": "img/varningsskylt-1.jpg",
-   "titel": "Sign-1150014, Leixlip, Co. Kildare, Ireland.jpg",
-   "upphov": "Leimanbhradain",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Sign-1150014,_Leixlip,_Co._Kildare,_Ireland.jpg"
-  },
-  {
-   "fil": "img/varningsskylt-2.jpg",
    "titel": "Sign-1050269, Dingle Peninsula, Co. Kerry, Ireland.jpg",
    "upphov": "Mucklagh",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Sign-1050269,_Dingle_Peninsula,_Co._Kerry,_Ireland.jpg"
   },
   {
-   "fil": "img/varningsskylt-3.jpg",
+   "fil": "img/varningsskylt-2.jpg",
    "titel": "Sign-1150567, Leixlip, Co. Kildare, Ireland.jpg",
    "upphov": "Leimanbhradain",
    "licens": "CC BY 4.0",
@@ -2275,6 +2171,15 @@ window.BQ_BILDER = {
    "upphov": "U.S. Army Corps of Engineers Europe District from Wiesbaden, Germany",
    "licens": "Public domain",
    "kalla": "https://commons.wikimedia.org/wiki/File:Progress_continues_on_Incirlik%E2%80%99s_Consolidated_Community_Center_(13897395861).jpg"
+  }
+ ],
+ "regelvagg": [
+  {
+   "fil": "img/regelvagg-1.jpg",
+   "titel": "Holzständerwand.JPG",
+   "upphov": "Björn Stieler",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Holzst%C3%A4nderwand.JPG"
   }
  ],
  "hammarband": [
@@ -2424,15 +2329,6 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_beam_skeleton_of_barn_-_geograph.org.uk_-_433565.jpg"
   }
  ],
- "fasad_luftspalt": [
-  {
-   "fil": "img/fasad_luftspalt-1.jpg",
-   "titel": "Partially-filled Cavity wall tie shape diagram.png",
-   "upphov": "Sweetean",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Partially-filled_Cavity_wall_tie_shape_diagram.png"
-  }
- ],
  "gjutform": [
   {
    "fil": "img/gjutform-1.jpg",
@@ -2493,13 +2389,13 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Krysskolvning.JPG"
   }
  ],
- "undertak": [
+ "trapphus": [
   {
-   "fil": "img/undertak-1.jpg",
-   "titel": "Running wall molding for a suspended ceiling grid in the back of house area in the LIRR concourse. 04-25-2019 (33830512818).jpg",
-   "upphov": "MTA Capital Construction Mega Projects",
-   "licens": "CC BY 2.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Running_wall_molding_for_a_suspended_ceiling_grid_in_the_back_of_house_area_in_the_LIRR_concourse._04-25-2019_(33830512818).jpg"
+   "fil": "img/trapphus-1.jpg",
+   "titel": "Faschina-Precast concrete stair-02ASD.jpg",
+   "upphov": "Asurnipal",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Faschina-Precast_concrete_stair-02ASD.jpg"
   }
  ],
  "hisschakt": [
@@ -2617,29 +2513,13 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Pet%C5%91fi_Bridge_expansion_joints,_2019_L%C3%A1gym%C3%A1nyos.jpg"
   }
  ],
- "krypgrund": [
-  {
-   "fil": "img/krypgrund-1.jpg",
-   "titel": "Crawl spaces 1.jpg",
-   "upphov": "Boatbuilder",
-   "licens": "CC BY-SA 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Crawl_spaces_1.jpg"
-  }
- ],
  "avloppsror": [
   {
    "fil": "img/avloppsror-1.jpg",
-   "titel": "Fernco PVC Drain Trap J-Bend.jpg",
-   "upphov": "Steven Pavlov",
+   "titel": "Keramikrohre.jpg",
+   "upphov": "Tesamoll",
    "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Fernco_PVC_Drain_Trap_J-Bend.jpg"
-  },
-  {
-   "fil": "img/avloppsror-2.jpg",
-   "titel": "Fernco PVC Drain Trap J-Bend-white copy.jpg",
-   "upphov": "Steven Pavlov. Modified by User:Serg!o",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Fernco_PVC_Drain_Trap_J-Bend-white_copy.jpg"
+   "kalla": "https://commons.wikimedia.org/wiki/File:Keramikrohre.jpg"
   }
  ],
  "golvbrunn": [
@@ -2649,13 +2529,6 @@ window.BQ_BILDER = {
    "upphov": "Downtowngal",
    "licens": "CC0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Toilet_drain.jpg"
-  },
-  {
-   "fil": "img/golvbrunn-2.jpg",
-   "titel": "Ellsworth W. Allen Park td (2019-06-28) 050 - Bathrooms.jpg",
-   "upphov": "Tdorante10",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Ellsworth_W._Allen_Park_td_(2019-06-28)_050_-_Bathrooms.jpg"
   }
  ],
  "vattenlas": [
@@ -2679,13 +2552,6 @@ window.BQ_BILDER = {
    "upphov": "HODmsl SVUR",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:HK_public_toilet_bathing_hand_sink_drain_pipes_December_2019_SS2_01.jpg"
-  },
-  {
-   "fil": "img/vattenlas-4.jpg",
-   "titel": "HK public toilet bathing hand sink drain pipes December 2019 SS2 02.jpg",
-   "upphov": "HODmsl SVUR",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:HK_public_toilet_bathing_hand_sink_drain_pipes_December_2019_SS2_02.jpg"
   }
  ],
  "radiator": [
@@ -2695,13 +2561,6 @@ window.BQ_BILDER = {
    "upphov": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 20:14, 15 January 2022 (UTC)",
    "licens": "CC BY-SA 4.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_06.jpg"
-  },
-  {
-   "fil": "img/radiator-2.jpg",
-   "titel": "Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 08.jpg",
-   "upphov": "Donald Trung Quoc Don (Chữ Hán: 徵國單) - Wikimedia Commons - © CC BY-SA 4.0 International.(Want to use this image?)Original publication 📤: --Donald Trung 『徵國單』 (No Fake News 💬) (WikiProject Numismatics 💴) (Articles 📚) 20:14, 15 January 2022 (UTC)",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Replacement_of_a_central_heating_radiator,_Hillegersberg,_Rotterdam_(2022)_08.jpg"
   }
  ],
  "ftx": [
@@ -2833,32 +2692,9 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Cable_junction_box_for_maintaining_electrical_functional_integrity_according_to_DIN_4102_Part_12.JPG"
   }
  ],
- "tomror": [
-  {
-   "fil": "img/tomror-1.jpg",
-   "titel": "金属製可とう管.jpg",
-   "upphov": "Uri",
-   "licens": "CC BY-SA 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:%E9%87%91%E5%B1%9E%E8%A3%BD%E5%8F%AF%E3%81%A8%E3%81%86%E7%AE%A1.jpg"
-  }
- ],
  "sprinkler": [
   {
    "fil": "img/sprinkler-1.jpg",
-   "titel": "TYCO-Standard-Spray-Sprinkler-head-141-degree-celsius-01.jpg",
-   "upphov": "CEphoto, Uwe Aranas",
-   "licens": "CC BY-SA 3.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:TYCO-Standard-Spray-Sprinkler-head-141-degree-celsius-01.jpg"
-  },
-  {
-   "fil": "img/sprinkler-2.jpg",
-   "titel": "Sprinkler head NH.agr.jpg",
-   "upphov": "ArnoldReinhold",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Sprinkler_head_NH.agr.jpg"
-  },
-  {
-   "fil": "img/sprinkler-3.jpg",
    "titel": "Fusable link sprinkler head.jpg",
    "upphov": "Stebanoid",
    "licens": "CC0",
@@ -2912,17 +2748,17 @@ window.BQ_BILDER = {
   },
   {
    "fil": "img/fjarrvarmecentral-2.jpg",
-   "titel": "District heating substation.jpg",
-   "upphov": "Tiia Monto",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:District_heating_substation.jpg"
-  },
-  {
-   "fil": "img/fjarrvarmecentral-3.jpg",
    "titel": "Wärmeübergabestation 300 kW.jpg",
    "upphov": "Ulrichulrich",
    "licens": "CC BY-SA 3.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:W%C3%A4rme%C3%BCbergabestation_300_kW.jpg"
+  },
+  {
+   "fil": "img/fjarrvarmecentral-3.jpg",
+   "titel": "District heating substation.jpg",
+   "upphov": "Tiia Monto",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:District_heating_substation.jpg"
   }
  ],
  "golvvarme": [
@@ -2990,29 +2826,22 @@ window.BQ_BILDER = {
  "fogsvans": [
   {
    "fil": "img/fogsvans-1.jpg",
-   "titel": "Wood & steel hand saw (1900-1940). There was a carpenter’s shop at Hampton during the historic era. Numerous woodworking and (97a61514-4e47-47e9-9271-c7cf0ac8a63b).JPG",
-   "upphov": "NPS",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Wood_%26_steel_hand_saw_(1900-1940)._There_was_a_carpenter%E2%80%99s_shop_at_Hampton_during_the_historic_era._Numerous_woodworking_and_(97a61514-4e47-47e9-9271-c7cf0ac8a63b).JPG"
+   "titel": "Handsäge Holz10.jpg",
+   "upphov": "MyRepairs",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Hands%C3%A4ge_Holz10.jpg"
   }
  ],
  "hyvel": [
   {
    "fil": "img/hyvel-1.jpg",
-   "titel": "Woodworking hand tools on timber planks 01.jpg",
-   "upphov": "A S M Jobaer",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Woodworking_hand_tools_on_timber_planks_01.jpg"
-  },
-  {
-   "fil": "img/hyvel-2.jpg",
    "titel": "Germany Side-Rabbet-Plane--01.jpg",
    "upphov": "CEphoto, Uwe Aranas",
    "licens": "CC BY-SA 3.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Germany_Side-Rabbet-Plane--01.jpg"
   },
   {
-   "fil": "img/hyvel-3.jpg",
+   "fil": "img/hyvel-2.jpg",
    "titel": "Germany Side-Rabbet-Plane--02.jpg",
    "upphov": "CEphoto, Uwe Aranas",
    "licens": "CC BY-SA 3.0",
@@ -3075,17 +2904,17 @@ window.BQ_BILDER = {
  "avvagningsinstrument": [
   {
    "fil": "img/avvagningsinstrument-1.jpg",
-   "titel": "Illustrated catalogue and price-list of drawing and tracing papers, sun print papers and equipments, drawing instruments and materials, surveying instruments, accessories, etc. - Kolesch and Company. (14803757583).jpg",
-   "upphov": "Internet Archive Book Images",
-   "licens": "No restrictions",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Illustrated_catalogue_and_price-list_of_drawing_and_tracing_papers,_sun_print_papers_and_equipments,_drawing_instruments_and_materials,_surveying_instruments,_accessories,_etc._-_Kolesch_and_Company._(14803757583).jpg"
+   "titel": "US Navy 030428-N-4936C-119 Chief Equipment Operator Chris Walaszek uses a dumpy level to survey the topography.jpg",
+   "upphov": "U.S. Navy photo by Journalist Seaman David P. Coleman.",
+   "licens": "Public domain",
+   "kalla": "https://commons.wikimedia.org/wiki/File:US_Navy_030428-N-4936C-119_Chief_Equipment_Operator_Chris_Walaszek_uses_a_dumpy_level_to_survey_the_topography.jpg"
   },
   {
    "fil": "img/avvagningsinstrument-2.jpg",
-   "titel": "Illustrated catalogue and price-list of drawing and tracing papers, sun print papers and equipments, drawing instruments and materials, surveying instruments, accessories, etc. - Kolesch and Company. (14781544964).jpg",
-   "upphov": "Internet Archive Book Images",
-   "licens": "No restrictions",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Illustrated_catalogue_and_price-list_of_drawing_and_tracing_papers,_sun_print_papers_and_equipments,_drawing_instruments_and_materials,_surveying_instruments,_accessories,_etc._-_Kolesch_and_Company._(14781544964).jpg"
+   "titel": "DumpyLevel.jpg",
+   "upphov": "Original uploader was Clicgauche at fr.wikipedia",
+   "licens": "CC BY-SA 1.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:DumpyLevel.jpg"
   }
  ],
  "momentnyckel": [
@@ -3102,13 +2931,6 @@ window.BQ_BILDER = {
    "upphov": "J.C. Fields (Talk) (Uploads)",
    "licens": "CC BY-SA 3.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Craftsman_click_torque_wrench.jpg"
-  },
-  {
-   "fil": "img/momentnyckel-3.jpg",
-   "titel": "Dental torque wrench, Camlog Model J5320.1030-0114.jpg",
-   "upphov": "Raimond Spekking",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Dental_torque_wrench,_Camlog_Model_J5320.1030-0114.jpg"
   }
  ],
  "bagfil": [
@@ -3130,20 +2952,13 @@ window.BQ_BILDER = {
  "vinkelhake": [
   {
    "fil": "img/vinkelhake-1.jpg",
-   "titel": "Testing a try square for accuracy.png",
-   "upphov": "LittleDwangs",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Testing_a_try_square_for_accuracy.png"
-  },
-  {
-   "fil": "img/vinkelhake-2.jpg",
    "titel": "Try Square.jpg",
    "upphov": "Luke Milburn",
    "licens": "CC BY 2.0",
    "kalla": "https://commons.wikimedia.org/wiki/File:Try_Square.jpg"
   },
   {
-   "fil": "img/vinkelhake-3.jpg",
+   "fil": "img/vinkelhake-2.jpg",
    "titel": "Trysquare.jpg",
    "upphov": "Luigi Zanasi",
    "licens": "CC BY-SA 2.0 ca",
@@ -3396,15 +3211,6 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Mix_of_paving_stones_IMG_20200910_163455.jpg"
   }
  ],
- "kakel": [
-  {
-   "fil": "img/kakel-1.jpg",
-   "titel": "Railing shadows on ceramic wall tiles, Alameda Afonso Henriques, Lisbon, Portugal julesvernex2.jpg",
-   "upphov": "Jules Verne Times Two",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Railing_shadows_on_ceramic_wall_tiles,_Alameda_Afonso_Henriques,_Lisbon,_Portugal_julesvernex2.jpg"
-  }
- ],
  "golvplattor": [
   {
    "fil": "img/golvplattor-1.jpg",
@@ -3424,13 +3230,6 @@ window.BQ_BILDER = {
  "fogmassa": [
   {
    "fil": "img/fogmassa-1.jpg",
-   "titel": "Applying grout.jpg",
-   "upphov": "own",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Applying_grout.jpg"
-  },
-  {
-   "fil": "img/fogmassa-2.jpg",
    "titel": "Mixing of grout after inspection for use in Queens. (49469743441).jpg",
    "upphov": "MTA Capital Construction Mega Projects",
    "licens": "CC BY 2.0",
@@ -3577,6 +3376,15 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:17._Window_Frame_Installation._(8be97474-aa5a-40d6-949c-145aaf633055).jpg"
   }
  ],
+ "takfot": [
+  {
+   "fil": "img/takfot-1.jpg",
+   "titel": "D-79-155-49 Harburg Heroldingen Zehentstadel DetaIl Walmgrat-defekt 008.jpg",
+   "upphov": "Rikiwiki2",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:D-79-155-49_Harburg_Heroldingen_Zehentstadel_DetaIl_Walmgrat-defekt_008.jpg"
+  }
+ ],
  "kallarvagg": [
   {
    "fil": "img/kallarvagg-1.jpg",
@@ -3634,15 +3442,6 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:2017_at_Long_Rock_-_extracting_a_ventilator.JPG"
   }
  ],
- "vagguttag": [
-  {
-   "fil": "img/vagguttag-1.jpg",
-   "titel": "Australian Dual Socket Outlet and LAN Wall Plate.jpg",
-   "upphov": "Fredquint",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Australian_Dual_Socket_Outlet_and_LAN_Wall_Plate.jpg"
-  }
- ],
  "vattenmatare": [
   {
    "fil": "img/vattenmatare-1.jpg",
@@ -3669,17 +3468,24 @@ window.BQ_BILDER = {
  "avstangningsventil": [
   {
    "fil": "img/avstangningsventil-1.jpg",
-   "titel": "23 0049594 Convair Negative Image - Valve assembly disconnect and shut-off for fuel (53867608214).jpg",
-   "upphov": "San Diego Air &amp; Space Museum Archives",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:23_0049594_Convair_Negative_Image_-_Valve_assembly_disconnect_and_shut-off_for_fuel_(53867608214).jpg"
+   "titel": "Ball Valve.jpg",
+   "upphov": "Bitjungle",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Ball_Valve.jpg"
   },
   {
    "fil": "img/avstangningsventil-2.jpg",
-   "titel": "23 0049593 Convair Negative Image - Valve assembly disconnect and shut-off for fuel (53867608229).jpg",
-   "upphov": "San Diego Air &amp; Space Museum Archives",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:23_0049593_Convair_Negative_Image_-_Valve_assembly_disconnect_and_shut-off_for_fuel_(53867608229).jpg"
+   "titel": "Ball-valve--The-Alloy-Valve-Stockist.JPG",
+   "upphov": "Heather Smith",
+   "licens": "CC BY 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Ball-valve--The-Alloy-Valve-Stockist.JPG"
+  },
+  {
+   "fil": "img/avstangningsventil-3.jpg",
+   "titel": "Ball valve in household.jpg",
+   "upphov": "NVgt156",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Ball_valve_in_household.jpg"
   }
  ],
  "rokdetektor": [
@@ -3703,38 +3509,6 @@ window.BQ_BILDER = {
    "upphov": "Georg Pik",
    "licens": "Public domain",
    "kalla": "https://commons.wikimedia.org/wiki/File:Smoke_detector_(1).JPG"
-  }
- ],
- "trapphus": [
-  {
-   "fil": "img/trapphus-1.jpg",
-   "titel": "Faschina-Precast concrete stair-02ASD.jpg",
-   "upphov": "Asurnipal",
-   "licens": "CC BY-SA 4.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Faschina-Precast_concrete_stair-02ASD.jpg"
-  },
-  {
-   "fil": "img/trapphus-2.jpg",
-   "titel": "Concrete stairs in Fiskebäcksvik 2.jpg",
-   "upphov": "W.carter",
-   "licens": "CC0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Concrete_stairs_in_Fiskeb%C3%A4cksvik_2.jpg"
-  }
- ],
- "markduk": [
-  {
-   "fil": "img/markduk-1.jpg",
-   "titel": "Geotextile-GSI.JPG",
-   "upphov": "Marilyn475",
-   "licens": "Public domain",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Geotextile-GSI.JPG"
-  },
-  {
-   "fil": "img/markduk-2.jpg",
-   "titel": "Fixing of geotextile to breccia, Newfoundland Road, Teignmouth - geograph.org.uk - 4057132.jpg",
-   "upphov": "Robin Stott",
-   "licens": "CC BY-SA 2.0",
-   "kalla": "https://commons.wikimedia.org/wiki/File:Fixing_of_geotextile_to_breccia,_Newfoundland_Road,_Teignmouth_-_geograph.org.uk_-_4057132.jpg"
   }
  ]
 };

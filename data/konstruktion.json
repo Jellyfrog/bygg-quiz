@@ -30,30 +30,6 @@
       "fakta": "Kapillärbrytande lager ska ha grov och enhetlig fraktion – finmaterial förstör effekten."
     },
     {
-      "id": "ko-kantbalk",
-      "bild": "kantbalk",
-      "fraga": "Vad kallas den förtjockade delen längs plattans kant?",
-      "ratt": "Kantbalk",
-      "fel": [
-        "Sockel",
-        "Grundmur",
-        "Bärlina"
-      ],
-      "fakta": "Kantbalken bär ytterväggen och för ner lasten. Den isoleras utvändigt för att undvika köldbrygga vid golvkanten."
-    },
-    {
-      "id": "ko-syll",
-      "bild": "syll",
-      "fraga": "Vad kallas det liggande virket underst i väggen, direkt på betongen?",
-      "ratt": "Syll",
-      "fel": [
-        "Hammarband",
-        "Regel",
-        "Bärlina"
-      ],
-      "fakta": "Syllen förankras i betongen med expander eller syllbult och läggs alltid på syllisolering."
-    },
-    {
       "id": "ko-regelvagg",
       "bild": "regelvagg",
       "fraga": "Vilken konstruktion visar bilden?",
@@ -163,43 +139,6 @@
       "fakta": "Horisontellt bärverk som spänner mellan stöd och bär bjälklag eller vägg ovanför en öppning."
     },
     {
-      "id": "ko-prefab",
-      "bild": "prefab_vaggelement",
-      "fraga": "Vad visar bilden?",
-      "ratt": "Prefabricerat väggelement som lyfts på plats",
-      "fel": [
-        "Platsbyggd regelvägg",
-        "Formsatt vägg före gjutning",
-        "Skalmur under murning"
-      ],
-      "fakta": "Elementen tillverkas i fabrik med fönster och ytskikt monterade. Kortar byggtiden och minskar fuktrisken på plats."
-    },
-    {
-      "id": "ko-fasad",
-      "bild": "fasad_luftspalt",
-      "fraga": "Vad kallas det tomma skiktet mellan vindskyddet och fasadteglet?",
-      "ratt": "Luftspalt",
-      "fel": [
-        "Isolerskikt",
-        "Installationsskikt",
-        "Dilatationsfog"
-      ],
-      "fakta": "Luftspalten ventilerar bort fukt bakom fasaden och bryter kapillär transport av regnvatten in i väggen."
-    },
-    {
-      "id": "ko-fasad-ordning",
-      "typ": "anvandning",
-      "bild": "fasad_luftspalt",
-      "fraga": "I vilken ordning ligger skikten i ytterväggen, inifrån och ut?",
-      "ratt": "Gips – isolering – ångspärr på varm sida – vindskydd – luftspalt – tegel",
-      "fel": [
-        "Gips – vindskydd – isolering – ångspärr – tegel",
-        "Tegel – isolering – gips – luftspalt",
-        "Isolering – gips – ångspärr – tegel – luftspalt"
-      ],
-      "fakta": "Principen är tätt inne och öppet ute: ångspärren stoppar fukt inifrån, vindskyddet släpper ut den som ändå tar sig in."
-    },
-    {
       "id": "ko-gjutform",
       "bild": "gjutform",
       "fraga": "Vad visar bilden?",
@@ -224,30 +163,6 @@
       "fakta": "Bjälkar med isolering emellan, golvskiva ovanpå och undertak under. I lägenhetshus ställs höga krav på stegljudsdämpning."
     },
     {
-      "id": "ko-undertak",
-      "bild": "undertak",
-      "fraga": "Vad kallas konstruktionen som hänger under betongbjälklaget?",
-      "ratt": "Undertak",
-      "fel": [
-        "Installationsgolv",
-        "Innertaksgips på reglar",
-        "Akustikvägg"
-      ],
-      "fakta": "Nedpendlat tak som döljer ventilation, el och sprinkler och som ofta bidrar till rummets akustik."
-    },
-    {
-      "id": "ko-flytandegolv",
-      "bild": "flytande_golv",
-      "fraga": "Vilken golvkonstruktion visar bilden?",
-      "ratt": "Flytande golv",
-      "fel": [
-        "Golv på reglar",
-        "Golv direkt på betong",
-        "Uppreglat installationsgolv"
-      ],
-      "fakta": "Golvskivan vilar på ett mjukt mellanlägg utan fast infästning i betongen. Det bryter stegljud mellan lägenheter."
-    },
-    {
       "id": "ko-trapphus",
       "bild": "trapphus",
       "fraga": "Vad kallas den prefabricerade delen på bilden?",
@@ -270,18 +185,6 @@
         "Sopnedkast"
       ],
       "fakta": "Schaktet muras eller gjuts som en styv kärna. Det bidrar ofta även till att stabilisera huset mot vindlast."
-    },
-    {
-      "id": "ko-dranering",
-      "bild": "dranering",
-      "fraga": "Vilken konstruktion visar bilden?",
-      "ratt": "Dränering av källarvägg",
-      "fel": [
-        "Kapillärbrytande skikt under platta",
-        "Markisolering mot tjäle",
-        "Fuktspärr under syll"
-      ],
-      "fakta": "Utvändig isolering, dräneringsskiva och dräneringsrör i makadam leder bort vattnet innan det når betongväggen."
     },
     {
       "id": "ko-balkong",
@@ -332,30 +235,6 @@
       "fakta": "Rörelsefog som låter delarna röra sig fritt vid temperaturändring och sättning, så att sprickor inte uppstår okontrollerat."
     },
     {
-      "id": "ko-krypgrund",
-      "bild": "krypgrund",
-      "fraga": "Vilken grundläggning visar bilden?",
-      "ratt": "Krypgrund",
-      "fel": [
-        "Platta på mark",
-        "Källare",
-        "Plintgrund"
-      ],
-      "fakta": "Ventilerat utrymme under bjälklaget. Riskerar fuktproblem sommartid när varm luft kyls ner mot marken – kräver rätt ventilation eller avfuktning."
-    },
-    {
-      "id": "ko-sockel",
-      "bild": "sockel",
-      "fraga": "Vad kallas den synliga delen av grunden ovanför marken?",
-      "ratt": "Sockel",
-      "fel": [
-        "Kantbalk",
-        "Grundmur",
-        "Syll"
-      ],
-      "fakta": "Sockeln skyddar mot stänk och snö. Fasadmaterial ska alltid börja en bit upp på sockeln, aldrig ner i marken."
-    },
-    {
       "id": "ko-fonsterkarm",
       "bild": "fonsterkarm",
       "fraga": "Vilket arbetsmoment visar bilden?",
@@ -399,6 +278,17 @@
         "Skalmur"
       ],
       "fakta": "Gjuts i form på plats. Ytan visar formskarvarna och stagens hål – syns ofta som mönster i synlig betong."
+    },
+    {
+      "id": "ko-takfot",
+      "bild": "takfot",
+      "ratt": "Takfot",
+      "fel": [
+        "Nock",
+        "Ränndal",
+        "Gavelsprång"
+      ],
+      "fakta": "Takets nedre avslut där hängrännan sitter. Här tas ventilationsluften in under yttertaket via luftspalten."
     }
   ]
 }
