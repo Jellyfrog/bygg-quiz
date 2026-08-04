@@ -1310,6 +1310,15 @@ window.BQ_BILDER = {
    "kalla": "https://commons.wikimedia.org/wiki/File:Drywall_and_tools.jpg"
   }
  ],
+ "regel": [
+  {
+   "fil": "img/regel-1.jpg",
+   "titel": "Uso Fiume.jpg",
+   "upphov": "ReteMK",
+   "licens": "CC BY-SA 4.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:Uso_Fiume.jpg"
+  }
+ ],
  "limtrabalk": [
   {
    "fil": "img/limtrabalk-1.jpg",
@@ -3365,6 +3374,15 @@ window.BQ_BILDER = {
    "upphov": "NPS Photo",
    "licens": "Public domain",
    "kalla": "https://commons.wikimedia.org/wiki/File:17._Window_Frame_Installation._(8be97474-aa5a-40d6-949c-145aaf633055).jpg"
+  }
+ ],
+ "takfot": [
+  {
+   "fil": "img/takfot-1.jpg",
+   "titel": "D-79-155-49 Harburg Heroldingen Zehentstadel DetaIl Walmgrat-defekt 008.jpg",
+   "upphov": "Rikiwiki2",
+   "licens": "CC BY-SA 3.0",
+   "kalla": "https://commons.wikimedia.org/wiki/File:D-79-155-49_Harburg_Heroldingen_Zehentstadel_DetaIl_Walmgrat-defekt_008.jpg"
   }
  ],
  "kallarvagg": [

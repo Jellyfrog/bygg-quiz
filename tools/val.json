@@ -9,7 +9,6 @@
     "File:Vapour barrier.JPG",
     "File:Georgia-Pacific ForceField moisture barrier sheathing.jpg"
   ],
-  "ansiktsvisir": false,
   "armeringsjarn": [
     "File:A worker ties together reinforcing bar, or rebar, to strengthen concrete floors for a facility that will house 372 students as part of the Herat University Women's Dormitory Project in Herat province 140311-A-DT641-242.jpg",
     "File:A bunch of rebar up close.jpg",
@@ -112,7 +111,6 @@
   "bygghiss": [
     "File:Orbion business center and Construction Hoists.jpg"
   ],
-  "byggtork": false,
   "cellplast": [
     "File:Sto - Insulation boards 5.jpg",
     "File:Sto - Insulation boards 4.jpg",
@@ -173,7 +171,6 @@
     "File:New, Mobile Fall Arrest System Improves Safety for NAVFAC Hawaii’s Transportation Personnel (36629242434).jpg",
     "File:Residential construction fall arrest (9256408986).jpg"
   ],
-  "fastmassa": false,
   "fogmassa": [
     "File:Mixing of grout after inspection for use in Queens. (49469743441).jpg"
   ],
@@ -476,7 +473,6 @@
   "radiator": [
     "File:Replacement of a central heating radiator, Hillegersberg, Rotterdam (2022) 06.jpg"
   ],
-  "rannadal": false,
   "rokdetektor": [
     "File:Smoke detector at Gateway Hotel.jpg",
     "File:Smoke sensor - detector chamber open displaying transmitter and detector.jpg",
@@ -607,7 +603,6 @@
     "File:Workers Welding.png",
     "File:Welding pipe.jpg"
   ],
-  "takfot": false,
   "takpannor": [
     "File:Red clay roof tiles in Saligney (Jura, France) January 2018.jpg",
     "File:Red clay roof tiles.jpg",
@@ -643,7 +638,6 @@
     "File:DeWalt Reciprocating Saw (5073128275).jpg",
     "File:Makita JR3070CT Reciprocating Saw (4887723644).jpg"
   ],
-  "tilluftsdon": false,
   "tornkran": [
     "File:Tower crane rising at hollywoodHUB construction site, Portland, Oregon.jpg",
     "File:Tower crane, close-up.jpg",
@@ -727,8 +721,6 @@
     "File:Blue Grass Chemical Agent-Destruction Pilot Plant Supercritical Water Oxidation Processing Building (25907690623).jpg",
     "File:013 Office building air conditioning rooftop system in Tokyo city - airconditioning op het dak.jpg"
   ],
-  "vindsbjalklag": false,
-  "vinkelbeslag": false,
   "vinkelhake": [
     "File:Try Square.jpg",
     "File:Trysquare.jpg"
@@ -741,7 +733,6 @@
     "File:Styrofoam-grey-board.jpg",
     "File:Pueblo Chemical Agent-Destruction Pilot Plant, Static Detonation Chamber Assembly Site (48879909448).jpg"
   ],
-  "kopplingslina": false,
   "avvagningsinstrument": [
     "File:US Navy 030428-N-4936C-119 Chief Equipment Operator Chris Walaszek uses a dumpy level to survey the topography.jpg",
     "File:DumpyLevel.jpg"
@@ -775,7 +766,6 @@
   "ratskiva": [
     "File:Screeding-concrete.jpg"
   ],
-  "syllisolering": false,
   "avstangningsventil": [
     "File:Ball Valve.jpg",
     "File:Ball-valve--The-Alloy-Valve-Stockist.JPG",
@@ -785,18 +775,17 @@
     "File:Advance VL500 wetdry vacuum Yonge.jpg",
     "File:Craftsman 16 Gallon Wet-Dry Vac.jpg"
   ],
-  "bricka": false,
-  "dranering": false,
-  "prefab_vaggelement": false,
-  "sockel": false,
-  "stamledning": false,
-  "syll": false,
-  "kantbalk": false,
-  "regel": false,
-  "flytande_golv": false,
   "fogsvans": [
     "File:Handsäge Holz10.jpg"
   ],
-  "huggmejsel": false,
+  "regel": [
+    "File:Uso Fiume.jpg"
+  ],
+  "takfot": [
+    "File:D-79-155-49 Harburg Heroldingen Zehentstadel DetaIl Walmgrat-defekt 008.jpg"
+  ],
+  "bricka": false,
+  "kritsnore": false,
+  "krypgrund": false,
   "vagguttag": false
 }

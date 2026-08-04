@@ -1,6 +1,6 @@
 # Byggkoll
 
-Studiekort och quiz för byggbranschen. 180 bildkort i sex kategorier – verktyg,
+Studiekort och quiz för byggbranschen. 182 bildkort i sex kategorier – verktyg,
 maskiner, material, skydd, konstruktion och installationer – med fokus på
 husbyggnad, t.ex. uppförande av ett lägenhetshus.
 
@@ -8,8 +8,8 @@ Ren HTML, CSS och JavaScript. Inget backend, inga beroenden i körläget och ing
 externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller vilken
 filserver som helst.
 
-Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 453
-foton på 161 begrepp, alltså i snitt knappt tre per kort. Appen slumpar fram en
+Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 455
+foton på 163 begrepp, alltså i snitt knappt tre per kort. Appen slumpar fram en
 av dem vid varje visning, så att du lär dig känna igen begreppet och inte en viss
 bild. Varje foto är granskat manuellt mot sin fråga; begrepp där Commons inte har
 någon användbar bild finns helt enkelt inte som kort.
@@ -59,12 +59,12 @@ knappen ↺ uppe till höger.
 | --- | --- |
 | Verktyg | 41 |
 | Maskiner | 32 |
-| Material | 41 |
+| Material | 42 |
 | Skydd & säkerhet | 22 |
-| Konstruktion | 23 |
+| Konstruktion | 24 |
 | VVS & el | 21 |
 
-Samtliga 180 kort är bildfrågor. De flesta frågar "Vad heter detta?", resten är
+Samtliga 182 kort är bildfrågor. De flesta frågar "Vad heter detta?", resten är
 tillämpningsfrågor på samma bild ("Varför har skruven trumpetformat huvud?",
 "På vilken sida av isoleringen ska ångspärren sitta?").
 
@@ -74,7 +74,7 @@ tillämpningsfrågor på samma bild ("Varför har skruven trumpetformat huvud?",
 index.html               gränssnitt
 css/style.css            formgivning, ljust och mörkt läge
 js/app.js                logik: pass, kö, självrättning, statistik
-img/*.jpg                453 nedladdade foton (max 720 px, ca 32 MB totalt)
+img/*.jpg                455 nedladdade foton (max 720 px, ca 32 MB totalt)
 data/*.json              frågorna – redigeras här
 data/bundle.js           genererad kopia av JSON för file://-läge
 data/bilder.js           genererad bildkatalog med upphov och licens

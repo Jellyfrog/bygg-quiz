@@ -278,6 +278,17 @@
         "Skalmur"
       ],
       "fakta": "Gjuts i form på plats. Ytan visar formskarvarna och stagens hål – syns ofta som mönster i synlig betong."
+    },
+    {
+      "id": "ko-takfot",
+      "bild": "takfot",
+      "ratt": "Takfot",
+      "fel": [
+        "Nock",
+        "Ränndal",
+        "Gavelsprång"
+      ],
+      "fakta": "Takets nedre avslut där hängrännan sitter. Här tas ventilationsluften in under yttertaket via luftspalten."
     }
   ]
 }

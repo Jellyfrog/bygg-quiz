@@ -1299,6 +1299,18 @@ window.BQ_BUNDLE = {
      "Kontaktlim"
     ],
     "fakta": "Vitt PVAc-lim för träförband. Limfogen blir starkare än träet – men kräver presstryck medan limmet torkar."
+   },
+   {
+    "id": "mt-regel",
+    "bild": "regel",
+    "ratt": "Regel",
+    "fel": [
+     "Limträbalk",
+     "List",
+     "Läkt"
+    ],
+    "fakta": "Konstruktionsvirke i vägg och bjälklag, t.ex. 45 × 95 eller 45 × 120 mm. Reglarna sitter oftast med 450 eller 600 mm centrumavstånd.",
+    "fraga": "Vad kallas konstruktionsvirket i traven?"
    }
   ]
  },
@@ -1838,6 +1850,17 @@ window.BQ_BUNDLE = {
      "Skalmur"
     ],
     "fakta": "Gjuts i form på plats. Ytan visar formskarvarna och stagens hål – syns ofta som mönster i synlig betong."
+   },
+   {
+    "id": "ko-takfot",
+    "bild": "takfot",
+    "ratt": "Takfot",
+    "fel": [
+     "Nock",
+     "Ränndal",
+     "Gavelsprång"
+    ],
+    "fakta": "Takets nedre avslut där hängrännan sitter. Här tas ventilationsluften in under yttertaket via luftspalten."
    }
   ]
  },
