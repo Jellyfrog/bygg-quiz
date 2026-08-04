@@ -14,7 +14,8 @@ av dem sida vid sida vid varje visning (ett foto om begreppet bara har ett), så
 att du lär dig känna igen begreppet och inte en viss bild. Klicka på ett foto för
 att förstora det över hela skärmen och klicka igen – eller tryck Escape – för att
 stänga. Varje foto är granskat manuellt mot sin fråga; begrepp där Commons inte
-har någon användbar bild finns helt enkelt inte som kort.
+har någon användbar bild finns helt enkelt inte som kort. Upphov och licenser
+listas under "Bildkällor och licenser" i bläddra-vyn.
 
 ## Kör
 
@@ -120,8 +121,7 @@ alternativ. Den avslutar med felkod om något är fel.
 
 Fotona hämtas från Wikimedia Commons och filtreras på fri licens (public domain
 och CC). Upphovsperson, licens och länk till källsidan sparas per bild i
-`data/bilder.js`, visas under bilden i appen och listas samlat under
-"Bildkällor" i bläddra-vyn.
+`data/bilder.js` och listas samlat under "Bildkällor" i bläddra-vyn.
 
 ```bash
 node tools/hamta-bilder.mjs --sok   # söker fram kandidater (nätverk, tar en stund)

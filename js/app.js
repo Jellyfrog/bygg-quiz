@@ -130,23 +130,15 @@
 
   /* Bilderna är dekorativa – frågan står i texten – så alt hålls tomt för
      skärmläsare. Om en fil mot förmodan inte kan laddas döljs den bara.
-     data-kredit används av förstoringsvyn. */
+     Upphov och licens per foto listas samlat under Bläddra. */
   function bild(namn, valdaFoton) {
     if (!namn) return '';
     var lista = (valdaFoton && valdaFoton.length) ? valdaFoton : foton(namn).slice(0, 1);
     if (!lista.length) return '';
     return lista.map(function (f) {
       return '<img class="bildfoto" src="' + esc(f.fil) + '" alt="" loading="lazy"' +
-        ' data-kredit="' + esc(bildkredit([f])) + '"' +
         ' onerror="this.style.visibility=\'hidden\'">';
     }).join('');
-  }
-
-  function bildkredit(lista) {
-    if (!lista || !lista.length) return '';
-    return 'Foto: ' + lista.map(function (f) {
-      return f.upphov + ' · ' + f.licens;
-    }).join('  |  ') + ' · Wikimedia Commons';
   }
 
   function fragetext(f) {
@@ -167,7 +159,6 @@
      stänger. Escape fungerar också. */
   function oppnaLightbox(img) {
     $('lightbox-img').src = img.currentSrc || img.src;
-    $('lightbox-credit').textContent = img.dataset.kredit || '';
     $('lightbox').hidden = false;
     document.body.classList.add('is-locked');
   }
@@ -296,9 +287,6 @@
     $('card-image').classList.toggle('is-two', valdaFoton.length > 1);
     $('plate').classList.toggle('is-two', valdaFoton.length > 1);
     $('plate').hidden = !f.bild;
-    var kredit = bildkredit(valdaFoton);
-    $('card-credit-text').textContent = kredit;
-    $('card-credit').hidden = !kredit;
     $('card-question').textContent = fragetext(f);
 
     $('feedback').hidden = true;

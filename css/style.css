@@ -300,18 +300,6 @@ h2 { font-size: 1rem; margin: 0; }
 /* med två foton delar de ytan lika; med ett fyller det hela plattan */
 .plate-img .bildfoto { flex: 1 1 0; min-width: 0; height: 100%; object-fit: contain; border-radius: 6px; }
 
-.credit {
-  font-size: .72rem;
-  color: var(--text-dim);
-  margin: -8px 0 12px;
-  text-align: right;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 4px 12px;
-}
-.zoom-hint { color: var(--text-dim); opacity: .8; }
-
 /* ---------- förstorad bild ---------- */
 .bildfoto { cursor: zoom-in; }
 
@@ -332,20 +320,11 @@ h2 { font-size: 1rem; margin: 0; }
 .lightbox[hidden] { display: none; }
 .lightbox img {
   max-width: 100%;
-  max-height: 82vh;
+  max-height: 92vh;
   object-fit: contain;
   border-radius: 8px;
   background: #f4f6f8;
 }
-.lightbox-credit,
-.lightbox-hint {
-  margin: 0;
-  color: #cbd3dc;
-  font-size: .76rem;
-  text-align: center;
-  max-width: 70ch;
-}
-.lightbox-hint { opacity: .65; }
 
 body.is-locked { overflow: hidden; }
 
