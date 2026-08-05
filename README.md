@@ -9,10 +9,13 @@ externa anrop – allt är statiska filer som kan ligga på GitHub Pages eller v
 filserver som helst.
 
 Bilderna är foton från Wikimedia Commons som ligger nedladdade i `img/` – 455
-foton på 163 begrepp, alltså i snitt knappt tre per kort. Appen slumpar fram en
-av dem vid varje visning, så att du lär dig känna igen begreppet och inte en viss
-bild. Varje foto är granskat manuellt mot sin fråga; begrepp där Commons inte har
-någon användbar bild finns helt enkelt inte som kort.
+foton på 163 begrepp, alltså i snitt knappt tre per kort. Appen slumpar fram två
+av dem sida vid sida vid varje visning (ett foto om begreppet bara har ett), så
+att du lär dig känna igen begreppet och inte en viss bild. Klicka på ett foto för
+att förstora det över hela skärmen och klicka igen – eller tryck Escape – för att
+stänga. Varje foto är granskat manuellt mot sin fråga; begrepp där Commons inte
+har någon användbar bild finns helt enkelt inte som kort. Upphov och licenser
+listas under "Bildkällor och licenser" i bläddra-vyn.
 
 ## Kör
 
@@ -44,8 +47,9 @@ Därefter sker allt vid push. Ingen server, ingen databas.
 | **Repetera svaga** | Quiz med bara de kort du brukar svara fel på eller inte sett än. |
 | **Bläddra** | Uppslagsverk över alla kort med bild, namn och fakta. Sökbart. |
 
-Korten kommer alltid i slumpad ordning, kategorierna är valbara och passets
-längd väljs till 10, 20, 40 eller alla kort.
+Korten kommer alltid i slumpad ordning och svarsalternativen blandas om varje
+gång ett kort visas, så att rätt svar inte hamnar på samma plats. Kategorierna är
+valbara och passets längd väljs till 10, 20, 40 eller alla kort.
 
 Ett kort du svarar fel på läggs tillbaka i kön några kort senare och kommer
 igen tills det sitter. Varje kort har en nivå 0–5 (Leitner-princip): rätt svar
@@ -117,8 +121,7 @@ alternativ. Den avslutar med felkod om något är fel.
 
 Fotona hämtas från Wikimedia Commons och filtreras på fri licens (public domain
 och CC). Upphovsperson, licens och länk till källsidan sparas per bild i
-`data/bilder.js`, visas under bilden i appen och listas samlat under
-"Bildkällor" i bläddra-vyn.
+`data/bilder.js` och listas samlat under "Bildkällor" i bläddra-vyn.
 
 ```bash
 node tools/hamta-bilder.mjs --sok   # söker fram kandidater (nätverk, tar en stund)

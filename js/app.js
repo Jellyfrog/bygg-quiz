@@ -101,6 +101,12 @@
     return a;
   }
 
+  function esc(s) {
+    return String(s == null ? '' : s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+
   /* Varje begrepp har flera foton. Listan tål även det äldre formatet med
      ett enda objekt per bild. */
   function foton(namn) {
@@ -109,31 +115,30 @@
     return Array.isArray(f) ? f : [f];
   }
 
-  /* Slumpar fram ett av fotona. Samma kort visas alltså i olika utföranden –
+  /* Plockar fram upp till två foton att visa sida vid sida. Finns bara ett
+     foto visas det ensamt. Foton som visades förra gången kortet dök upp
+     hamnar sist, så att en repris i samma pass helst byter utförande –
      poängen är att känna igen begreppet, inte en viss bild. */
-  function slumpatFoto(namn, undvik) {
-    var lista = foton(namn);
-    if (!lista.length) return null;
-    if (lista.length > 1 && undvik) {
-      var andra = lista.filter(function (b) { return b.fil !== undvik; });
-      if (andra.length) lista = andra;
-    }
-    return lista[Math.floor(Math.random() * lista.length)];
+  function valjFoton(namn, undvik) {
+    var lista = blanda(foton(namn));
+    if (!lista.length) return [];
+    var forra = undvik || [];
+    var fraescha = lista.filter(function (b) { return forra.indexOf(b.fil) === -1; });
+    var sedda = lista.filter(function (b) { return forra.indexOf(b.fil) !== -1; });
+    return fraescha.concat(sedda).slice(0, 2);
   }
 
-  /* Bilden är dekorativ – frågan står i texten – så alt hålls tomt för
-     skärmläsare. Om filen mot förmodan inte kan laddas döljs den bara. */
-  function bild(namn, valtFoto) {
+  /* Bilderna är dekorativa – frågan står i texten – så alt hålls tomt för
+     skärmläsare. Om en fil mot förmodan inte kan laddas döljs den bara.
+     Upphov och licens per foto listas samlat under Bläddra. */
+  function bild(namn, valdaFoton) {
     if (!namn) return '';
-    var f = valtFoto || foton(namn)[0];
-    if (!f) return '';
-    return '<img class="bildfoto" src="' + f.fil + '" alt="" loading="lazy" ' +
-      'onerror="this.style.visibility=\'hidden\'">';
-  }
-
-  function bildkredit(f) {
-    if (!f) return '';
-    return 'Foto: ' + f.upphov + ' · ' + f.licens + ' · Wikimedia Commons';
+    var lista = (valdaFoton && valdaFoton.length) ? valdaFoton : foton(namn).slice(0, 1);
+    if (!lista.length) return '';
+    return lista.map(function (f) {
+      return '<img class="bildfoto" src="' + esc(f.fil) + '" alt="" loading="lazy"' +
+        ' onerror="this.style.visibility=\'hidden\'">';
+    }).join('');
   }
 
   function fragetext(f) {
@@ -146,6 +151,33 @@
       $(s).hidden = (s !== id);
     });
     window.scrollTo(0, 0);
+  }
+
+  /* --------------------------------------------------- förstora bild ---- */
+
+  /* Ett klick på vilket foto som helst öppnar det i helskärm, ett klick till
+     stänger. Escape fungerar också. */
+  function oppnaLightbox(img) {
+    $('lightbox-img').src = img.currentSrc || img.src;
+    $('lightbox').hidden = false;
+    document.body.classList.add('is-locked');
+  }
+
+  function stangLightbox() {
+    if ($('lightbox').hidden) return;
+    $('lightbox').hidden = true;
+    $('lightbox-img').removeAttribute('src');
+    document.body.classList.remove('is-locked');
+  }
+
+  function kopplaLightbox() {
+    document.addEventListener('click', function (e) {
+      var img = e.target.closest ? e.target.closest('img.bildfoto') : null;
+      if (!img || img.style.visibility === 'hidden') return;
+      e.preventDefault();
+      oppnaLightbox(img);
+    });
+    $('lightbox').addEventListener('click', stangLightbox);
   }
 
   /* ------------------------------------------------------- startsida ---- */
@@ -226,7 +258,7 @@
       klara: new Set(),
       forstaForsok: {},   // id -> true/false
       felade: [],         // frågor att repetera
-      senasteFoto: {},    // id -> senast visad bildfil, för att variera vid repris
+      senasteFoto: {},    // id -> senast visade bildfiler, för att variera vid repris
       aktuell: null,
       besvarad: false
     };
@@ -245,15 +277,16 @@
 
     $('card-category').textContent = f.kategoriNamn;
     $('card-box').textContent = s.sedd ? 'Nivå ' + s.box + '/' + MAX_BOX : 'Nytt kort';
-    // ett kort som kommer tillbaka i passet visas med en annan bild än nyss
-    var valtFoto = slumpatFoto(f.bild, pass.senasteFoto[f.id]);
-    if (valtFoto) pass.senasteFoto[f.id] = valtFoto.fil;
+    // ett kort som kommer tillbaka i passet visas med andra bilder än nyss
+    var valdaFoton = valjFoton(f.bild, pass.senasteFoto[f.id]);
+    if (valdaFoton.length) {
+      pass.senasteFoto[f.id] = valdaFoton.map(function (b) { return b.fil; });
+    }
 
-    $('card-image').innerHTML = bild(f.bild, valtFoto);
+    $('card-image').innerHTML = bild(f.bild, valdaFoton);
+    $('card-image').classList.toggle('is-two', valdaFoton.length > 1);
+    $('plate').classList.toggle('is-two', valdaFoton.length > 1);
     $('plate').hidden = !f.bild;
-    var kredit = bildkredit(valtFoto);
-    $('card-credit').textContent = kredit;
-    $('card-credit').hidden = !kredit;
     $('card-question').textContent = fragetext(f);
 
     $('feedback').hidden = true;
@@ -276,7 +309,9 @@
   }
 
   function ritaAlternativ(f) {
-    var alt = blanda([f.ratt].concat(f.fel.slice(0, 3)));
+    // både vilka felalternativ som används och ordningen på de fyra svaren
+    // slumpas om varje gång kortet visas
+    var alt = blanda([f.ratt].concat(blanda(f.fel).slice(0, 3)));
     var wrap = $('options');
     wrap.innerHTML = '';
     alt.forEach(function (text, i) {
@@ -514,6 +549,13 @@
     });
 
     document.addEventListener('keydown', function (e) {
+      if (!$('lightbox').hidden) {
+        if (e.key === 'Escape' || e.key === ' ' || e.key === 'Enter') {
+          e.preventDefault();
+          stangLightbox();
+        }
+        return;
+      }
       if ($('screen-card').hidden) return;
       if (e.target.tagName === 'INPUT') return;
 
@@ -545,6 +587,7 @@
   /* ---------------------------------------------------------- start ---- */
 
   laesStat();
+  kopplaLightbox();
   laddaAllt().then(function () {
     ritaKategorier();
     kopplaHandelser();
